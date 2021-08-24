@@ -16,7 +16,7 @@ Below we document the data quality of the feeds offered by the providers.
 | Felyx      | 🟡            | ✅ GBFS      | ❌<br><sub><sup>300s</sup></sub>         | ❌         | ❌       | ❌
 | Deelfiets Nederland | 🟡    | ✅ GBFS     | ✅           | ❔         | ❌       | ❌
 | Keobike    | 🟡            | ✅ GBFS     | ✅           | ❔         | ✅       | ❌
-| Lime       | 🔴          | ❌ GBFS<br><sub><sup>rotated IDs</sup></sub> | ✅       | ❔          | ✅      | ❌
+| Lime       | 🔴          | ❌ GBFS<br><sub><sup>rotated IDs</sup></sub> | ✅       | ❔          | ✅      | ✅
 | BAQME      | 🟡          | ✅ GBFS        | ✅           | ❔         | ❌       | ❌
 | Cargoroo   | 🟡          | ✅ GBFS        | ✅           | ❔         | ✅       | ❌
 | uwdeelfiets | 🔴          | ✅ MDS        | ❔           | ❔         | ❌       | ❌
