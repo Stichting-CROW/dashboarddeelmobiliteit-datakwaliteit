@@ -13,10 +13,10 @@ Below we document the data quality of the feeds offered by the providers.
 | HTM        | 🔴          | ✅ GBFS      | ❌             | ❔          | ❌        | ❌
 | GO Sharing | 🟡           | ✅ GBFS     | ✅             | ❌          | ✅       | ❌
 | CHECK      | 🟡             | ✅ GBFS     | ✅            | ❔         | ✅       | ❌
-| Felyx      | 🟡            | ✅ GBFS      | ❌ 300s         | ❌         | ❌       | ❌
+| Felyx      | 🟡            | ✅ GBFS      | ❌<br><sub><sup>300s</sup></sub>         | ❌         | ❌       | ❌
 | Deelfiets Nederland | 🟡    | ✅ GBFS     | ✅           | ❔         | ❌       | ❌
 | Keobike    | 🟡            | ✅ GBFS     | ✅           | ❔         | ✅       | ❌
-| Lime       | 🔴          | ❌ GBFS<br>rotated IDs | ✅       | ❔          | ✅      | ❌
+| Lime       | 🔴          | ❌ GBFS<br><sub><sup>rotated IDs</sup></sub> | ✅       | ❔          | ✅      | ❌
 | BAQME      | 🟡          | ✅ GBFS        | ✅           | ❔         | ❌       | ❌
 | Cargoroo   | 🟡          | ✅ GBFS        | ✅           | ❔         | ✅       | ❌
 | uwdeelfiets | 🔴          | ✅ MDS        | ❔           | ❔         | ❌       | ❌
