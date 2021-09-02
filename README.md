@@ -5,21 +5,21 @@ Below we document the data quality of the feeds offered by the providers.
 ## Data quality status
 
 | **Provider** | **Status** ¹ | Uses standard ² | Updated <= 30s ³ | Correct PROW <sup>4</sup> | NL data <sup>5</sup> | Vehicle type <sup>6</sup> |
-| :----------- | :--------: | :------------ | :------------: | :----------: | :-----: | :----------: |
-| Cykl     |  🟡        | ✅ GBFS        | ✅             | ✅           | ✅      | ❌
-| Flickbike | 🔴         | ❌           | ❌             | ❌          | ❌       | ❌
-| Donkey Republic | 🟡     | ✅ GBFS      | ✅             | ❌           | ✅       | ❌
-| Mobike     | 🔴          | ❌          | ❌              | ➖          | ❌      | ❌
-| HTM        | 🔴          | ✅ GBFS      | ❌             | ❔          | ❌        | ❌
-| GO Sharing | 🟡           | ✅ GBFS     | ✅             | ❌          | ✅       | ❌
-| CHECK      | 🟡             | ✅ GBFS     | ✅            | ❔         | ✅       | ❌
-| Felyx      | 🟡            | ✅ GBFS      | ❌<br><sub><sup>300s</sup></sub>         | ❌         | ❌       | ❌
-| Deelfiets Nederland | 🟡    | ✅ GBFS     | ✅           | ❔         | ❌       | ❌
-| Keobike    | 🟡            | ✅ GBFS     | ✅           | ❔         | ✅       | ❌
-| Lime       | 🔴          | ❌ GBFS<br><sub><sup>rotated IDs</sup></sub> | ✅       | ❔          | ✅      | ✅
-| BAQME      | 🟡          | ✅ GBFS        | ✅           | ❔         | ❌       | ❌
-| Cargoroo   | 🟡          | ✅ GBFS        | ✅           | ❔         | ✅       | ❌
-| uwdeelfiets | 🔴          | ✅ MDS        | ❔           | ❔         | ❌       | ❌
+| :----------- | :--------: | :------------    | :------------: | :----------: | :-----: | :----------: |
+| [Cykl](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cykl.md)         |  🟡         | ✅ GBFS         | ✅                | ✅                          | ✅      | ❌
+| [Flickbike](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Flickbike.md)    | 🔴         | ❌               | ❌                | ❌                          | ❌       | ❌
+| [Donkey Republic](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/DonkeyRepublic.md) | 🟡       | ✅ GBFS         | ✅                | ❌                          | ✅       | ❌
+| [Mobike](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Mobike.md)       | 🔴         | ❌               | ❌                | ➖                         | ❌      | ❌
+| [HTM](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/HTM.md)          | 🔴         | ✅ GBFS          | ❌               | ❔                          | ❌       | ❌
+| [GO Sharing](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/GoSharing.md)   | 🟡          | ✅ GBFS         | ✅                | ❌                         | ✅       | ❌
+| [CHECK](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/CHECK.md)        | 🟡          | ✅ GBFS         | ✅                | ❔                          | ✅       | ❌
+| [Felyx](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Felyx.md)        | 🟡          | ✅ GBFS         | ❌<br><sub><sup>300s</sup></sub> | ❌          | ❌       | ❌
+| [Deelfiets Nederland](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/DeelfietsNederland.md) | 🟡   | ✅ GBFS         | ✅                | ❔                          | ❌       | ❌
+| [Keobike](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Keobike.md)      | 🟡          | ✅ GBFS         | ✅                | ❔                          | ✅       | ❌
+| [Lime](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Lime.md)         | 🔴          | ❌ GBFS<br><sub><sup>rotated IDs</sup></sub> | ✅  | ❔          | ✅      | ✅
+| [BAQME](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/BAQME.md)        | 🟡          | ✅ GBFS          | ✅                              | ❔           | ❌       | ❌
+| [Cargoroo](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cargoroo.md)     | 🟡          | ✅ GBFS          | ✅               | ❔                          | ✅       | ❌
+| [uwdeelfiets](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/uwdeelfiets.md)  | 🔴          | ✅ MDS           | ❔               | ❔                          | ❌       | ❌
 
 🟢 = Perfect
 🟡 = Usable though needs improvement
