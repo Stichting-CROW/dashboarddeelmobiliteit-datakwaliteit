@@ -23,7 +23,7 @@ Status: 🟡 Usable though needs improvement
 - Cargoroo offers data of all vehicles
 - Cargoroo does not offer 'vehicle type' in their data feed yet
 
-The current status is 'usable though needs improvement'. As soon as vehicle type is included in the datafeed, the status will be _🟢 Perfect_.
+The current status is 'usable though needs improvement'. As soon as vehicle type is included in the datafeed, the status will be 🟢 Perfect.
 
 ## Improvements to make
 
