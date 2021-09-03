@@ -19,7 +19,7 @@ Status: 🟡 Usable though needs improvement
 
 - The data feed uses one of the supported standards 👍
 - The feed is updated frequently 👍
-- We have to check if the data specification is followed perfectly
+- Cykl follows the data specification perfectly 👍
 - Cykl offers data of all vehicles
 - Cykl does not offer 'vehicle type' in their data feed yet
 
@@ -38,7 +38,7 @@ See the GBFS documentation on how to include vehicle type information. [[1]](htt
 For Cykl this means:
 
 1. Add `vehicle_types.json` and include the `vehicle_types` Cykl offers:
-  - `vehicle_type_id`: `check_type_1`
+  - `vehicle_type_id`: `cykl_type_1`
   - `form_factor`: `bicycle`,
   - `propulsion_type`: `human`,
   - `name`: `Cykl fiets type X`,
