@@ -2,13 +2,15 @@
 
 ## Data quality status
 
-| **Quality check** | **Quality**
-| -- | -- |
-| Uses data standard? | ✅ GBFS
-| Updated <= 30s? | ✅
-| Correct PROW? | ✅
-| All NL data? | ✅
-| Includes vehicle type? | ❌
+Last updated: 2021-09-02.
+
+| **Quality check**       | **Quality**
+| --                      | --          |
+| Uses data standard?     | ✅ GBFS
+| Updated <= 30s?         | ✅
+| Correct PROW?           | ✅
+| All NL data?            | ✅
+| Includes vehicle type?  | ❌
 
 Status: 🟡 Usable though needs improvement
 
