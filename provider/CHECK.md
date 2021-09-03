@@ -42,5 +42,5 @@ For CHECK this means:
   - `form_factor`: `scooter`,
   - `propulsion_type`: `electric`,
   - `max_range_meters`: `X`,
-  - `name`: `CHECK bakfiets type X`,
+  - `name`: `CHECK scooter type X`,
 2. In `free_bike_status.json`, add `vehicle_type_id`
