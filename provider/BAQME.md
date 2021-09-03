@@ -19,7 +19,7 @@ Status: 🔴 Unusable
 - The feed is updated frequently 👍
 - We have to check if the data specification is followed perfectly
 - BAQME delivers The Hague and is in process of offering data from The Hague ⏳
-- BAQME does not offer 'vehicle type' in their data feed yet.
+- BAQME does not offer 'vehicle type' in their data feed yet
 
 The Dashboard Deelmobiliteit includes +12% more trips than BAQME reported for the periode of March 10th - March 20th 2021. This is not perfect, though the analysis was done for a small data set ([results data quality check](https://example.com)). We keep improving this.
 
