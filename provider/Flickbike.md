@@ -2,20 +2,26 @@
 
 ## Data quality status
 
-Last updated at 2021-09-02.
+Last updated: 2021-09-02.
 
-| **Quality check** | **Quality**
-| -- | -- |
-| Uses data standard? | ❌
-| Updated <= 30s? | ❌
-| Correct PROW? | ❌
-| All NL data? | ❌
-| Includes vehicle type? | ❌
-| % Accuracy number of trips | ...
+| **Quality check**           | **Quality**
+| --                          | --          |
+| Uses data standard?         | ❌
+| Updated <= 30s?             | ❌
+| Correct PROW?               | ❌
+| All NL data?                | ❌
+| Includes vehicle type?      | ❌
+| % Accuracy number of trips  | ...
 
 Status: 🔴 Unusable
 
 ## Improvements to make
+
+### Use data standard
+
+At the moment Flickbike is not integrated using one of the supported protocols.
+
+Flickbike should offer the data using one of the standards: GBFS, MDS or TOMP.
 
 ### Add vehicle type
 

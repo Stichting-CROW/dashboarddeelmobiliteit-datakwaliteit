@@ -66,6 +66,8 @@ Days parked: 292 dagen geparkeerd.
 Parked since: 10/30/2020, 9:31:35 AM
 ```
 
-@DonkeyRepublic Please make sure that bikes that are not in public space, are not offered in the data feed.
+## Request @DonkeyRepublic
+
+Please make sure that bikes that are not in public space, are not offered in the data feed.
 
 NOTE: Bikes that are disabled and _exist_ in public space, can still be offered with the correct GPS location and `is_disabled=1`.

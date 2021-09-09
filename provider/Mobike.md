@@ -4,18 +4,22 @@
 
 Last updated at 2021-09-02.
 
-| **Quality check** | **Quality**
-| -- | -- |
-| Uses data standard? | ❌
-| Updated <= 30s? | ❌
-| Correct PROW? |➖
-| All NL data? | ❌
-| Includes vehicle type? | ❌
-| % Accuracy number of trips | ...
+| **Quality check**           | **Quality**
+| --                          | -- |
+| Uses data standard?         | ❌
+| Updated <= 30s?             | ❌
+| Correct PROW?               | ➖
+| All NL data?                | ❌
+| Includes vehicle type?      | ❌
+| % Accuracy number of trips  | ...
 
 Status: 🔴 Unusable
 
 ## Improvements to make
+
+### Use a data standard
+
+Mobike should use one of the supported data standards: GBFS, MDS or TOMP.
 
 ### Add vehicle type
 

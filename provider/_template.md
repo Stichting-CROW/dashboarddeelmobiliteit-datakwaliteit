@@ -4,14 +4,14 @@
 
 Last updated at 2021-09-02.
 
-| **Quality check** | **Quality**
-| -- | -- |
-| Uses data standard? | ✅ GBFS
-| Updated <= 30s? | ❌
-| Correct PROW? | ❌
-| All NL data? | ❌
-| Includes vehicle type? | ❌
-| % Accuracy number of trips | ...
+| **Quality check**           | **Quality**
+| --                          | --          |
+| Uses data standard?         | ✅ GBFS
+| Updated <= 30s?             | ❌
+| Correct PROW?               | ❌
+| All NL data?                | ❌
+| Includes vehicle type?      | ❌
+| % Accuracy number of trips  | ...
 
 Status: 🔴 Unusable
 Status: 🟡 Usable though needs improvement

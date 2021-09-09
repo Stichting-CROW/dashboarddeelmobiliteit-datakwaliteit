@@ -4,25 +4,19 @@
 
 Last updated at 2021-09-02.
 
-| **Quality check** | **Quality**
-| -- | -- |
-| Uses data standard? | ❌ GBFS rotated IDs
-| Updated <= 30s? | ✅
-| Correct PROW? | ❔
-| All NL data? | ✅
-| Includes vehicle type? | ✅
-| % Accuracy number of trips | ...
+| **Quality check**           | **Quality**
+| --                          | --                  |
+| Uses data standard?         | ❌ GBFS rotated IDs
+| Updated <= 30s?             | ✅
+| Correct PROW?               | ❔
+| All NL data?                | ✅
+| Includes vehicle type?      | ✅
+| % Accuracy number of trips  | ...
 
-Status: 🟡 Usable though needs improvement
+Status: 🔴 Unusable
 
 ## Improvements to make
 
-### Add vehicle type
+### USe static vehicle IDs
 
-The operator should communicate what kind of vehicle it's reporting. 
-
-To decide on what vehicle type should be reported, use the [table in our dataspec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#vehicle-types).
-
-For every data standard, there's documentation on how to include the vehicle type ([GBFS](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21), [MDS](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/general-information.md#vehicle-types)).
-
-For Cykl, all vehicles are of type `bicycle`. Please include this attribute (`vehicle_type_id`) in the GBFS feed.
+At the moment LIME uses rotated IDs. LIME should follow the GBFS standard and use static IDs instead. At the moment the feed is unusable.

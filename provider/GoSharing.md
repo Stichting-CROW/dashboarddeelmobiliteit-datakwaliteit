@@ -2,20 +2,28 @@
 
 ## Data quality status
 
-Last updated at 2021-09-02.
+Last updated: 2021-09-02.
 
-| **Quality check** | **Quality**
-| -- | -- |
-| Uses data standard? | ✅ GBFS
-| Updated <= 30s? | ✅
-| Correct PROW? | ❌
-| All NL data? | ✅
-| Includes vehicle type? | ❌
-| % Accuracy number of trips | ...
+| **Quality check**            | **Quality**
+| --                          | --      |
+| Uses data standard?         | ✅ GBFS
+| Updated <= 30s?             | ✅
+| Correct PROW?               | ❌
+| All NL data?                | ✅
+| Includes vehicle type?      | ❌
+| % Accuracy number of trips  | ...
 
 Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
+
+### Don't include mopeds that do not exist in public space
+
+GO Sharing shares mopeds with the Dashboard Deelmobiliteit that do not exist in public space.
+
+Properties of this type of data are that it has a GPS location in public space, the property `is_disabled` is `1` and if you walk to the bike in real life, the moped is not there.
+
+To see examples of this type of incorrect data, [see this document](./GoSharing_extra.md).
 
 ### Add vehicle type
 

@@ -7,7 +7,7 @@ Last updated at 2021-09-02.
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ❔
-| All NL data?                | ❌
+| All NL data?                | ✅
 | Includes vehicle type?      | ❌
 | Accuracy number of trips    | Δ = 12%
 
