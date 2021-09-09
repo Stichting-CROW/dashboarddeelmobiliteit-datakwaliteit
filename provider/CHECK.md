@@ -11,7 +11,7 @@ Last updated: 2021-09-09.
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
-| % Accuracy number of trips  | Δ = -0.083% 👍
+| Accuracy number of trips    | Δ = -0.083% 👍
 
 Status: 🟡 Usable though needs improvement
 

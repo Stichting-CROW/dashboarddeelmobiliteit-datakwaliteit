@@ -32,19 +32,19 @@ The current status is 'usable though needs improvement'. As soon as vehicle type
 
 Since GBFS 2.1 there's a field, `vehicle_type_id`, that defines what kind of vehicle is offered.
 
-Please start offering vehicle type in the feed, following the GBFS standard.
+Please start offering vehicle type in the feed, following the GBFS' standard.
 
-To to this, you can use this documentation pages: 
+To do this, you can use these documentation pages: 
 
-1. [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
-2. in free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)
+1. Add [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
+2. In free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)
 
 As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) standard definition for electric cargo bikes:
 
 - form_factor: `cargo_bicycle`
 - propulsion_type: `electric_assist`
 - max_range_meters: `X1`
-- wheel_count: `X2
+- wheel_count: `X2`
 - max_permitted_speed: `X3`
 - rated_power: `X4`
 

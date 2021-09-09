@@ -32,7 +32,7 @@ The current status is 'usable though needs improvement'. As soon as vehicle type
 
 Since GBFS 2.1 there's a field, `vehicle_type_id`, that defines what kind of vehicle is offered.
 
-To to this, you can use these documentation pages: 
+To implement this, you can use these documentation pages: 
 
 1. Offer [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
 2. In free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)

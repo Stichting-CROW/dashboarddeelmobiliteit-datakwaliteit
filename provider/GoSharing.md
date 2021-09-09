@@ -11,7 +11,6 @@ Last updated: 2021-09-02.
 | Correct PROW?               | ❌
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
-| % Accuracy number of trips  | ...
 
 Status: 🟡 Usable though needs improvement
 

@@ -6,7 +6,7 @@ Donkey Republic shares bikes with the Dashboard Deelmobiliteit, that do not exis
 
 Properties of this type of data is that it has a GPS location in public space, the property `is_disabled` is `1` and if you walk to the bike in real life, the bike is not there.
 
-### Example 1: 4 non-existing bikes in Utrecht inactive for >100 days 
+### Example: 4 non-existing bikes in Utrecht inactive for >100 days 
 
 In Utrecht there're multiple bikes inactive for > 100 days, with property `is_disabled=1`.
 
@@ -49,25 +49,8 @@ In Utrecht there're multiple bikes inactive for > 100 days, with property `is_di
 
 ```
 
-### Example 2: Ghost bikes in Haarlemmermeer 
-
-Since April 2021 there're no Donkey Republic bikes anymore in Haarlemmermeer.
-
-Still, these bikes are offered in the data feed used by the Dashboard Deelmobiliteit.
-
-![img](https://user-images.githubusercontent.com/899234/129909376-31dd0e09-4fc5-46f9-8966-33f7aa24a595.png)
-
-Example of such a bike:
-
-```json
-bike_id: donkey:9738
-operator: donkey
-Days parked: 292 dagen geparkeerd.
-Parked since: 10/30/2020, 9:31:35 AM
-```
-
 ## Request @DonkeyRepublic
 
 Please make sure that bikes that are not in public space, are not offered in the data feed.
 
-NOTE: Bikes that are disabled and _exist_ in public space, can still be offered with the correct GPS location and `is_disabled=1`.
+NOTE: Bikes that are disabled and _exist_ in public space, should still be offered with the correct GPS location and `is_disabled=1`.

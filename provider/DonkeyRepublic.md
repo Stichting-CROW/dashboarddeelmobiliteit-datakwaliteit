@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2021-09-02.
+Last updated at 2021-09-09.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,7 +11,6 @@ Last updated at 2021-09-02.
 | Correct PROW?               | ❌
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
-| % Accuracy number of trips  | ...
 
 Status: 🟡 Usable though needs improvement
 
@@ -27,7 +26,7 @@ The current status is 'usable though needs improvement'. It's important that veh
 
 ## Improvements to make
 
-### Don't include bikes that do not exist in public space
+### 1. Don't include bikes that do not exist in public space
 
 Donkey Republic shares bikes with the Dashboard Deelmobiliteit, that do not exist in public space.
 
@@ -35,13 +34,18 @@ Properties of this type of data is that it has a GPS location in public space, t
 
 To see examples of this type of incorrect data, [see this document](./DonkeyRepublic_extra.md).
 
-### Add vehicle type & propulsion type
+### 2. Add vehicle type
 
 🆕 The operator should communicate what kind of vehicle it's reporting. 
 
-To decide on what vehicle type should be reported, use the [table in our dataspec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#vehicle-types).
+Since GBFS 2.1 there's a field, `vehicle_type_id`, that defines what kind of vehicle is offered.
 
-See the GBFS documentation on how to include vehicle type information. [[1]](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson) [[2]](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
+Please start offering vehicle type in the feed, following the GBFS standard.
+
+To do this, you can use these documentation pages: 
+
+1. Add [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
+2. In free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)
 
 For Donkey Republic this means:
 
@@ -50,10 +54,16 @@ For Donkey Republic this means:
     - `vehicle_type_id`: `donkeyrepublic_type_x`
     - `form_factor`: `bicycle`,
     - `propulsion_type`: `human`,
-    - `name`: `Donkey Republic fiets type Y`
+    - `name`: `Donkey Republic bike type x`
   - Bike type 2:
     - `vehicle_type_id`: `donkeyrepublic_type_y`
     - `form_factor`: `bicycle`,
-    - `propulsion_type`: `electric`,
-    - `name`: `Donkey Republic e-fiets type Y`
+    - `propulsion_type`: `electric_assist`,
+    - `name`: `Donkey Republic e-bike type Y`
 2. In `free_bike_status.json`, add `vehicle_type_id`
+
+To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit#).
+
+### 3. Offer 1 GBFS feed for NL instead of 1 feed per city/area
+
+It is prefered that one feed is offered for all vehicles in The Netherlands. This prevents mistakes.

@@ -6,7 +6,7 @@ Below we document the data quality of the feeds offered by the providers.
 
 | **Provider**                                                                                                                  | **Status** ¹ | Uses standard ² | Updated <= 30s ³ | Correct PROW <sup>4</sup> | NL data <sup>5</sup> | Vehicle type <sup>6</sup> |
 | :-----------                                                                                                                  | :--------:   | :------------   | :------------:   | :----------:       | :-----:                     | :----------:              |
-| [BAQME](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/BAQME.md)                  | 🟡           | ✅ GBFS         | ✅                | ❔                 | ❌                         | ❌
+| [BAQME](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/BAQME.md)                  | 🟡           | ✅ GBFS         | ✅                | ✅                 | ✅                         | ❌
 | [Cargoroo](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cargoroo.md)            | 🟡           | ✅ GBFS         | ✅                | ❔                 | ✅                         | ❌
 | [CHECK](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/CHECK.md)                  | 🟡           | ✅ GBFS         | ✅                | ❔                 | ✅                         | ❌
 | [Cykl](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cykl.md)                    | 🟡           | ✅ GBFS         | ✅                | ✅                 | ✅                         | ❌
@@ -50,7 +50,7 @@ As [documented](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#general) in
 
 ### ℹ️ Correct PROW <sup>4</sup>
 
-We use the PROW as described in the [MDS standard](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#mobility-data-specification-provider) for determining if a vehicle should be included in the datafeed or not. Also the MDS standard defines what [vehicle status](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/general-information.md#state-machine-diagram) should be shared.
+We use the PROW as described in the [MDS standard](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#mobility-data-specification-provider) for determining if a vehicle should be included in the data feed or not. Also the MDS standard defines what [vehicle status](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/general-information.md#state-machine-diagram) should be shared.
 
 A vehicle should only be included if:
 

@@ -1,50 +1,54 @@
+# Data quality: BAQME
+
 ## Data quality status
 
-Last updated at 2021-09-02.
+Last updated: 2021-09-09.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ✅
-| Correct PROW?               | ❔
+| Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
 | Accuracy number of trips    | Δ = 12%
 
-Status: 🔴 Unusable
+Status: 🟡 Usable though needs improvement
 
 ### Explanation
 
 - The data feed uses one of the supported standards 👍
 - The feed is updated frequently 👍
-- We have to check if the data specification is followed perfectly
-- BAQME delivers The Hague and is in process of offering data from The Hague ⏳
 - BAQME does not offer 'vehicle type' in their data feed yet
 
-The Dashboard Deelmobiliteit includes +12% more trips than BAQME reported for the periode of March 10th - March 20th 2021. This is not perfect, though the analysis was done for a small data set ([results data quality check](https://example.com)). We keep improving this.
+The Dashboard Deelmobiliteit includes +12% more trips than BAQME reported for the periode of March 10th - March 20th 2021. This is not perfect, though the analysis was done for a small data set. We keep improving this.
 
-The current status is 'unusable' as not all NL data is shared (The Hague is missing). This is the first thing that should be updated.
+The current status is 'usable though needs improvement'. As soon as vehicle type is added, the status will be 🟢 Perfect! 
 
 ## Improvements to make
 
-### Offer data for all vehicles in The Netherlands
-
-The operator has created a data sheet for all vehicles in The Netherlands 👍. The only thing that is to be done is to offer the data feed in a format that the Dashboard can understand. As soon as this is done, the Dashboard includes all BAQME vehicles of both Rotterdam and The Hague.
-
-### Add vehicle type & propulsion type
+### Add vehicle type to the GBFS data feed
 
 🆕 The operator should communicate what kind of vehicle it's reporting. 
 
-To decide on what vehicle type should be reported, use the [table in our dataspec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#vehicle-types).
+Since GBFS 2.1 there's a field, `vehicle_type_id`, that defines what kind of vehicle is offered.
 
-See the GBFS documentation on how to include vehicle type information. [[1]](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson) [[2]](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
+Please start offering vehicle type in the feed, following the GBFS' standard.
 
-For BAQME this means:
+To do this, you can use these documentation pages: 
 
-1. Add `vehicle_types.json` and include the `vehicle_types` BAQME offers:
-  - `vehicle_type_id`: `baqme_type_1`
-  - `form_factor`: `bike`,
-  - `propulsion_type`: `electric_assist`,
-  - `max_range_meters`: `X`,
-  - `name`: `BAQME bakfiets type X`,
-2. In `free_bike_status.json`, add `vehicle_type_id`
+1. Add [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
+2. In free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)
+
+As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) standard definition for electric cargo bikes:
+
+- form_factor: `cargo_bicycle`
+- propulsion_type: `electric_assist`
+- max_range_meters: `X1`
+- wheel_count: `2`
+- max_permitted_speed: `X3`
+- rated_power: `X4`
+
+To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit#).
+
+Thank you!
