@@ -8,7 +8,7 @@ Last updated: 2021-09-09.
 | --                          | --          |
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ✅
-| Correct PROW?               | ✅
+| Correct PROW?               | ❌
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
 | Accuracy number of trips    | Δ = -0.083% 👍
@@ -19,13 +19,31 @@ Status: 🟡 Usable though needs improvement
 
 - The data feed uses one of the supported standards 👍
 - The feed is updated frequently 👍
-- We have to check if the data specification is followed perfectly
+- CHECK doesn't follow the data specification (`is_disabled`) ⏳
 - CHECK offers data of all vehicles 👍
 - CHECK does not offer 'vehicle type' in their data feed yet
 
-The current status is 'usable though needs improvement'. As soon as vehicle type is included in the datafeed, the status will be 🟢 Perfect.
+The current status is 'usable though needs improvement'. As soon as the [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4) is right and vehicle type is included in the datafeed, the status will be 🟢 Perfect.
 
 ## Improvements to make
+
+### Don't include mopeds that do not exist in public space
+
+CHECK shares mopeds with the Dashboard Deelmobiliteit that do not exist in public space.
+
+Properties of this type of data are that it has a GPS location in public space, the property `is_disabled` is `true` and if you walk to the bike in real life, the moped is not there.
+
+For an example of this type of incorrect data, see:
+
+```json
+{
+  "bike_id": "e79688f8-b4ad-4cb6-8491-00e3b4802bb4",
+  "is_disabled": true,
+  "is_reserved": false,
+  "lat": 51.908538,
+  "lon": 4.445308
+},
+```
 
 ### Add vehicle type
 
@@ -50,3 +68,5 @@ As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) stand
 - rated_power: `X4`
 
 To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
+
+Thank you!
