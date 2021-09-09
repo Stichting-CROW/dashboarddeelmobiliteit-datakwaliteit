@@ -29,7 +29,9 @@ The current status is 'usable though needs improvement'. As soon as all vehicle 
 
 ### Include all vehicle data
 
-At the moment only data of X is included. The operator should include data of all their vehicles.
+Deelfiets Nederland is active in Zwolle, Kampen, Groningen en Friesland.
+
+At the moment only data of Zwolle en Kampen is included. The operator should include data of all their vehicles.
 
 ### Add vehicle type & propulsion type
 
