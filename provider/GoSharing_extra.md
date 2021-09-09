@@ -12,7 +12,7 @@ There're many vehicled that are parked for > 100 days.
 
 ![img](https://i.imgur.com/YsLWp0K.png)
 
-These vehicle _are_ listed in the that GO Sharing shares with the Dashboard Deelmobiliteit.
+These vehicle _are_ listed because GO Sharing is still sharing these with the Dashboard Deelmobiliteit, although these vehicles are not really standing in public space anymore.
 
 An example of such a vehicle is this one:
 

@@ -49,7 +49,7 @@ As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) stand
 - name: `Deelfiets Nederland fiets type 1`,
 - vehicle_type_id: `deelfietsnederland_type_1`
 - form_factor: `bicycle`
-- propulsion_type: `human`
+- propulsion_type: `electric_assist`
 - wheel_count: `2`
 
 To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
