@@ -52,3 +52,9 @@ As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) stand
 To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit#).
 
 Thank you!
+
+## Logs
+
+| Updated    | Description
+| ----       | ---
+| 2021-09-09 | Asked BAQME to add vehicle type

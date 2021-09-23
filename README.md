@@ -19,7 +19,7 @@ Below we document the data quality of the feeds offered by the providers.
 | [Flickbike](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Flickbike.md)          | 🔴           | ❌              | ➖                | ➖                 | ➖                         | ➖
 | [GO Sharing](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/GoSharing.md)         | 🟡           | ✅ GBFS         | ✅                | ❌                 | ✅                         | ❌
 | GoAbout                                                                                                                       | 🔴           | ❌              | ➖                | ➖                 | ➖                         | ➖
-| Hely (Brandenvoort, Amsterdam Zuid)                                                                                           | 🟡           | ✅ TOMP         | ❔                | ❔                 | ❔                         | ❔
+| Hely                                                                                                                          | 🟡           | ✅ TOMP         | ❔                | ❔                 | ❔                         | ❔
 | [HTM](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/HTM.md)                      | 🔴           | ❌               | ➖                | ➖                 | ➖                         | ➖
 | [Keobike](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Keobike.md)              | 🟡           | ✅ GBFS         | ✅                | ❔                 | ✅                          | ❌
 | [Lime](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Lime.md)                    | 🔴           | ❌ GBFS<br><sub><sup>rotated IDs</sup></sub> | ✅ | ❔   | ✅                         | ✅
@@ -28,7 +28,7 @@ Below we document the data quality of the feeds offered by the providers.
 | OV-fiets                                                                                                                      | 🔴           | ❌              | ➖                | ➖                 | ➖                         | ➖
 | Tier Mobility Gmbh                                                                                                            | ⏳           | ➖              | ➖                | ➖                 | ➖                         | ➖
 | Urbee                                                                                                                         | ⏳           | ➖              | ➖                | ➖                 | ➖                         | ➖
-| [uwdeelfiets](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/uwdeelfiets.md)      | 🔴           | ✅ MDS          | ❔                | ❔                 | ❌                         | ❌
+| [uwdeelfiets](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/uwdeelfiets.md)      | 🟡           | ✅ MDS          | ❔                | ❔                 | ❌                         | ❌
 | Vaimoo/GoBike                                                                                                                 | 🔴           | ❌              | ➖                | ➖                 | ➖                         | ➖
 | X-bike                                                                                                                        | ⏳           | ➖              | ➖                | ➖                 | ➖                         | ➖
 
@@ -39,10 +39,11 @@ Below we document the data quality of the feeds offered by the providers.
 
 ### ℹ️ Status <sup>1</sup>
 
-There are three statuses:
+There are four statuses:
 - 🟢 Perfect
 - 🟡 Usable though needs improvement
 - 🔴 Unusable
+- ⏳ Integration in process
 
 ### ℹ️ Uses standard <sup>2</sup>
 

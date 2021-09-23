@@ -61,4 +61,8 @@ With the `max_permitted_speed` included we can make the distinction between mope
 
 To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
 
-Thank you!
+## Logs
+
+| Updated    | Description
+| ----       | ---
+| 2021-09-13 | Asked Felyx to update feed frequency, add data of Den Bosch+Haarlem, fix PROW and add vehicle type

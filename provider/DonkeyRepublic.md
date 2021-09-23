@@ -67,3 +67,10 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 ### 3. Offer 1 GBFS feed for NL instead of 1 feed per city/area
 
 It is prefered that one feed is offered for all vehicles in The Netherlands. This prevents mistakes.
+
+## Logs
+
+| Updated    | Description
+| ----       | ---
+| 2021-09-10 | Donkey Republic forwarded info to J responsible for its software development
+| 2021-09-09 | Asked Donkey Republic to fix PROW and add vehicle type

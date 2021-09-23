@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2021-09-02.
+Last updated: 2021-09-23.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,7 +11,6 @@ Last updated: 2021-09-02.
 | Correct PROW?               | ❌
 | All NL data?                | ❌
 | Includes vehicle type?      | ❌
-| % Accuracy number of trips  | ...
 
 Status: 🔴 Unusable
 
@@ -25,10 +24,27 @@ Flickbike should offer the data using one of the standards: GBFS, MDS or TOMP.
 
 ### Add vehicle type
 
-The operator should communicate what kind of vehicle it's reporting. 
+🆕 The operator should communicate what kind of vehicle it's reporting. 
 
-To decide on what vehicle type should be reported, use the [table in our dataspec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#vehicle-types).
+Since GBFS 2.1 there's a field, `vehicle_type_id`, that defines what kind of vehicle is offered.
 
-For every data standard, there's documentation on how to include the vehicle type ([GBFS](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21), [MDS](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/general-information.md#vehicle-types)).
+To implement this, you can use these documentation pages: 
 
-For Flickbike, all vehicles are of type `bicycle`. Please include this attribute (`vehicle_type_id`) in the GBFS feed.
+1. Offer [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
+2. In free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)
+
+As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) standard definition for bikes:
+
+- name: `Flickbike fiets type 1`,
+- vehicle_type_id: `flickbike_type_1`
+- form_factor: `bicycle`
+- propulsion_type: `human`
+- wheel_count: `2`
+
+To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
+
+## Logs
+
+|Updated    |Description
+|----       |---
+|2021-09-23 |Sven asked Flickbike to offer data using a data standard
