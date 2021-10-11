@@ -55,4 +55,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2021-10-11 | Asked GO Sharing to fix broken GBFS feed again (phone) -> GO Sharing is taking action
+| 2021-10-07 | Asked GO Sharing to fix broken GBFS feed (phone + WhatsApp) -> GO Sharing made a ticket
+| 2021-10-06 | Feed GO Sharing is broken: Authorisation key isn't valid
 | 2021-09-13 | Asked GO Sharing to fix PROW and add vehicle type
