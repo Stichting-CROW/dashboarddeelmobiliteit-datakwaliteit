@@ -53,7 +53,7 @@ As documented in the [dataspec](https://docs.crow.nl/deelfietsdashboard/hr-datas
 - GBFS
 - TOMP
 
-There is one additional requirements:
+There is one additional requirement:
 
 - All vehicles must have a static ID
 
