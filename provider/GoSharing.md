@@ -55,6 +55,8 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2021-10-14 | Activated new GBFS feed. NOTE: All vehicles have new vehicle-IDs
+| 2021-10-13 | Got new GBFS feed URL via GO Sharing via goUrban
 | 2021-10-11 | Asked GO Sharing to fix broken GBFS feed again (phone) -> GO Sharing is taking action
 | 2021-10-07 | Asked GO Sharing to fix broken GBFS feed (phone + WhatsApp) -> GO Sharing made a ticket
 | 2021-10-06 | Feed GO Sharing is broken: Authorisation key isn't valid
