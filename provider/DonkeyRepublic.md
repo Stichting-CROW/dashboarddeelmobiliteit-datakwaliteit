@@ -26,13 +26,21 @@ The current status is 'usable though needs improvement'. It's important that veh
 
 ## Improvements to make
 
-### 1. Don't include bikes that do not exist in public space
+### 1. Fix PROW
+
+#### 1.1 Don't include bikes that do not exist in public space
 
 Donkey Republic shares bikes with the Dashboard Deelmobiliteit, that do not exist in public space.
 
 Properties of this type of data is that it has a GPS location in public space, the property `is_disabled` is `1` and if you walk to the bike in real life, the bike is not there.
 
 To see examples of this type of incorrect data, [see this document](./DonkeyRepublic_extra.md).
+
+### 1.2 Include bikes that are in public space, but not in a hub
+
+The GBFS feed is missing bikes that should be included in the feed.
+
+The bikes that are not in Donkey hubs, but that are in public space, should be included in the GBFS feed.
 
 ### 2. Add vehicle type
 
@@ -72,5 +80,6 @@ It is prefered that one feed is offered for all vehicles in The Netherlands. Thi
 
 | Updated    | Description
 | ----       | ---
+| 2021-11-08 | Asked Donkey Republic to fix PROW (especially 1.2)
 | 2021-09-10 | Donkey Republic forwarded info to J responsible for its software development
 | 2021-09-09 | Asked Donkey Republic to fix PROW and add vehicle type
