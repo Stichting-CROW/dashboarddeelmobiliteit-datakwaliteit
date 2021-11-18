@@ -6,7 +6,7 @@ Last updated: 2021-09-02.
 
 | **Quality check**            | **Quality**
 | --                          | --      |
-| Uses data standard?         | ✅ GBFS
+| Uses data standard?         | ❌ GBFS (rotates id's)
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ❌
 | All NL data?                | ✅
