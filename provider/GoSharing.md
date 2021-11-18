@@ -6,10 +6,10 @@ Last updated: 2021-09-02.
 
 | **Quality check**            | **Quality**
 | --                          | --      |
-| Uses data standard?         | ✅ GBFS
-| Updated <= 30s?             | ✅
+| Uses data standard?         | :heavy_check_mark: GBFS
+| Updated <= 30s?             | :heavy_check_mark:
 | Correct PROW?               | ❌
-| All NL data?                | ✅
+| All NL data?                | :heavy_check_mark:
 | Includes vehicle type?      | ❌
 | Accuracy number of trips    | Δ = -0,523% 👍
 
@@ -49,13 +49,13 @@ As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) stand
 
 With the `max_permitted_speed` included we can make the distinction between mopeds that are max. 45 km/h and moped with a max. speed of 25 km/h.
 
-To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
+To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing). To choose the right vehicle type for your vehicle, see our guide: [How to offer vehicle type in GBFS](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#how-to-offer-vehicle-type-in-gbfs).
 
 ## Logs
 
-| Updated    | Description
+| <span style="min-width:110px;">Updated</span> | Description
 | ----       | ---
-| 2021-11-08 | Asked GO Sharing to offer static IDs in the GBFS feed, OR an MDS feed. Asked GO Sharing to specify the right vehicle type (at this moment every vehicle is listed as a 'moped', even the e-bikes)
+| 2021-11-08 | Asked GO Sharing to offer static IDs in the GBFS feed, OR offer an MDS feed. Asked GO Sharing to specify the right vehicle type (at this moment every vehicle is listed as a 'moped', even the e-bikes)
 | 2021-10-14 | Activated new GBFS feed.<br /><br />goUrban updated their GBFS feed to the latest version 2.2 which resulted in the updated URLs. The main URL https://greenmo.core.gourban-mobility.com/api/gbfs is where all other supported endpoints can be found, according to the GBFS standard.<br /><br />NOTE: Vehicles now have rotating vehicle-IDs. This results in parking data being valid, but trip data is not. To meet the CROW Dashboard requirements, vehicle-IDs should be static
 | 2021-10-13 | Got new GBFS feed URL via GO Sharing via goUrban
 | 2021-10-11 | Asked GO Sharing to fix broken GBFS feed again (phone) -> GO Sharing is taking action
