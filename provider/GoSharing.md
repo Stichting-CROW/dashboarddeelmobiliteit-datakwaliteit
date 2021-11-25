@@ -53,7 +53,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 ## Logs
 
-| Updated&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description
+| Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
 | 2021-11-08 | Asked GO Sharing to offer static IDs in the GBFS feed, OR offer an MDS feed. Asked GO Sharing to specify the right vehicle type (at this moment every vehicle is listed as a 'moped', even the e-bikes)
 | 2021-10-14 | Activated new GBFS feed.<br /><br />goUrban updated their GBFS feed to the latest version 2.2 which resulted in the updated URLs. The main URL https://greenmo.core.gourban-mobility.com/api/gbfs is where all other supported endpoints can be found, according to the GBFS standard.<br /><br />NOTE: Vehicles now have rotating vehicle-IDs. This results in parking data being valid, but trip data is not. To meet the CROW Dashboard requirements, vehicle-IDs should be static
