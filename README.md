@@ -31,6 +31,8 @@ Below we document the data quality of the feeds offered by the providers.
 | [uwdeelfiets](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/uwdeelfiets.md)      | 🟡           | :heavy_check_mark: MDS          | ❔                | ❔                 | ❌                         | ❌
 | Vaimoo/GoBike                                                                                                                 | 🔴           | ❌              | ➖                | ➖                 | ➖                         | ➖
 | X-bike                                                                                                                        | ⏳           | ➖              | ➖                | ➖                 | ➖                         | ➖
+| Deelfietsen Zeeland                                                                                                                       | ➖           | ➖              | ➖                | ➖                 | ➖                         | ➖
+| Promo-Bikey                                                                                                                       | ➖           | ➖              | ➖                | ➖                 | ➖                         | ➖
 
 🟢 = Perfect
 🟡 = Usable though needs improvement
@@ -82,7 +84,7 @@ The operator should provide data of all their vehicles in The Netherlands.
 
 ### ℹ️ Vehicle type <sup>6</sup>
 
-(new) The operator should communicate what kind of vehicle it's reporting. 
+The operator should communicate what kind of vehicle it's reporting. 
 
 To decide on what vehicle type should be reported, use the [table in our dataspec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#vehicle-types).
 
