@@ -25,4 +25,5 @@ At this moment Bondi does not yet offer a data feed.
 
 | Updated    | Description
 | ----       | ---
+| 2021-12-02 | Email from Bondi: 'We will send the TOMP feed URL as soon as it's available, presumably in January 2022.'
 | 2021-10-27 | Email from Bondi: "We are switching app providers for the 1st of Jan. The new provider (Wunder mobility) has TOMP support". We linked the [HR data spec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/) to make sure the TOMP feed will have static IDs, like in our specification.
