@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2021-11-10.
+Last updated at 2022-01-10.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,7 +11,6 @@ Last updated at 2021-11-10.
 | Correct PROW?               | ➖
 | All NL data?                | ➖
 | Includes vehicle type?      | ➖
-| % Accuracy number of trips  | ...
 
 Status: 🔴 Unusable
 
@@ -25,5 +24,6 @@ At this moment Bondi does not yet offer a data feed.
 
 | Updated    | Description
 | ----       | ---
+| 2022-01-10 | Email from Bondi: 'We do not yet switch to the new app provider in the next 4 months. Until we switch we don't have a TOMP feed yet.'
 | 2021-12-02 | Email from Bondi: 'We will send the TOMP feed URL as soon as it's available, presumably in January 2022.'
-| 2021-10-27 | Email from Bondi: "We are switching app providers for the 1st of Jan. The new provider (Wunder mobility) has TOMP support". We linked the [HR data spec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/) to make sure the TOMP feed will have static IDs, like in our specification.
+| 2021-10-27 | Email from Bondi: 'We are switching app providers for the 1st of Jan. The new provider (Wunder mobility) has TOMP support.' We linked the [HR data spec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/) to make sure the TOMP feed will have static IDs, like in our specification.
