@@ -55,6 +55,12 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-01-19 | We clarified that we need 1 feed for NL, as we can not load both Eindhoven _and_ NL including Eindhoven
+| 2022-01-19 | GO Sharing notifies us that Eindhoven did not see the updated feed
+| 2022-01-18 | Gemeente Eindhoven asks if feed inaccuracies are solved (no)
+| 2022-01-17 | Gemeente Rotterdam asks if feed inaccuracies are solved (no)
+| 2022-01-12 | Asked if there's 1 GBFS end point for all of The Netherlands. We can not read both the feed with all NL data (including Eindhoven) and the new Eindhoven feed, as it would result in duplicate data
+| 2022-01-11 | GO Sharing shares 3 new GBFS URLs for Eindhoven, Rotterdam, Antwerp. It uses the latest GBFS standard and includes the vehicle types. Therefor it should fix "Uses data standard" and "Includes vehicle type"
 | 2021-12-22 | Asked GO Sharing for a status update
 | 2021-11-24 | GO Sharing will take action on the feed inaccuracies. Goal: static vehicle IDs, correct vehicle types, correct PROW
 | 2021-11-08 | Asked GO Sharing to offer static IDs in the GBFS feed, OR offer an MDS feed. Asked GO Sharing to specify the right vehicle type (at this moment every vehicle is listed as a 'moped', even the e-bikes)
