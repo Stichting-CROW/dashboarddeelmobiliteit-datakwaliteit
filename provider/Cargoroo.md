@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2021-09-09.
+Last updated at 2022-01-24.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -54,4 +54,6 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-01-24 | Emailed Cargoroo mentioning that the feed will be even better if vehicle type is included.
+| 2022-01-11 | Backend developer at Cargoroo, responsible for the implementation of standards such as GBFS/CDS-M/TOMP, emails: 'At the moment we have a public GBFS end point. We will update this so we have 2 end points: one public end point with vehicles having the GPS location of the stations, and one private (that need authorisation) with the GPS locations of the vehicles (like we have now)'. We reply that we like to use the new private end point that needs an authorisation key. We also mention that vehicles that are rented out should not be in the feed.
 | 2021-09-09 | Asked Cargoroo to add vehicle type

@@ -80,6 +80,8 @@ It is prefered that one feed is offered for all vehicles in The Netherlands. Thi
 
 | Updated    | Description
 | ----       | ---
+| 2022-01-21 | Added Donkey data to the Dashboard, by adding the Dordrecht feed manually. See point of improvement #3 to prevent this in the future
+| 2022-01-21 | Dordrecht data is not included in the feed at the moment
 | 2021-11-08 | Asked Donkey Republic to fix PROW (especially 1.2)
 | 2021-09-10 | Donkey Republic forwarded info to J responsible for its software development
 | 2021-09-09 | Asked Donkey Republic to fix PROW and add vehicle type

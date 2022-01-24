@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2022-01-10.
+Last updated at 2022-01-24.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
