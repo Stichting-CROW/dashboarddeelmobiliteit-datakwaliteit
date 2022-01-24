@@ -2,11 +2,11 @@
 
 ## Data quality status
 
-Last updated: 2021-09-23.
+Last updated: 2022-01-24.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ❌
+| Uses data standard?         | ❌ GBFS
 | Updated <= 30s?             | ➖
 | Correct PROW?               | ➖
 | All NL data?                | ➖
@@ -16,11 +16,11 @@ Status: 🔴 Unusable
 
 ## Improvements to make
 
-Use data standard
+### Use data standard
 
-At the moment HTM is not integrated using one of the supported protocols.
+At the moment HTM offers a GBFS feed having incorrect data.
 
-HTM should offer the data using one of the standards: GBFS, MDS or TOMP.
+HTM should offer the data using one of the standards: MDS, GBFS or TOMP. Preferably MDS.
 
 ### Add vehicle type
 
@@ -48,9 +48,10 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
-| 2021-12-22 | The HTM data that was shared by spreadsheet is not equal to the HTM data shared by the GBFS feed. We will disable the feed, share our findings with HTM and ask to improve/fix the GBFS feed
+| 2022-01-24 | We email HTM: Could you ask your development partner if a MDS feed can be shared?
+| 2022-01-19 | We email HTM: 'The data is in the Dashboard, but is not of high quality. We expect dynamic IDs are used instead of static IDs. The best option would be to offer a MDS data feed'.
+| 2022-01-19 | HTM emails: any updates?
+| 2021-12-22 | The HTM data that was shared by spreadsheet is not equal to the HTM data shared by the GBFS feed. We disable the feed, share our findings with HTM and ask to improve/fix the GBFS feed
 | 2021-12-10 | HTM sent the amount of trips for November 24th to December 10th. We will do a comparison
 | 2021-12-10 | We tested the feed. There're static IDs now, which is good. We see that there're less trips than park events though. We asked HTM for the amount of HTM trips for November 24th to December 10th
 | 2021-10-26 | HTM sent a new GBFS URL. We will test this
-
-

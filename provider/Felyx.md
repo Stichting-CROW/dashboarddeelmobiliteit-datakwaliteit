@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2021-09-09.
+Last updated: 2022-01-24.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,7 +11,7 @@ Last updated: 2021-09-09.
 | Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ❌
 | All NL data?                | ❌
 | Includes vehicle type?      | ❌
-| Accuracy number of trips    | Δ = -13.7%
+| Accuracy number of trips    | Δ = -13.7% (March 2021)
 
 Status: 🟡 Usable though needs improvement
 

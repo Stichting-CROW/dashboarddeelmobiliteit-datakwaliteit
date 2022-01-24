@@ -47,4 +47,4 @@ Properties of this type of data are that it has a GPS location in public space, 
 
 ```
 
-
+Bonus example: https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/12#issuecomment-1020516588

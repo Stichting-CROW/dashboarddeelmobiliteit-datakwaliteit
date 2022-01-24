@@ -55,7 +55,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
-| 2022-01-21 | Discussed possible solutions, discussed the difference between MDS and GBFS. Gosharing will think about an solution. 
+| 2022-01-21 | Discussed possible solutions, discussed the difference between MDS and GBFS. GO Sharing will think about a solution. 
 | 2022-01-19 | We clarified that we need 1 feed for NL, as we can not load both Eindhoven _and_ NL including Eindhoven
 | 2022-01-19 | GO Sharing notifies us that Eindhoven did not see the updated feed
 | 2022-01-18 | Gemeente Eindhoven asks if feed inaccuracies are solved (no)
