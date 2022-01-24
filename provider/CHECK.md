@@ -2,16 +2,16 @@
 
 ## Data quality status
 
-Last updated: 2021-09-09.
+Last updated: 2022-01-24.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ✅
-| Correct PROW?               | ❌
+| Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
-| Accuracy number of trips    | Δ = -0.083% 👍
+| Accuracy number of trips    | Δ = -0.083% 👍 (March 2021)
 
 Status: 🟡 Usable though needs improvement
 
@@ -19,31 +19,13 @@ Status: 🟡 Usable though needs improvement
 
 - The data feed uses one of the supported standards 👍
 - The feed is updated frequently 👍
-- CHECK doesn't follow the data specification (`is_disabled`) ⏳
+- CHECK does follow the data specification 👍
 - CHECK offers data of all vehicles 👍
 - CHECK does not offer 'vehicle type' in their data feed yet
 
-The current status is 'usable though needs improvement'. As soon as the [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4) is right and vehicle type is included in the datafeed, the status will be 🟢 Perfect.
+The current status is 'usable though needs improvement'. As soon as the vehicle type is included in the data feed, the status will be 🟢 Perfect.
 
 ## Improvements to make
-
-### Don't include mopeds that do not exist in public space
-
-CHECK shares mopeds with the Dashboard Deelmobiliteit that do not exist in public space.
-
-Properties of this type of data are that it has a GPS location in public space, the property `is_disabled` is `true` and if you walk to the bike in real life, the moped is not there.
-
-For an example of this type of incorrect data, see:
-
-```json
-{
-  "bike_id": "e79688f8-b4ad-4cb6-8491-00e3b4802bb4",
-  "is_disabled": true,
-  "is_reserved": false,
-  "lat": 51.908538,
-  "lon": 4.445308
-},
-```
 
 ### Add vehicle type
 
@@ -73,5 +55,6 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-01-24 | We checked if PROW is correct at this moment. It is :)  so far we can see. Issues [[1]](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/9), [[2]](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/10) and [[3]](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/11) were fixed. We update the quality status of PROW from ❌ to ✅
 | 2021-09-10 | Sander (CHECK) informed development team on our request
 | 2021-09-09 | Asked CHECK to fix PROW and add vehicle type
