@@ -1,4 +1,4 @@
-# Data quality: SIXT
+# Data quality: GoAbout
 
 ## Data quality status
 
@@ -16,10 +16,12 @@ Status: 🔴 Unusable
 
 ## Improvements to make
 
-Offer a data feed.
+### Offer a data feed
+
+Offer any of the supported data standards, preferably MDS.
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
-| 2021-12-08 | In contact with Gemeente Rotterdam we decided we'll have a meeting with SIXT in January 2022
+| 2022-01-24 | Created GoAbout status page

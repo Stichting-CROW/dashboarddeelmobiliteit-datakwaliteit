@@ -24,6 +24,7 @@ Offer a data feed that we can use.
 
 | Updated    | Description
 | ----       | ---
+| 2022-01-25 | We got information on logging in at https://amersfoort.open.bird.co/login. We ask: what is the URL of the MDS end point?
 | 2022-01-24 | We ask if there's an update
 | 2022-01-17 | Bird emails: will check development team if delivering the MDS/GBFS/TOMP feed is possible
 | 2022-01-17 | Bird email documentation of a Bird-specific API. We don't support the Bird-specific API, so we ask to share one of the [supported international data standards](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/)

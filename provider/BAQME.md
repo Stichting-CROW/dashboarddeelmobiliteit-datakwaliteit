@@ -57,4 +57,5 @@ Thank you!
 
 | Updated    | Description
 | ----       | ---
+| 2022-01-31 | There has been 'fake' vehicle at [51.9103119, 4.4782139] from 2021-09-06 to 2022-01-26 11:00. Reason was: Joyride often sends this exact coordinate if there's a status change. BAQME fixed this in their feed and asked Joyride to fix it at there side as well. Since 2022-01-26 this 'fake' vehicle is not present in the data feed anymore, so all is good now
 | 2021-09-09 | Asked BAQME to add vehicle type
