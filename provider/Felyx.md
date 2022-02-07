@@ -9,7 +9,7 @@ Last updated: 2022-01-24.
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ❌ 300s
 | Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ❌
-| All NL data?                | ❌
+| All NL data?                | ✅
 | Includes vehicle type?      | ❌
 | Accuracy number of trips    | Δ = -13.7% (March 2021)
 
@@ -20,12 +20,6 @@ Status: 🟡 Usable though needs improvement
 ### Update datafeed at most every 30 seconds
 
 At the moment the data feed is updated every 300 seconds. Please make the datafeed update more frequently, at least every 30s.
-
-### Do include the cities Den Bosch and Haarlem
-
-At the moment all cities are included in the data feed, apart from Den Bosch and Haarlem.
-
-@Felyx Please include Haarlem and Den Bosch in the data feed as well.
 
 ### Don't include bikes that do not exist in public space
 
@@ -65,9 +59,10 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
-| 2021-01-27 | At +- 9:10am the new Dashboard Deelmobiliteit was launched! We ended the rental of a Felyx bike in Amsterdam, but this bike did not show up immediately on the map. What did show up nearby the location: A Felyx scooter at 7:43am and 9:22am. Maybe it was one of these, presumably the last one. If so, it had a delay of 8 minutes.
-| 2021-01-27 | At 8:00 am we noticed the update frequency was reverted(?) to 5 minutes
-| 2021-01-26 | At 5:13pm we noticed the update frequency was +- 30 seconds
-| 2021-01-24 | We asked Felyx by mail to 1) add Haarlem and Den Bosch 2) Update update frequency to <= 30s 3) Fix PROW
-| 2021-01-24 | We asked Felyx by phone to update feed frequency from 5 minutes to every 30 seconds
+| 2022-02-04 | Felyx replied to our email of 2021-01-24: 1) is fixed! Haarlem & Den Bosch are now present in the data feed. 2) Updating every 30s is difficult because external software fleetbird/NIU only updates every 5 minutes. 3) Felyx will start fixing PROW
+| 2022-01-27 | At +- 9:10am the new Dashboard Deelmobiliteit was launched! We ended the rental of a Felyx bike in Amsterdam, but this bike did not show up immediately on the map. What did show up nearby the location: A Felyx scooter at 7:43am and 9:22am. Maybe it was one of these, presumably the last one. If so, it had a delay of 8 minutes.
+| 2022-01-27 | At 8:00 am we noticed the update frequency was reverted(?) to 5 minutes
+| 2022-01-26 | At 5:13pm we noticed the update frequency was +- 30 seconds
+| 2022-01-24 | We asked Felyx by mail to 1) add Haarlem and Den Bosch 2) Update update frequency to <= 30s 3) Fix PROW
+| 2022-01-24 | We asked Felyx by phone to update feed frequency from 5 minutes to every 30 seconds
 | 2021-09-13 | Asked Felyx to update feed frequency, add data of Den Bosch+Haarlem, fix PROW and add vehicle type
