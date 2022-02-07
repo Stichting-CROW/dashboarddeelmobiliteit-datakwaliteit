@@ -55,6 +55,8 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-02-04 | GO Sharing emails: An 'action plan' has been created. The external development team now does a feasibility test. The external development will do a follow up in the beginning of week 6, 2022 (week of February 7th). As soon as this response is received, all actors involved (municipalities, CROW) will get a follow up.
+| 2022-02-03 | Still no working feed having static ID's. The feed is broken since 2021-10-06, more than half a year now. We ask what the 'action plan' is that fixed this, and what will be the planning.
 | 2022-01-21 | Discussed possible solutions, discussed the difference between MDS and GBFS. GO Sharing will think about a solution. 
 | 2022-01-19 | We clarified that we need 1 feed for NL, as we can not load both Eindhoven _and_ NL including Eindhoven
 | 2022-01-19 | GO Sharing notifies us that Eindhoven did not see the updated feed
