@@ -59,6 +59,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-02-08 | Felyx emails: 2) 'Updating all data every 30s is difficult. But, `is_disabled` is realtime now. And we are looking if `is_reserved` can be close to realtime as well'  3) We are going to work on improving PROW mid February, expected delivery: beginning of March
 | 2022-02-04 | Felyx replied to our email of 2021-01-24: 1) is fixed! Haarlem & Den Bosch are now present in the data feed. 2) Updating every 30s is difficult because external software fleetbird/NIU only updates every 5 minutes. 3) Felyx will start fixing PROW
 | 2022-01-27 | At +- 9:10am the new Dashboard Deelmobiliteit was launched! We ended the rental of a Felyx bike in Amsterdam, but this bike did not show up immediately on the map. What did show up nearby the location: A Felyx scooter at 7:43am and 9:22am. Maybe it was one of these, presumably the last one. If so, it had a delay of 8 minutes.
 | 2022-01-27 | At 8:00 am we noticed the update frequency was reverted(?) to 5 minutes
