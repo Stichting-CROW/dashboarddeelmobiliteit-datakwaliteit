@@ -22,6 +22,9 @@ At the moment LIME uses rotated IDs. LIME should use static IDs instead. At the 
 
 ## Logs
 
-|Updated    |Description
-|----       |---
-|2021-09-14 |Asked Lime to implement static vehicle_ids
+|Updated    | Description
+|----       | ---
+|2021-02-17 | We ask to inform us as soon as the feed checked and ready to test
+|2021-02-10 | LIME emails: "Our understanding is that we were currently sharing GBFS with CROW. We'll revert shortly with any upgraded version we may support"
+|2021-02-09 | We ask LIME to meet the specifications so that the LIME feed can be activated again
+|2021-09-14 | Asked Lime to implement static vehicle_ids
