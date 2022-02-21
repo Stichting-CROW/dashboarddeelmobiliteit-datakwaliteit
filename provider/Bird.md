@@ -2,28 +2,23 @@
 
 ## Data quality status
 
-Last updated at 2022-01-24.
+Last updated at 2022-02-21.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ⏳ MDS/GBFS
-| Updated <= 30s?             | ➖
-| Correct PROW?               | ➖
-| All NL data?                | ➖
-| Includes vehicle type?      | ➖
+| Uses data standard?         | ✅ MDS
+| Updated <= 30s?             | ✅
+| Correct PROW?               | ❔
+| All NL data?                | ✅
+| Includes vehicle type?      | ✅
 
-Status: 🔴 Unusable
-
-## Improvements to make
-
-### Offer data feed
-
-Offer a data feed that we can use.
+Status: 🟢 Perfect
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2022-02-21 | We've tested and activated the Bird MDS feed 🎉
 | 2022-01-25 | Bird sent us the MDS end point: https://mds.bird.co/vehicles - we will test the data feed
 | 2022-01-25 | We got information on logging in at https://amersfoort.open.bird.co/login. We ask: what is the URL of the MDS end point?
 | 2022-01-24 | We ask if there's an update
