@@ -24,7 +24,7 @@ At this moment Bondi does not yet offer a data feed.
 
 | Updated    | Description
 | ----       | ---
-| 2022-01-31 | We asked for documentation on how to use the authentication key
+| 2022-02-02 | Bondi emails: "I received some info from our software provider. The current version of MDS doesn't support the /vehicles endpoints. They expect to upgrade the MDS feed in Q2. I will keep you updated when there are any changes". We reply that MDS is prefered, but GBFS and TOMP works as well. We'll wait on Bondi's update in Q2
 | 2022-01-15 | We asked for documentation on how to use the authentication key
 | 2022-01-14 | Bondi sent an MDS URL and authentication key
 | 2022-01-10 | Email from Bondi: 'We do not yet switch to the new app provider in the next 4 months. Until we switch we don't have a TOMP feed yet.'

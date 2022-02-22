@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-01-24.
+Last updated: 2022-02-22.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -48,7 +48,8 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
-| 2022-01-25 | HTM sends the URL of an HTM specific MDS feed offered by Joyride.
+| 2022-02-22 | We email Joyride: Do you have a MDS feed available for us?
+| 2022-01-25 | HTM sends a feed URL that has 'mds' in the URL path but isn't MDS
 | 2022-01-24 | We email HTM: Could you ask your development partner if a MDS feed can be shared?
 | 2022-01-19 | We email HTM: 'The data is in the Dashboard, but is not of high quality. We expect dynamic IDs are used instead of static IDs. The best option would be to offer a MDS data feed'.
 | 2022-01-19 | HTM emails: any updates?
