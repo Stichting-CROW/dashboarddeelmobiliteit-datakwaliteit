@@ -22,6 +22,9 @@ None. All seems to work well now.
 
 | Updated    | Description
 | ----       | ---
+| 2022-03-08 | We tested the MDS end point. The credentials work, but there's no [/vehicles](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles) end point that we need. We ask TIER if this MDS end point (/vehicles) is available as well. If not, we keep using GBFS as this works perfectly at the moment. 
+| 2022-03-03 | TIER sends us API credentials and the MDS API documentation: https://api-documentation.tier-services.io/docs/data-sharing/Data%20Sharing%20Endpoints.html
+| 2022-02-21 | We understand that there's a MDS feed as well. A MDS feed gives better data than a GBFS feed. Therefor we ask if it is possible to offer a MDS feed.
 | 2022-02-17 | 🎉 We activated the new Amersfoort and Eindhoven feed
 | 2022-02-09 | TIER emails GBFS feed URLs of Amersfoort and Eindhoven (and made our API key valid for using these feeds)
 | 2022-02-07 | We ask to share GBFS feed URL and API key for Amersfoort and Eindhoven. We will load multiple individual feeds for now, instead of 1 feed for all of NL.
