@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2021-09-09.
+Last updated: 2022-03-11.
 
 | **Quality check**           | **Quality**
 | --                          | -- |
@@ -58,4 +58,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-03-11 | We asked Deelfiets Nederland to include all NL vehicles in the data feed (asked before in September 2021)
+| 2022-03-10 | We got an email notifying that Zwolse Deelfiets and Deelfiets Nederland are not shared, but they should. Both brand names are part of the same company (started as Zwolse Deelfiets, then follow up as "Deelfiets Nederland" with operations in Kampen + Friesland as well).
+| 2022-03-08 | Municipality of Enschede mentions: data Deelfiets Nederland is not shared, but should be
 | 2021-09-09 | Asked Deelfiets Nederland to offer all NL data and add vehicle type
