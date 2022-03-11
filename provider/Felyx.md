@@ -59,6 +59,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-03-10 | Felyx thanks us for signaling and informs that it will enable Zwolle and Enschede data.
 | 2022-03-08 | We see that Zwolle and Enschede data are missing, while Felyx offers vehicles in these cities. We email Felyx and ask to include all NL data including Zwolle and Enschede.
 | 2022-02-08 | Felyx emails: 2) 'Updating all data every 30s is difficult. But, `is_disabled` is realtime now. And we are looking if `is_reserved` can be close to realtime as well'  3) We are going to work on improving PROW mid February, expected delivery: beginning of March
 | 2022-02-04 | Felyx replied to our email of 2021-01-24: 1) is fixed! Haarlem & Den Bosch are now present in the data feed. 2) Updating every 30s is difficult because external software fleetbird/NIU only updates every 5 minutes. 3) Felyx will start fixing PROW

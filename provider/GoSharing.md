@@ -55,6 +55,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-03-11 | We ask what is the status of the MDS feed, as we didn't receive an update yet.
 | 2022-02-14 | GO Sharing emails that it will offer a MDS feed in the new future. This MDS feed will be ready to test on March 4th. Bikes and mopeds will be included (for cars GO Sharing works with an external partner, cars are on private ground)
 | 2022-02-04 | GO Sharing emails: An 'action plan' has been created. The external development team now does a feasibility test. The external development will do a follow up in the beginning of week 6, 2022 (week of February 7th). As soon as this response is received, all actors involved (municipalities, CROW) will get a follow up.
 | 2022-02-03 | Still no working feed having static ID's. The feed is broken since 2021-10-06, more than half a year now. We ask what the 'action plan' is that fixed this, and what will be the planning.

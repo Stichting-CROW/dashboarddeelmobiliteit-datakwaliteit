@@ -48,6 +48,8 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-03-11 | We reply per email: HTM does not know the MDS feed URL and asks to contact Joyride directly. Therefor the same question again: Could you please send us the MDS feed URL?
+| 2022-03-03 | Joyride replies per email: Please ask HTM for the URL.
 | 2022-02-22 | We email Joyride: Do you have a MDS feed available for us?
 | 2022-01-25 | HTM sends a feed URL that has 'mds' in the URL path but isn't MDS
 | 2022-01-24 | We email HTM: Could you ask your development partner if a MDS feed can be shared?
