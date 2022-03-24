@@ -55,8 +55,14 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-03-24 | We test the MDS feed based on the documentation we got. We can't get any data. We ask GO Sharing / goUrban two things: 1. Can we authenticate with a bearer token that is always valid, instead of using refreshed tokens all the time? 2. Please share example cURL commands for retrieving the vehicles data.
+| 2022-03-23 | GO Sharing calls us and asks if the documentation is complete now.
+| 2022-03-22 | GO Sharing sends an documentation URL, https://whimsical.com/api-basics-RPfVazKR6gTaECRG6MGnFv.
+| 2022-03-22 | We tested the MDS URL, but are missing additional documentation to actually receive any data. We ask for documentation.
+| 2022-03-17 | GO Sharing sents an MDS URL (https://greenmo.core.gourban-mobility.com/api/mds/netherlands/) and authentication credentials. We will test these.
+| 2022-03-14 | We inform municipalities of Eindhoven, Enschede, Rotterdam and The Hague that we didn't receive an update and don't know if we will receive any updates
 | 2022-03-11 | We ask what is the status of the MDS feed, as we didn't receive an update yet.
-| 2022-02-14 | GO Sharing emails that it will offer a MDS feed in the new future. This MDS feed will be ready to test on March 4th. Bikes and mopeds will be included (for cars GO Sharing works with an external partner, cars are on private ground)
+| 2022-02-14 | GO Sharing emails that it will offer a MDS feed in the new future. **This MDS feed will be ready to test on March 4th**. Municipalities will be informed that the MDS feed is ready on March 11th. Bikes and mopeds will be included (for cars GO Sharing works with an external partner, cars are on private ground)
 | 2022-02-04 | GO Sharing emails: An 'action plan' has been created. The external development team now does a feasibility test. The external development will do a follow up in the beginning of week 6, 2022 (week of February 7th). As soon as this response is received, all actors involved (municipalities, CROW) will get a follow up.
 | 2022-02-03 | Still no working feed having static ID's. The feed is broken since 2021-10-06, more than half a year now. We ask what the 'action plan' is that fixed this, and what will be the planning.
 | 2022-01-21 | Discussed possible solutions, discussed the difference between MDS and GBFS. GO Sharing will think about a solution. 
