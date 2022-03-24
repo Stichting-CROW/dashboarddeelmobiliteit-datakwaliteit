@@ -48,7 +48,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
-| 2022-03-24 | We tested credentials, /vehicles doesn't seems to work. /trips returns an error stating 'Your request is with missing details. Try again', we reviewed the MDS documentation and don't know what is missing. Contacted Joyride again about this change. 
+| 2022-03-24 | We tested credentials, /vehicles doesn't seems to work. /trips returns an error stating 'Your request is with missing details. Try again', we reviewed the MDS documentation and don't know what is missing. Contacted Joyride again about this problem. 
 | 2022-03-21 | Joyride sends credentials.
 | 2022-03-18 | HTM gives permission and we ask Joyride if they provide /vehicles endpoint.
 | 2022-03-17 | We got reply per email: HTM needs to give permission to share MDS URL + token.
