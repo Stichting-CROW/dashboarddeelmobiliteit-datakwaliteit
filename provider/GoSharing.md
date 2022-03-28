@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2021-11-18.
+Last updated: 2022-03-28.
 
 | **Quality check**            | **Quality**
 | --                          | --      |
@@ -55,6 +55,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-03-28 | We ask again to share info on how to use the MDS API. We would like to receive an example cURL command.
 | 2022-03-24 | We test the MDS feed based on the documentation we got. We can't get any data. We ask GO Sharing / goUrban two things: 1. Can we authenticate with a bearer token that is always valid, instead of using refreshed tokens all the time? 2. Please share example cURL commands for retrieving the vehicles data.
 | 2022-03-23 | GO Sharing calls us and asks if the documentation is complete now.
 | 2022-03-22 | GO Sharing sends an documentation URL, https://whimsical.com/api-basics-RPfVazKR6gTaECRG6MGnFv.
