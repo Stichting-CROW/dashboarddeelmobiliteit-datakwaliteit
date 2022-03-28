@@ -59,6 +59,8 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-03-28 | We email Felyx and ask: Can you enable Zwolle and Enschede, or give a planning/timeline?
+| 2022-03-24 | Municipality of Enschede asks us again if Felyx data can be visible in the CROW Dashboard.
 | 2022-03-10 | Felyx thanks us for signaling and informs that it will enable Zwolle and Enschede data.
 | 2022-03-08 | We see that Zwolle and Enschede data are missing, while Felyx offers vehicles in these cities. We email Felyx and ask to include all NL data including Zwolle and Enschede.
 | 2022-02-08 | Felyx emails: 2) 'Updating all data every 30s is difficult. But, `is_disabled` is realtime now. And we are looking if `is_reserved` can be close to realtime as well'  3) We are going to work on improving PROW mid February, expected delivery: beginning of March
