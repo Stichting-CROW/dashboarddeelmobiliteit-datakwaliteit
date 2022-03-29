@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-03-28.
+Last updated: 2022-03-29.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -59,6 +59,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-03-29 | Felyx emails: Enschede and Zwolle data is now shared with the CROW Dashboard. We confirm this is the case. Issue of March 8th is solved.
 | 2022-03-28 | We email Felyx and ask: Can you enable Zwolle and Enschede, or give a planning/timeline?
 | 2022-03-24 | Municipality of Enschede asks us again if Felyx data can be visible in the CROW Dashboard.
 | 2022-03-10 | Felyx thanks us for signaling and informs that it will enable Zwolle and Enschede data.
