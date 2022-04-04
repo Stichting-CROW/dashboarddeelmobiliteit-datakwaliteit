@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-03-28.
+Last updated: 2022-04-04.
 
 | **Quality check**            | **Quality**
 | --                          | --      |
@@ -55,6 +55,8 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-04-04 | We tested this: getting an access token and refresh token works, though we can't get a useful response from the `https://greenmo.core.gourban.services/api/mds/netherlands/vehicles` end point. As a response we get: `{"error": "0012","error_description": "HttpMediaTypeNotAcceptable [uri=/api/mds/netherlands/vehicles]"}`. We email support@gourban.co directly (CC GO Sharing) and ask: 1) How to get the /vehicles response data? 2) Can we have a bearer token that is valid indefinitely?
+| 2022-04-04 | GO Sharing emails: 'We got back form goUrban:<br /><br />"`curl --location --request POST 'https://user.api.gourban.services/v1/greenmo/auth/sign-in-api-client' --header 'Content-Type: application/json' --data-raw '{"clientId": "THE_CLIENT_ID", "clientKey": "THE_CLIENT_KEY" }'` Below you can find latest MDS doc: https://whimsical.com/mds-TCV59ZqTb2Rxo8JhB2ztiN" Do you have all the info you need with this?'
 | 2022-03-28 | We ask again to share info on how to use the MDS API. We would like to receive an example cURL command.
 | 2022-03-24 | We test the MDS feed based on the documentation we got. We can't get any data. We ask GO Sharing / goUrban two things: 1. Can we authenticate with a bearer token that is always valid, instead of using refreshed tokens all the time? 2. Please share example cURL commands for retrieving the vehicles data.
 | 2022-03-23 | GO Sharing calls us and asks if the documentation is complete now.
