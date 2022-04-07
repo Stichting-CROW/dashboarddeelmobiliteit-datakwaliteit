@@ -18,6 +18,9 @@ Status: 🟢 Perfect
 
 | Updated    | Description
 | ----       | ---
+| 2022-03-29 | Bird replies: "From a data-perspective, this is expected behavior. In our spec at the moment we don't include vehicles in an unknown state. Vehicles like these would fall under the state of low battery or need maintenance, and these would be classified under a status of "Maybe PROW", which we don't include in our spec for vehicle counts." "Per the MDS spec, the vehicles will go unknown when they have been inactive for 7 days. 'Unknown' vehicles are not included in the vehicle count. Before transitioning into 'Unknown' state, vehicles that are low battery will be considered 'Non-Operational' in the MDS spec - these also would not be included in vehicle count. Let us know if that works for you."
+| 2022-03-28 | We reply that empty batteries shouldn’t result in the disappearance of vehicles in the /vehicles in the /vehicles endpoint, because as long the vehicle is in the PROW (public right of way) it [should](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles) be in the feed. We ask: 'Can you investigate this further?'
+| 2022-03-28 | Bird emails that this is the right amount of active vehicles in Amersfoort: the logistic partner had issues in Amersfoort with replacing the batteries.
 | 2022-03-28 | We email Bird: "We notice that the Bird MDS feed again returns only 6 vehicles in Amersfoort, while we expect there should be more available vehicles. Could you check if the amount of vehicles that is shared by the MDS feed is correct? [additional info]"
 | 2022-03-17 | We reply: "At this moment it seems to be working again. The API was working but we only got a few vehicles instead of all vehicles within Amersfoort"
 | 2022-03-14 | Bird replies: "Could you provide more information here on what you're seeing on your end? Which endpoints and parameters are you looking at?"
