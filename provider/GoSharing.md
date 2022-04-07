@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-04-04.
+Last updated: 2022-04-07.
 
 | **Quality check**            | **Quality**
 | --                          | --      |
@@ -55,6 +55,9 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-04-07 | goUrban answers per email: 'For 1, 2 and 3 we have created internal tasks that are currently being prioritized and I'll share an ETA with you as soon as there are any'
+| 2022-04-05 | We tested the MDS feed and reply with feedback: 1. Enable gzip 2. Use correct casting for vehicle_type, propulsion_types, last_vehicle_state and last_event_types, as described in the MDS standard.
+| 2022-04-05 | goUrban replies on our two questions. Regarding 2: goUrban has put the request for a token that is valid indefinately on the backlog, without ETA. Regarding 1: The documentation was not complete. We can use a request like the following to get the vehicles data: `curl "https://greenmo.core.gourban-mobility.com/api/mds/netherlands/vehicles" -H 'Authorization: Bearer THE_TOKEN' -H 'Accept: application/vnd.mds.provider+json;version=1.2.0'`
 | 2022-04-04 | We tested this: getting an access token and refresh token works, though we can't get a useful response from the `https://greenmo.core.gourban.services/api/mds/netherlands/vehicles` end point. As a response we get: `{"error": "0012","error_description": "HttpMediaTypeNotAcceptable [uri=/api/mds/netherlands/vehicles]"}`. We email support@gourban.co directly (CC GO Sharing) and ask: 1) How to get the /vehicles response data? 2) Can we have a bearer token that is valid indefinitely?
 | 2022-04-04 | GO Sharing emails: 'We got back form goUrban:<br /><br />"`curl --location --request POST 'https://user.api.gourban.services/v1/greenmo/auth/sign-in-api-client' --header 'Content-Type: application/json' --data-raw '{"clientId": "THE_CLIENT_ID", "clientKey": "THE_CLIENT_KEY" }'` Below you can find latest MDS doc: https://whimsical.com/mds-TCV59ZqTb2Rxo8JhB2ztiN" Do you have all the info you need with this?'
 | 2022-03-28 | We ask again to share info on how to use the MDS API. We would like to receive an example cURL command.
