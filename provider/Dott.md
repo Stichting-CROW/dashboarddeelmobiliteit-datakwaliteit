@@ -2,11 +2,11 @@
 
 ## Data quality status
 
-Last updated at 2022-03-30.
+Last updated at 2022-04-07.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ⏳ MDS
+| Uses data standard?         | ⏳ GBFS
 | Updated <= 30s?             | ➖
 | Correct PROW?               | ➖
 | All NL data?                | ➖
@@ -22,6 +22,8 @@ Offer the MDS data feed.
 
 | Updated    | Description
 | ----       | ---
+| 2022-04-05 | We email Dott and ask: "We tried but cannot retrieve any data. If we run the [example script](https://github.com/bartwr/dott-gbfs/blob/main/test.js) using the credentials you shared using BitWarden, we get this as a response: `{ error: 'Unauthorized: ERR_ACCESS_DENIED' }` Could you please test our credentials using the example code you've given us? Maybe it doesn't work, because we need a specific end point for every city? I hope you can point us in the right direction to get rid of the ERR_ACCESS_DENIED error."
+| 2022-04-05 | We have received credentials and documentation on how to connect with Dott's GBFS feed.
 | 2022-03-30 | We are in direct contact with the Engineering Manager at Dott, on how to integrate with CROW Dashboard. We communicate using a private Slack channel at Dott's Slack. We share: "For succesful integration with CROW Dashboard there should be a GBFS feed that has vehicles that keep their vehicle IDs static as long as they're in public space, or the MDS `/vehicles` end point should be offered."
 | 2022-03-29 | We speak with Dott's General Manager The Netherlands by phone. Goal: finalize the integration for Amersfoort soon.
 | 2022-03-29 | Dott sends extra info on the data standards they support: "For GBFS we support v2.2 and v3.0. MDS has full v0.4 implementation. MDS has a partial implementation for the Provider component at v1.2. Please note this is only partial support of full v1.2 Provider component (we only make available the Trips and Status Changes endpoints)"
