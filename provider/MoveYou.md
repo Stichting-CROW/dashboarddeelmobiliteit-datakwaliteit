@@ -8,7 +8,7 @@ Offers vehicles for labels:
 
 ## Data quality status
 
-Last updated at 2022-03-28.
+Last updated at 2022-04-07.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -30,6 +30,8 @@ Offer any of the supported data standards, preferably MDS.
 
 | Updated    | Description
 | ----       | ---
+| 2022-04-05 | We tested the TOMP feed and it works. ~~On April 8th~~ In the end of April MoveYou will do a technical update that makes responses faster than the > 10 seconds we are currently experiencing.
+| 2022-04-05 | MoveYou sends documentation on their TOMP feed, as well as credentials.
 | 2022-03-28 | We reply: "Good that you'll share a TOMP feed URL and token. You don't have to share all vehicles with any status, but only vehicles that are unrented in public space, see [PROW](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#general)." We ask for the expected date on which the TOMP feed and token will be shared with us.
 | 2022-03-28 | MoveYou emails: "We have to do some modifications in the existing implementation. We will implement it like this: 1. We will do authentication using a JWT token and will share the login credentials. 2. We will share all vehicles having any status."
 | 2022-03-08 | MoveYou emails it will share the answers internally. If questions/comments arise, MoveYou plans a call with us.
