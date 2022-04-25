@@ -6,60 +6,34 @@ Last updated: 2022-04-07.
 
 | **Quality check**            | **Quality**
 | --                          | --      |
-| Uses data standard?         | ❌ GBFS (rotates id's)
+| Uses data standard?         | :heavy_check_mark: MDS
 | Updated <= 30s?             | :heavy_check_mark:
-| Correct PROW?               | ❌
+| Correct PROW?               | :heavy_check_mark:
 | All NL data?                | :heavy_check_mark:
-| Includes vehicle type?      | ❌
-| Accuracy number of trips    | Δ = -0,523% 👍
+| Includes vehicle type?      | :heavy_check_mark:
+| Accuracy number of trips    | Δ = -0,523% 👍 (last test: March 2021)
 
-Status: 🟡 Usable though needs improvement
+Status: 🟢 Perfect
 
 ## Improvements to make
 
-### Don't include mopeds that do not exist in public space
-
-GO Sharing shares mopeds with the Dashboard Deelmobiliteit that do not exist in public space.
-
-Properties of this type of data are that it has a GPS location in public space, the property `is_disabled` is `1` and if you walk to the bike in real life, the moped is not there.
-
-To see examples of this type of incorrect data, [see this document](./GoSharing_extra.md).
-
-### Add vehicle type
-
-🆕 The operator should communicate what kind of vehicle it's reporting. 
-
-Since GBFS 2.1 there's a field, `vehicle_type_id`, that defines what kind of vehicle is offered.
-
-Please start offering vehicle type in the feed, following the GBFS standard.
-
-To to this, you can use these documentation pages: 
-
-1. Offer [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
-2. In free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)
-
-As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) standard definition for mopeds:
-
-- form_factor: `moped`
-- propulsion_type: `electric`
-- max_range_meters: `X1`
-- wheel_count: `2`
-- max_permitted_speed *: `X3`
-- rated_power: `X4`
-
-With the `max_permitted_speed` included we can make the distinction between mopeds that are max. 45 km/h and moped with a max. speed of 25 km/h.
-
-To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing). To choose the right vehicle type for your vehicle, see our guide: [How to offer vehicle type in GBFS](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#how-to-offer-vehicle-type-in-gbfs).
+None - everything is working fine.
 
 ## Logs
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-04-25 | On April 11th 2022 the server of Dashboard Deelmobiliteit was [disabled](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/year-overview/2022.md#general-comments) for 20 minutes. Because GO Sharing doesn't use static vehicle IDs, we had to 'reset' the GO Sharing state to make sure parking events would be stored well after being offline.<br /><br />We executed the following query to fix the data: `UPDATE park_events SET end_time = '2022-04-11T15:00:00' WHERE 1=1 AND system_id = 'gosharing' AND end_time IS NULL AND start_time <= '2022-04-11T15:00:00';` With this all parking sessions on or before April 11th 2022 are ended manually (10103 entries modified).
+| 2022-04-23 | We noticed 2 problems with the MDS feed: 1. There are 1200 vehicles without a device_id. 2. There are 800 vehicles that do not have a last_vehicle_state. On 2022-04-25 we email goUrban these issues with information how to fix.
+| 2022-04-23 | We activated the MDS feed using the name "gosharing-mds". From now we'll run the MDS and GBFS feed in parallel. If the MDS works well for a week, we will replace the current GBFS feed with the MDS feed.
+| 2022-04-20 | goUrban emails: 'Task 2 and 3 are completed'. We tested this. The MDS feed is now following the standard. We can start testing the GO Sharing MDS feed
+| 2022-04-07 | 
 | 2022-04-07 | goUrban answers per email: 'For 1, 2 and 3 we have created internal tasks that are currently being prioritized and I'll share an ETA with you as soon as there are any'
 | 2022-04-05 | We tested the MDS feed and reply with feedback: 1. Enable gzip 2. Use correct casting for vehicle_type, propulsion_types, last_vehicle_state and last_event_types, as described in the MDS standard.
 | 2022-04-05 | goUrban replies on our two questions. Regarding 2: goUrban has put the request for a token that is valid indefinately on the backlog, without ETA. Regarding 1: The documentation was not complete. We can use a request like the following to get the vehicles data: `curl "https://greenmo.core.gourban-mobility.com/api/mds/netherlands/vehicles" -H 'Authorization: Bearer THE_TOKEN' -H 'Accept: application/vnd.mds.provider+json;version=1.2.0'`
 | 2022-04-04 | We tested this: getting an access token and refresh token works, though we can't get a useful response from the `https://greenmo.core.gourban.services/api/mds/netherlands/vehicles` end point. As a response we get: `{"error": "0012","error_description": "HttpMediaTypeNotAcceptable [uri=/api/mds/netherlands/vehicles]"}`. We email support@gourban.co directly (CC GO Sharing) and ask: 1) How to get the /vehicles response data? 2) Can we have a bearer token that is valid indefinitely?
 | 2022-04-04 | GO Sharing emails: 'We got back form goUrban:<br /><br />"`curl --location --request POST 'https://user.api.gourban.services/v1/greenmo/auth/sign-in-api-client' --header 'Content-Type: application/json' --data-raw '{"clientId": "THE_CLIENT_ID", "clientKey": "THE_CLIENT_KEY" }'` Below you can find latest MDS doc: https://whimsical.com/mds-TCV59ZqTb2Rxo8JhB2ztiN" Do you have all the info you need with this?'
+| 2022-04-01 | Gemeente Almere emails: "Vandaag is GO Sharing gestart in onze stad"
 | 2022-03-28 | We ask again to share info on how to use the MDS API. We would like to receive an example cURL command.
 | 2022-03-24 | We test the MDS feed based on the documentation we got. We can't get any data. We ask GO Sharing / goUrban two things: 1. Can we authenticate with a bearer token that is always valid, instead of using refreshed tokens all the time? 2. Please share example cURL commands for retrieving the vehicles data.
 | 2022-03-23 | GO Sharing calls us and asks if the documentation is complete now.
