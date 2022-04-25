@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2022-03-28.
+Last updated at 2022-04-07.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -18,6 +18,7 @@ Status: 🟢 Perfect
 
 | Updated    | Description
 | ----       | ---
+| 2022-04-11 | Since today Bird shares data of **Groningen** with the CROW Dashboard using MDS
 | 2022-04-07 | Bird emails: 'Because of a request of the municipality of Groningen, we have given you access to the Groningen data'
 | 2022-03-29 | Bird replies: "From a data-perspective, this is expected behavior. In our spec at the moment we don't include vehicles in an unknown state. Vehicles like these would fall under the state of low battery or need maintenance, and these would be classified under a status of "Maybe PROW", which we don't include in our spec for vehicle counts." "Per the MDS spec, the vehicles will go unknown when they have been inactive for 7 days. 'Unknown' vehicles are not included in the vehicle count. Before transitioning into 'Unknown' state, vehicles that are low battery will be considered 'Non-Operational' in the MDS spec - these also would not be included in vehicle count. Let us know if that works for you."
 | 2022-03-28 | We reply that empty batteries shouldn’t result in the disappearance of vehicles in the /vehicles in the /vehicles endpoint, because as long the vehicle is in the PROW (public right of way) it [should](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles) be in the feed. We ask: 'Can you investigate this further?'
