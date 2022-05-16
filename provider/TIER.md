@@ -22,6 +22,7 @@ None. All seems to work well now.
 
 | Updated    | Description
 | ----       | ---
+| 2022-04-28 | TIER has given us access to TIER data of Almere - Almere is active now
 | 2022-04-23 | We email TIER and ask: "Can you give us access to the GBFS feed of Almere?"
 | 2022-04-19 | We try to activate TIER Almere, but don't have access yet
 | 2022-04-18 | Gemeente Almere asks to activate TIER Almere
