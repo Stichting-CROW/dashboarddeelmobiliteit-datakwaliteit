@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-04-07.
+Last updated: 2022-05-18.
 
 | **Quality check**            | **Quality**
 | --                          | --      |
@@ -23,6 +23,10 @@ None - everything is working fine.
 
 | Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-05-17 | GO Sharing emails and mentions: "The response times will be focused on in the upcoming sprint." -> We reply that we need to get the response times right before we can activate the feed. So we don't activate the new MDS feed yet.
+| 2022-05-11 | GO Sharing emails and summarizes: "Everything looks good, but the response times are a last hurdle. These response times have to be < 3 seconds to work properly."
+| 2022-05-06 | GO Sharing updates us on the issue of slow response times: "Please advise on limiting the amount of data and the scope of this data, with the intent to speed the process up. We are unfortunately not considering implementing pre-cashing."
+| 2022-05-03 | GO Sharing replies to our feedback sent on 2022-04-25.<br /><br />1. There are 1200 vehicles without an ID -> "The device_id is based on the IoT module ID. If the vehicle doesn't have an IoT module, this ID is null. => Those vehicles will not be provided on the MDS feed as they are most probably not deployed (without IoT)." -> Perfect!<br /><br />2. There are 800 vehicles that do not have a last_vehicle_state -> "Vehicles newly added to the system which have not gotten an update yet, could show up with these values not set. We have introduced fallback values to cover in these scenarios and prevent issues." -> Nice<br /><br />3. gzip is preferred -> "gzip has been enabled on all MDS endpoints" -> 👌<br /><br />4. Feed response time is too long --> "Regarding the processing times, they are most likely that long because you looking at the feeds of the whole fleet. If you wish we could provide you with more limited fleets looking at specific regions or cities to speed up the processing times." -> "It should be possible to speed up the endpoint to < 3-5s response times. [Here a few suggestions]. Currently we use a maximum response time of 10s in our systems (because other realtime processes depend on it). With this endpoint it sometimes goes well but sometimes it's too slow and then the import is not working. Please again have a look into this, with our suggestions in mind."
 | 2022-04-25 | On April 11th 2022 the server of Dashboard Deelmobiliteit was [disabled](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/year-overview/2022.md#general-comments) for 20 minutes. Because GO Sharing doesn't use static vehicle IDs, we had to 'reset' the GO Sharing state to make sure parking events would be stored well after being offline.<br /><br />We executed the following query to fix the data: `UPDATE park_events SET end_time = '2022-04-11T15:00:00' WHERE 1=1 AND system_id = 'gosharing' AND end_time IS NULL AND start_time <= '2022-04-11T15:00:00';` With this all parking sessions on or before April 11th 2022 are ended manually (10103 entries modified).
 | 2022-04-23 | We noticed 2 problems with the MDS feed: 1. There are 1200 vehicles without a device_id. 2. There are 800 vehicles that do not have a last_vehicle_state. On 2022-04-25 we email goUrban these issues with information how to fix.
 | 2022-04-23 | We activated the MDS feed using the name "gosharing-mds". From now we'll run the MDS and GBFS feed in parallel. If the MDS works well for a week, we will replace the current GBFS feed with the MDS feed.
