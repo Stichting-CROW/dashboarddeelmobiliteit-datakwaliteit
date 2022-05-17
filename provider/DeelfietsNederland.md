@@ -27,37 +27,14 @@ The current status is 'usable though needs improvement'. As soon as all vehicle 
 
 ## Improvements to make
 
-### Include all vehicle data
-
-Deelfiets Nederland is active in Zwolle, Kampen, Groningen en Friesland.
-
-At the moment only data of Zwolle en Kampen is included. The operator should include data of all their vehicles.
-
-### Add vehicle type & propulsion type
-
-🆕 The operator should communicate what kind of vehicle it's reporting. 
-
-Since GBFS 2.1 there's a field, `vehicle_type_id`, that defines what kind of vehicle is offered.
-
-To implement this, you can use these documentation pages: 
-
-1. Offer [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
-2. In free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)
-
-As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) standard definition for bikes:
-
-- name: `Deelfiets Nederland fiets type 1`,
-- vehicle_type_id: `deelfietsnederland_type_1`
-- form_factor: `bicycle`
-- propulsion_type: `electric_assist`
-- wheel_count: `2`
-
-To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
+- Add all places in 1 feed
+- Add vehicle_type_id for every vehicle
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2022-05-16 | We disabled the new GBFS feed, as it seemed to give some [problems](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/24). As soon as we investigated this, we activate the feed again (or give feedback to the provider).
 | 2022-04-19 | We activated the new GBFS feed. Now two GBFS feeds are running simultaneously.
 | 2022-04-19 | Deelfiets Nederland emails: 'We have a feed ready for you on the new platform. We can keep the old feed running on the existing URL. Simultaneously we run the new feed with most of the locations of Deelfiets Nederland. PS The new feed supports vehicle_type_id.'
 | 2022-03-28 | We email: "We are happy if we can have the data of Deelfiets Nederland in the Dashboard soon. For the NS+IenW 'landelijke pilot deelfietsen op stations' this is obligated. Q: If the new feed is ready, can we keep the old feed as long as the locations of the old feed are not migrated to the new feed yet? So can we use 2 GBFS feeds until the end of 2022?"
