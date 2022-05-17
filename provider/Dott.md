@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2022-04-07.
+Last updated at 2022-05-17.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -24,6 +24,7 @@ Possible improvement:
 
 | Updated    | Description
 | ----       | ---
+| 2022-05-17 | Dott started in Enschede. The vehicles are present in the feed from today.
 | 2022-04-13 | We have had great chat communication with Dott, tested the GBFS feed and it all works well. For now we keep the feed disabled until Dott starts operating in The Netherlands
 | 2022-04-08 | Dott emails us: "It's expected that we get an ERR_ACCESS_DENIED because no regions are currently visible aka public. We will add Amsterdam to the feed, so you can test with this data."
 | 2022-04-05 | We email Dott and ask: "We tried but cannot retrieve any data. If we run the [example script](https://github.com/bartwr/dott-gbfs/blob/main/test.js) using the credentials you shared using BitWarden, we get this as a response: `{ error: 'Unauthorized: ERR_ACCESS_DENIED' }` Could you please test our credentials using the example code you've given us? Maybe it doesn't work, because we need a specific end point for every city? I hope you can point us in the right direction to get rid of the ERR_ACCESS_DENIED error."
