@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-03-29.
+Last updated: 2022-05-19.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -59,6 +59,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-05-19 | Gemeente Enschede mentions that Felyx data isn't perfect: often rentals are missing. We respond and say that the cause is that Felyx only updates its data every 300 seconds instead of the 30 seconds that is in the specifications. We will contact Felyx again on this and ask for a solution, so that in the future the data feed is refreshed every 30 seconds and municipalities will have reliable data.
 | 2022-03-29 | Felyx emails: Enschede and Zwolle data is now shared with the CROW Dashboard. We confirm this is the case. Issue of March 8th is solved.
 | 2022-03-28 | We email Felyx and ask: Can you enable Zwolle and Enschede, or give a planning/timeline?
 | 2022-03-24 | Municipality of Enschede asks us again if Felyx data can be visible in the CROW Dashboard.
