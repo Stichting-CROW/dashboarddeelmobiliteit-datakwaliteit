@@ -7,7 +7,7 @@ Last updated at 2021-01-21.
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ GBFS
-| Updated <= 30s?             | ✅
+| Updated <= 30s?             | ❌
 | Correct PROW?               | ❌
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
