@@ -2,14 +2,14 @@
 
 ## Data quality status
 
-Last updated at 2021-01-21.
+Last updated at 2021-06-07.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ✅ GBFS
+| Uses data standard?         | ❌ GBFS
 | Updated <= 30s?             | ❌
 | Correct PROW?               | ❌
-| All NL data?                | ✅
+| All NL data?                | ❌
 | Includes vehicle type?      | ❌
 
 Status: 🟡 Usable though needs improvement
@@ -76,10 +76,18 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 It is prefered that one feed is offered for all vehicles in The Netherlands. This prevents mistakes.
 
+### 4. Fix non-updating feeds
+
+None of the feeds are updated. This is the case since April 23th. Please fix this, as at the moment we do not receive any data.
+
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2022-06-07 | We email and ask for an update.
+| 2022-05-28 | We email and ask for an update.
+| 2022-05-19 | Donkey emails: 'I send this to our backend/data team. Hopefully there's an solution soon'
+| 2022-05-18 | We email Donkey en mention: 'Since April 23th the GBFS feeds are not updated anymore. Can you look into this?'
 | 2022-01-21 | Added Donkey data to the Dashboard, by adding the Dordrecht feed manually. See point of improvement #3 to prevent this in the future
 | 2022-01-21 | Dordrecht data is not included in the feed at the moment
 | 2021-11-08 | Asked Donkey Republic to fix PROW (especially 1.2)
