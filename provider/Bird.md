@@ -2,14 +2,14 @@
 
 ## Data quality status
 
-Last updated at 2022-04-07.
+Last updated at 2022-05-19.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ MDS
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ❔
-| All NL data?                | ✅
+| All NL data?                | ❌
 | Includes vehicle type?      | ✅
 
 Status: 🟢 Perfect
@@ -18,6 +18,10 @@ Status: 🟢 Perfect
 
 | Updated    | Description
 | ----       | ---
+| 2022-06-07 | We tested the new Groningen and Amersfoort feed URLs. Groningen works, Amersfoort does not. We ask Bird for some support on this.
+| 2022-05-27 | Bird mails: In the past you used https://mds.bird.co/vehicles. From now we ask you to use different URLs: Groningen: https://mds.bird.co/groningen/vehicles and https://mds.bird.co/amersfoort/vehicles. We updated the authentication in such a way that you can use the same authorization token for every city.
+| 2022-05-20 | Bird mails: We'll check this internally and see if we can offer all vehicles data for Amersfoort in the feed. We'll come back on this soon.
+| 2022-05-19 | Bird asks: Is it correct that there are no Amersfoort vehicles in the MDS feed? We reply: Yes, this is correct, only Groningen vehicles are in the MDS feed.
 | 2022-04-11 | Since today Bird shares data of **Groningen** with the CROW Dashboard using MDS
 | 2022-04-07 | Bird emails: 'Because of a request of the municipality of Groningen, we have given you access to the Groningen data'
 | 2022-03-29 | Bird replies: "From a data-perspective, this is expected behavior. In our spec at the moment we don't include vehicles in an unknown state. Vehicles like these would fall under the state of low battery or need maintenance, and these would be classified under a status of "Maybe PROW", which we don't include in our spec for vehicle counts." "Per the MDS spec, the vehicles will go unknown when they have been inactive for 7 days. 'Unknown' vehicles are not included in the vehicle count. Before transitioning into 'Unknown' state, vehicles that are low battery will be considered 'Non-Operational' in the MDS spec - these also would not be included in vehicle count. Let us know if that works for you."
