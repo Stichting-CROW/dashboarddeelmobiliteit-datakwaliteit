@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-02-17.
+Last updated: 2022-06-07.
 
 | **Quality check**           | **Quality**
 | --                          | --      |
@@ -22,6 +22,8 @@ None. All seems to work well now.
 
 | Updated    | Description
 | ----       | ---
+| 2022-06-07 | We disabled the old feeds for the 4 NL cities, and activated the new feed. The new feed seems to work fine.
+| 2022-05-30 | TIER has created a new GBFS 2.1 feed URL that we can use to get all NL data: https://platform-services.tier-services.io/data-sharing/tier_shard_south_west_europe_middle_east/gbfs/1.2/free-bike-status. In the past we had to add a new GBFS 2.2 feed for every new city that TIER started to be active in. Good news.
 | 2022-04-28 | TIER has given us access to TIER data of Almere - Almere is active now
 | 2022-04-23 | We email TIER and ask: "Can you give us access to the GBFS feed of Almere?"
 | 2022-04-19 | We try to activate TIER Almere, but don't have access yet
