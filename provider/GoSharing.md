@@ -2,27 +2,28 @@
 
 ## Data quality status
 
-Last updated: 2022-05-18.
+Last updated: 2022-06-07.
 
 | **Quality check**            | **Quality**
 | --                          | --      |
-| Uses data standard?         | :heavy_check_mark: MDS
+| Uses data standard?         | ❌ GBFS <br><sub><sup>rotated
 | Updated <= 30s?             | :heavy_check_mark:
 | Correct PROW?               | :heavy_check_mark:
 | All NL data?                | :heavy_check_mark:
-| Includes vehicle type?      | :heavy_check_mark:
+| Includes vehicle type?      | ❌
 | Accuracy number of trips    | Δ = -0,523% 👍 (last test: March 2021)
 
-Status: 🟢 Perfect
+Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-None - everything is working fine.
+GO Sharing offers a new MDS feed. If the feed response does load consistently in 10 seconds or less, the feed is ready to use.
 
 ## Logs
 
-| Updated&nbsp;&nbsp;&nbsp;&nbsp; | Description
 | ----       | ---
+| 2022-06-07 | GO Sharing emails: 'As promised our colleagues are busy with investigating the response time. They've tested the feed: the average response time is 6.7 seconds. It only sometimes happens that the response time is > 10 seconds. Their question is: Why keep the limit on 10 seconds, if increasing the response time limit to 15 seconds would make our feed work?' We respond: 'We keep the limit to 10 seconds because we want to prevent to have this conversation again, if in a few months the feed will be slower because of increased amount of vehicles and trips. We like to have it solved for the long-term. The old (https://greenmo.core.gourban-mobility.com/api/gbfs/en/free-bike-status) does respond in <2s, so it's unclear why the new MDS would be so much slower in response time.'
+| 2022-05-23 | GO Sharing emails: 'The last change that is needed for succesful MDS integration (fast response time) can only be finalised if we know the implementation costs for this change. We will inform the municipalities on the status, on what we have done so far and what we still need to finalise the MDS feed.'
 | 2022-05-17 | GO Sharing emails and mentions: "The response times will be focused on in the upcoming sprint." -> We reply that we need to get the response times right before we can activate the feed. So we don't activate the new MDS feed yet.
 | 2022-05-11 | GO Sharing emails and summarizes: "Everything looks good, but the response times are a last hurdle. These response times have to be < 3 seconds to work properly."
 | 2022-05-06 | GO Sharing updates us on the issue of slow response times: "Please advise on limiting the amount of data and the scope of this data, with the intent to speed the process up. We are unfortunately not considering implementing pre-cashing."
