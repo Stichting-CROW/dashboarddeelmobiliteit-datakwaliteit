@@ -24,6 +24,8 @@ Possible improvement:
 
 | Updated    | Description
 | ----       | ---
+| 2022-06-08 | Dott does include Amersfoort data again. All good now.
+| 2022-06-08 | Vehicle info from Amersfoort is missing since May 18th. Enschede data is still present. We ask Dott to enable Amersfoort in the feed again.
 | 2022-05-17 | Dott started in Enschede. The vehicles are present in the feed from today.
 | 2022-04-13 | We have had great chat communication with Dott, tested the GBFS feed and it all works well. For now we keep the feed disabled until Dott starts operating in The Netherlands
 | 2022-04-08 | Dott emails us: "It's expected that we get an ERR_ACCESS_DENIED because no regions are currently visible aka public. We will add Amsterdam to the feed, so you can test with this data."
