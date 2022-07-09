@@ -2,28 +2,30 @@
 
 ## Data quality status
 
-Last updated at 2022-07-03.
+Last updated at 2022-07-09.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ⏳ MDS
-| Updated <= 30s?             | ➖
-| Correct PROW?               | ➖
-| All NL data?                | ➖
-| Includes vehicle type?      | ➖
+| Uses data standard?         | ✅ GBFS 1.0
+| Updated <= 30s?             | ✅
+| Correct PROW?               | ❔
+| All NL data?                | ✅
+| Includes vehicle type?      | ❌
 
-Status: 🔴 Unusable
+Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-### Offer data feed
+### Support MDS `/vehicles`
 
-At this moment Bondi does not yet offer a data feed.
+Start using MDS `/vehicles` end point wich gives better data quality and makes it possible to share vehicle types as well.
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2022-07-09 | 🎉 We added Bondi to the Dashboard with GBFS 1.0. For the longer term we still need to try to add MDS `/vehicles` instead of GBFS, because vehicle types are supported in that standard. For now we setted up a default vehicle type as Bondi has only electric bicycles at the moment.
+| 2022-07-05 | wunder mobility suggests to use GBFS 1.0 for now.
 | 2022-06-30 | wunder mobility answers: 'I've opened a change request to our product team to evaluate a change on that and let you know about our decision.'
 | 2022-06-30 | The feed works. Although all vehicles are split up in batches of 20. We ask: 'It would be really nice for us to not use pagination. Paging would add a lot of latency. Is there a possibility to setup a higher limit so that we can retreive all the vehicles instead of only 20 per api call?'
 | 2022-06-30 | wunder mobility emails the https://bondi.backend.fleetbird.eu/rest/mds/v1/vehicles end point and shares the access token.
