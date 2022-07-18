@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2022-05-19.
+Last updated at 2022-07-18.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -18,6 +18,8 @@ Status: 🟢 Perfect
 
 | Updated    | Description
 | ----       | ---
+| 2022-07-18 | Activated Amersfoort feed: Data of Bird Amersfoort is in the Dashboard again. Asked Bird on why the Groningen feed returns "Zone not found"
+| 2022-06-09 | Bird emails with a response to our questions.
 | 2022-06-07 | We tested the new Groningen and Amersfoort feed URLs. Groningen works, Amersfoort does not. We ask Bird for some support on this.
 | 2022-05-27 | Bird mails: In the past you used https://mds.bird.co/vehicles. From now we ask you to use different URLs: Groningen: https://mds.bird.co/groningen/vehicles and https://mds.bird.co/amersfoort/vehicles. We updated the authentication in such a way that you can use the same authorization token for every city.
 | 2022-05-20 | Bird mails: We'll check this internally and see if we can offer all vehicles data for Amersfoort in the feed. We'll come back on this soon.

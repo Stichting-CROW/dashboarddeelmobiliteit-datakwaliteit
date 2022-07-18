@@ -21,6 +21,7 @@ GO Sharing offers a new MDS feed. If the feed response does load consistently in
 
 ## Logs
 
+| Date       | Update 
 | ----       | ---
 | 2022-07-10 | 🎉 We enabled the https://platform.api.gourban.services/v1/greenmo/api/mds/netherlands/vehicles MDS feed. We did disable https://greenmo.core.gourban-mobility.com/api/gbfs/en/free-bike-status GBFS feed.
 | 2022-07-05 | GO Sharing emails: End of July the update for faster reponse times of the MDS /vehicles feed will be delivered.
@@ -35,7 +36,6 @@ GO Sharing offers a new MDS feed. If the feed response does load consistently in
 | 2022-04-23 | We noticed 2 problems with the MDS feed: 1. There are 1200 vehicles without a device_id. 2. There are 800 vehicles that do not have a last_vehicle_state. On 2022-04-25 we email goUrban these issues with information how to fix.
 | 2022-04-23 | We activated the MDS feed using the name "gosharing-mds". From now we'll run the MDS and GBFS feed in parallel. If the MDS works well for a week, we will replace the current GBFS feed with the MDS feed.
 | 2022-04-20 | goUrban emails: 'Task 2 and 3 are completed'. We tested this. The MDS feed is now following the standard. We can start testing the GO Sharing MDS feed
-| 2022-04-07 | 
 | 2022-04-07 | goUrban answers per email: 'For 1, 2 and 3 we have created internal tasks that are currently being prioritized and I'll share an ETA with you as soon as there are any'
 | 2022-04-05 | We tested the MDS feed and reply with feedback: 1. Enable gzip 2. Use correct casting for vehicle_type, propulsion_types, last_vehicle_state and last_event_types, as described in the MDS standard.
 | 2022-04-05 | goUrban replies on our two questions. Regarding 2: goUrban has put the request for a token that is valid indefinately on the backlog, without ETA. Regarding 1: The documentation was not complete. We can use a request like the following to get the vehicles data: `curl "https://greenmo.core.gourban-mobility.com/api/mds/netherlands/vehicles" -H 'Authorization: Bearer THE_TOKEN' -H 'Accept: application/vnd.mds.provider+json;version=1.2.0'`
