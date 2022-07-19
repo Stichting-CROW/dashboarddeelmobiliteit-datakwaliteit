@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2022-07-18.
+Last updated at 2022-07-19.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -22,7 +22,8 @@ None - all works fine.
 
 | Updated    | Description
 | ----       | ---
-| 2022-07-15 | 🎉  Bolt launches in Enschede
+| 2022-07-19 | Bolt emails: Bolt will launch e-bikes in Groningen in early September.
+| 2022-07-15 | 🎉 Bolt launches in Enschede
 | 2022-07-08 | Bolt shares feed credentials for Enschede
 | 2022-07-04 | We tested the MDS feed and it works
 | 2022-06-17 | Bolt emails a MDS feed to test with
