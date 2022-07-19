@@ -8,28 +8,31 @@ Offers vehicles for labels:
 
 ## Data quality status
 
-Last updated at 2022-04-07.
+Last updated at 2022-07-19.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ⏳ TOMP
-| Updated <= 30s?             | ❌
-| Correct PROW?               | ❌
-| All NL data?                | ❌
+| Uses data standard?         | ✅ TOMP
+| Updated <= 30s?             | ✅
+| Correct PROW?               | ✅
+| All NL data?                | ✅
 | Includes vehicle type?      | ❌
 
-Status: 🔴 Unusable
+Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-### Offer a data feed
-
-Offer any of the supported data standards, preferably MDS.
+1. Offer a MDS `/vehicles` data feed
+2. Add vehicle type information for every vehicle
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2022-07-09 | 🎉 We successfully added MoveYou to the dashboard after implementing a custom authentication flow
+| 2022-05-18 | We test the updated TOMP feed, but get an authentication error.
+| 2022-04-28 | MoveYou updated the TOMP feed with pre-fetching and put this in production. The assets cache response time in this case is around 100-200ms. Currently, the pre-fetch is only enabled for “available-assets” endpoint.
+| 2022-04-13 | MoveYou committed to spend some hours for optimizing the response speed (15 seconds -> 1 second).
 | 2022-04-05 | We tested the TOMP feed and it works. ~~On April 8th~~ In the end of April MoveYou will do a technical update that makes responses faster than the > 10 seconds we are currently experiencing.
 | 2022-04-05 | MoveYou sends documentation on their TOMP feed, as well as credentials.
 | 2022-03-28 | We reply: "Good that you'll share a TOMP feed URL and token. You don't have to share all vehicles with any status, but only vehicles that are unrented in public space, see [PROW](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#general)." We ask for the expected date on which the TOMP feed and token will be shared with us.
