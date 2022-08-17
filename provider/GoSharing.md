@@ -2,13 +2,13 @@
 
 ## Data quality status
 
-Last updated: 2022-07-10.
+Last updated: 2022-08-17.
 
-| **Quality check**            | **Quality**
-| --                          | --      |
+| **Quality check**           | **Quality**
+| --                          | --
 | Uses data standard?         | :heavy_check_mark: MDS
 | Updated <= 30s?             | :heavy_check_mark:
-| Correct PROW?               | :heavy_check_mark:
+| Correct PROW?               | ❌
 | All NL data?                | :heavy_check_mark:
 | Includes vehicle type?      | :heavy_check_mark:
 | Accuracy number of trips    | Δ = -0,523% 👍 (last test: March 2021)
@@ -17,12 +17,24 @@ Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-GO Sharing offers a new MDS feed. If the feed response does load consistently in 10 seconds or less, the feed is ready to use.
+### Improve the feed response time
+
+Sometimes it takes 15 seconds to get a response. Pleae make sure that it's always < 10 seconds loading time.
+
+### Remove vehicles that are in depots
+
+Regarding the CROW Dashboard Deelmobiliteit [data feed specifications](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#general), vehicles that are not in de public space should _not_ be in the feed.
+
+Following the MDS specifications vehicles in depots may be included in the feed for _at most_ [90 minutes](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles). This is optional: you can also remove the vehicles from the feed instantly from the moment that these are outside of public space. The vehicles should only be included in the feed again, if the vehicles are in put into public space (this is called '[PROW](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/general-information.md#vehicle-states=)' in the MDS documentation).
+
+> For the states elsewhere and removed which include vehicles not in the PROW but provide some operational clarity for agencies, these must only persist in the feed for 90 minutes before being removed.
 
 ## Logs
 
 | Date       | Update 
 | ----       | ---
+| 2022-08-17 | We email GO Sharing and ask for a status update on the incorrect feed PROW.
+| 2022-07-26 | We notice that the feed doesn't follow the MDS PROW rules. We email GO Sharing and ask: Can you make sure that the feed only include vehicles that are in public space? We updated the GO Sharing data quality from 🟢 _Perfect_ to 🟡 _Usable though needs improvement_.
 | 2022-07-10 | 🎉 We enabled the https://platform.api.gourban.services/v1/greenmo/api/mds/netherlands/vehicles MDS feed. We did disable https://greenmo.core.gourban-mobility.com/api/gbfs/en/free-bike-status GBFS feed.
 | 2022-07-05 | GO Sharing emails: End of July the update for faster reponse times of the MDS /vehicles feed will be delivered.
 | 2022-06-17 | We email: As goUrban is working on making the feed faster and this will be finished in the next sprint, we decided we can activate the MDS feed now. We will activate the MDS feed and inform you if this is done.
