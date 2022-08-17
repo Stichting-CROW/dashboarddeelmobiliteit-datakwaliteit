@@ -96,3 +96,9 @@ The operator should communicate what kind of vehicle it's reporting.
 To decide on what vehicle type should be reported, use the [table in our dataspec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#vehicle-types).
 
 For every data standard, there's documentation on how to include the vehicle type ([GBFS](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21), [MDS](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/general-information.md#vehicle-types)).
+
+## Integrations by external parties
+
+The public data feed of CROW Dashboard Deelmobiliteit is currently used by the following tools:
+
+- [Zwolle arcgis data portal](https://www.arcgis.com/home/item.html?id=ec6f32f71d1f413ebbcbc3bc6a0e1151)
