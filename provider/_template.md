@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2021-09-02.
+Last updated at 2022-09-02.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -15,6 +15,7 @@ Last updated at 2021-09-02.
 
 Status: 🔴 Unusable
 Status: 🟡 Usable though needs improvement
+Status: 🟢 Perfect
 
 ## Improvements to make
 
