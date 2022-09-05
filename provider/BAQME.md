@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-01-24.
+Last check: 2022-09-05.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,19 +11,8 @@ Last updated: 2022-01-24.
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
-| Accuracy number of trips    | Δ = 12% (March 2021)
 
 Status: 🟡 Usable though needs improvement
-
-### Explanation
-
-- The data feed uses one of the supported standards 👍
-- The feed is updated frequently 👍
-- BAQME does not offer 'vehicle type' in their data feed yet
-
-The Dashboard Deelmobiliteit includes +12% more trips than BAQME reported for the periode of March 10th - March 20th 2021. This is not perfect, though the analysis was done for a small data set. We keep improving this.
-
-The current status is 'usable though needs improvement'. As soon as vehicle type is added, the status will be 🟢 Perfect! 
 
 ## Improvements to make
 
@@ -57,5 +46,11 @@ Thank you!
 
 | Updated    | Description
 | ----       | ---
+| 2022-08-15 | BAQME emails us: 'At the moment Joyride doesn't give priority to updating the feed so it follows the GBFS standard (`is_reserved` property). We/BAQME updated our "old" custom made BAQME feed. It should give accurate data now.'
+| 2022-08-15 | We didn't get any response from Joyride.
+| 2022-07-19 | The Joyride GBFS feed has no rotated ID's, but it doesn't remove vehicles from the feed if these are in active rental ([though they should](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_statusjson)). We emailed Joyride and ask if they can fix the GBFS feed so it doesn't include vehicles that have an active rental.
+| 2022-07-09 | We added the new GBFS feed for testing purposes.
+| 2022-06-28 | BAQME asks us if we can activate the GBFS feed of joyridecity.bike, so that BAQME's can disable its own feed and save resources. 
+| 2022-03-21 | BAQME emails: "We got a GBFS feed URL from our whitelabel software provider. Could you check if this feed is valid and that is does have static vehicle IDs?"
 | 2022-01-31 | There has been 'fake' vehicle at [51.9103119, 4.4782139] from 2021-09-06 to 2022-01-26 11:00. Reason was: Joyride often sends this exact coordinate if there's a status change. BAQME fixed this in their feed and asked Joyride to fix it at there side as well. Since 2022-01-26 this 'fake' vehicle is not present in the data feed anymore, so all is good now
 | 2021-09-09 | Asked BAQME to add vehicle type
