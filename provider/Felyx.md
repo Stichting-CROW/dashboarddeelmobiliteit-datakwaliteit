@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-05-19.
+Last checked at 2022-09-05.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,7 +11,6 @@ Last updated: 2022-05-19.
 | Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ❌
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
-| Accuracy number of trips    | Δ = -13.7% (March 2021)
 
 Status: 🟡 Usable though needs improvement
 
@@ -20,14 +19,6 @@ Status: 🟡 Usable though needs improvement
 ### Update datafeed at most every 30 seconds
 
 At the moment the data feed is updated every 300 seconds. Please make the datafeed update more frequently, at least every 30s.
-
-### Don't include bikes that do not exist in public space
-
-Felyx shares bikes with the Dashboard Deelmobiliteit that do not exist in public space.
-
-Properties of this type of data are that it has a GPS location in public space, the property `is_disabled` is `1` and if you walk to the bike in real life, the bike is not there.
-
-To see examples of this type of incorrect data, [see this document](./Felyx_extra.md).
 
 ### Add vehicle type
 
@@ -59,7 +50,8 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
-| 2022-05-19 | Gemeente Enschede mentions that Felyx data isn't perfect: often rentals are missing. We respond and say that the cause is that Felyx only updates its data every 300 seconds instead of the 30 seconds that is in the specifications. We will contact Felyx again on this and ask for a solution, so that in the future the data feed is refreshed every 30 seconds and municipalities will have reliable data.
+| 2022-05-19 | Gemeente Enschede mentions that Felyx data isn't perfect: often rentals are missing. We respond and say that the cause is that Felyx only updates its data every 300 seconds instead of the 30 seconds that is in the specifications. We will contact Felyx again on this and ask for a solution, so that in the future the data feed is refreshed every 30 seconds and municipalities will have reliable data
+| 2022-04-19 | Felyx attended our 'Introduction in MDS' meeting
 | 2022-03-29 | Felyx emails: Enschede and Zwolle data is now shared with the CROW Dashboard. We confirm this is the case. Issue of March 8th is solved.
 | 2022-03-28 | We email Felyx and ask: Can you enable Zwolle and Enschede, or give a planning/timeline?
 | 2022-03-24 | Municipality of Enschede asks us again if Felyx data can be visible in the CROW Dashboard.

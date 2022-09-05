@@ -7,10 +7,10 @@ Last updated at 2022-06-07.
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ❌
-| Updated <= 30s?             | ❌
-| Correct PROW?               | ❌
-| All NL data?                | ❌
-| Includes vehicle type?      | ❌
+| Updated <= 30s?             | ➖
+| Correct PROW?               | ➖
+| All NL data?                | ➖
+| Includes vehicle type?      | ➖
 
 Status: 🔴 Unusable
 

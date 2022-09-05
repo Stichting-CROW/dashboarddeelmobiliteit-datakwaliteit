@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-03-11.
+Last checked at 2022-09-05.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,19 +11,8 @@ Last updated: 2022-03-11.
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
-| Accuracy number of trips    | Δ = -0.083% 👍 (March 2021)
 
 Status: 🟡 Usable though needs improvement
-
-### Explanation
-
-- The data feed uses one of the supported standards 👍
-- The feed is updated frequently 👍
-- CHECK does follow the data specification 👍
-- CHECK offers data of all vehicles 👍
-- CHECK does not offer 'vehicle type' in their data feed yet
-
-The current status is 'usable though needs improvement'. As soon as the vehicle type is included in the data feed, the status will be 🟢 Perfect.
 
 ## Improvements to make
 

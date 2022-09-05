@@ -2,22 +2,30 @@
 
 ## Data quality status
 
-Last updated at 2022-07-18.
+Last checked at 2022-09-05.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ MDS
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ❔
-| All NL data?                | ❌
+| All NL data?                | ✅
 | Includes vehicle type?      | ✅
 
 Status: 🟢 Perfect
+
+## Improvements to make
+
+### Offer 1 feed having all cities
+
+At the moment Bird offers multiple MDS feeds for multiple cities. To make management of the city feeds easier, please offer 1 MDS feed that contains all cities that CROW Dashboard Deelmobiliteit has access to.
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2022-07-21 | We added Zwolle data to the Dashboard.
+| 2022-07-18 | Groningen stopped accepting Bird vehicles (aanbesteding). Bird started in Zwolle.
 | 2022-07-18 | Activated Amersfoort feed: Data of Bird Amersfoort is in the Dashboard again. Asked Bird on why the Groningen feed returns "Zone not found"
 | 2022-06-09 | Bird emails with a response to our questions.
 | 2022-06-07 | We tested the new Groningen and Amersfoort feed URLs. Groningen works, Amersfoort does not. We ask Bird for some support on this.
