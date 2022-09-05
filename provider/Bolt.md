@@ -1,22 +1,22 @@
-# Data quality: Provider name
+# Data quality: Bolt
 
 ## Data quality status
 
-Last updated at 2022-07-19.
+Last checked at 2022-09-05.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | :heavy_check_mark: MDS
-| Updated <= 30s?             | :heavy_check_mark:
-| Correct PROW?               | :heavy_check_mark:
-| All NL data?                | :heavy_check_mark:
-| Includes vehicle type?      | :heavy_check_mark:
+| Uses data standard?         | -
+| Updated <= 30s?             | -
+| Correct PROW?               | -
+| All NL data?                | -
+| Includes vehicle type?      | -
 
-Status: 🟢 Perfect
+Status: 🔴 Unusable
 
 ## Improvements to make
 
-None - all works fine.
+Offer data feed
 
 ## Logs
 
