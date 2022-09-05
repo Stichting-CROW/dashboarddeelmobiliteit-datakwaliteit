@@ -2,38 +2,30 @@
 
 ## Data quality status
 
-Last updated: 2022-05-12.
+Last updated: 2022-09-05.
 
 | **Quality check**           | **Quality**
 | --                          | -- |
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ✅
-| Correct PROW?               | ❔
-| All NL data?                | ❌
-| Includes vehicle type?      | ❌
-| Accuracy number of trips    | Δ = 0% 👍
+| Correct PROW?               | ✅
+| All NL data?                | ✅
+| Includes vehicle type?      | ❌ ✅ (feed 1: no, feed 2: yes)
 
 Status: 🟡 Usable though needs improvement
-
-### Explanation
-
-- The data feed uses one of the supported standards 👍
-- The feed is updated frequently 👍
-- We have to check if the data specification is followed perfectly
-- Deelfiets Nederland does not offers data of all vehicles ⏳
-- Deelfiets Nederland does not offer 'vehicle type' in their data feed yet
-
-The current status is 'usable though needs improvement'. As soon as all vehicle data is included, and vehicle type is added in the datafeed, the status will be 🟢 Perfect.
 
 ## Improvements to make
 
 - Add all places in 1 feed
-- Add vehicle_type_id for every vehicle
+- Add vehicle_type_id for every vehicle, in both feeds
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2022-09-05 | Since July 8th no feed outage has happened, which is good. We still have to fix [this issue](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/24) so we get support for two feeds that run simultaneously.
+| 2022-06-08 | Today and yesterday we got an feed timeout. This explains the many rentals in the database on these two days.
+| 2022-05-18 | We enabled both GBFS feeds again. If no timeouts happen, data will be stored well. If timeouts happen, a lot of rentals will be stored in the database.
 | 2022-05-16 | We disabled the new GBFS feed, as it seemed to give some [problems](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/24). As soon as we investigated this, we activate the feed again (or give feedback to the provider).
 | 2022-04-19 | We activated the new GBFS feed. Now two GBFS feeds are running simultaneously.
 | 2022-04-19 | Deelfiets Nederland emails: 'We have a feed ready for you on the new platform. We can keep the old feed running on the existing URL. Simultaneously we run the new feed with most of the locations of Deelfiets Nederland. PS The new feed supports vehicle_type_id.'
