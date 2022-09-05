@@ -2,28 +2,27 @@
 
 ## Data quality status
 
-Last updated at 2022-05-17.
+Last checked at 2022-09-05.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ GBFS
-| Updated <= 30s?             | ✅
-| Correct PROW?               | ✅
-| All NL data?                | ✅
-| Includes vehicle type?      | ✅
+| Updated <= 30s?             | ❌
+| Correct PROW?               | ❌
+| All NL data?                | ❌
+| Includes vehicle type?      | ❌
 
-Status: 🟢 Perfect
+Status: 🔴 Unusable
 
 ## Improvements to make
 
-Possible improvement:
-
-- Offer a MDS data feed instead of a GBFS feed
+None, as Dott is not active on the Dutch market at the moment.
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2022-07-11 | Dott decided to stop all activities on the Dutch market. We don't get data from Dott anymore
 | 2022-06-08 | Dott does include Amersfoort data again. All good now.
 | 2022-06-08 | Vehicle info from Amersfoort is missing since May 18th. Enschede data is still present. We ask Dott to enable Amersfoort in the feed again.
 | 2022-05-17 | Dott started in Enschede. The vehicles are present in the feed from today.
