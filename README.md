@@ -101,3 +101,43 @@ For every data standard, there's documentation on how to include the vehicle typ
 The public data feed of CROW Dashboard Deelmobiliteit is currently used by the following tools:
 
 - [Zwolle arcgis data portal](https://www.arcgis.com/home/item.html?id=ec6f32f71d1f413ebbcbc3bc6a0e1151)
+
+## Logos of providers connected to Dashboard Deelmobiliteit
+
+<img alt="Cykl" src="https://www.cykl.nl/img/cykl_word.png" width="100" />
+
+<img alt="Donkey Republic" src="https://cdn.donkey.bike/wp-content/uploads/2016/04/16121255/New-logo-small.png" width="100" />
+
+<img alt="HTM" src="https://www.htm.nl/typo3conf/ext/htm_template/Resources/Public/img/logo.svg" width="100" />
+
+<img alt="GO Sharing" src="https://nl.go-sharing.com/app/uploads/2020/11/logo@2x.png" width="100" />
+
+<img alt="CHECK" src="https://cdn.homerun.co/53887/check-wordmark-black4x-31571056630logo.png" width="100" />
+
+<img alt="Felyx" src="https://cdn.felyx.com/uploads/2021/03/010720-Felyx-logo.png" width="100" />
+
+<img alt="Deelfiets Nederland" src="https://www.deelfietsnederland.nl/wp-content/uploads/2019/11/HL2mPwHA-300x236.png" width="100" />
+
+<img alt="KeoBike" src="https://www.keobike.nl/App_Themes/Syntus/img/logo-keobike.png" width="100" />
+
+<img alt="Lime" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Lime_Logos-wiki-01.svg/2560px-Lime_Logos-wiki-01.svg.png" width="100" />
+
+<img alt="BAQME" src="https://www.baqme.com/wp-content/uploads/2021/01/BAQME_Logo_Black@3x-1.png" width="100" />
+
+<img alt="Cargoroo" src="https://cargoroo.nl/wp-content/uploads/2021/11/Cargoroo-web-logo-1.png" width="100" />
+
+<img alt="Uw Deelfiets" src="https://www.uwdeelfiets.nl/wp-content/uploads/2021/06/uw-deelfiets-2021-logo-2.svg" width="100" />
+
+<img alt="hely" src="https://hely.com/static/images/hely-logo.svg" width="100" />
+
+<img alt="TIER" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/TIER_Mobility_Logo_%28blau%2C_2021%29.svg/512px-TIER_Mobility_Logo_%28blau%2C_2021%29.svg.png" width="100" />
+
+<img alt="Bird" src="https://mms.businesswire.com/media/20220125005267/en/1308263/5/Bird_Logo_Lockup_ko.jpg" width="100" />
+
+<img alt="Bolt" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Bolt_logo.png/1200px-Bolt_logo.png?20190831113556" width="100" />
+
+<img alt="Bondi" src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Bondi.city_logo.png" width="100" />
+
+<img alt="moveyou" src="https://moveyou.com/wp-content/themes/moveyou/assets/gfx/brand-large.svg" width="100" />
+
+Providers above were actively sharing data on 2022-09-14.
