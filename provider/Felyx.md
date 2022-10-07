@@ -50,6 +50,8 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-09-12 | Felyx does share Tilburg data with Dashboard Deelmobiliteit again. We are missing Tilburg Felyx data from September 8th until 12th
+| 2022-09-08 | Felyx doesn't share Tilburg data anymore. We contacted Felyx
 | 2022-05-19 | Gemeente Enschede mentions that Felyx data isn't perfect: often rentals are missing. We respond and say that the cause is that Felyx only updates its data every 300 seconds instead of the 30 seconds that is in the specifications. We will contact Felyx again on this and ask for a solution, so that in the future the data feed is refreshed every 30 seconds and municipalities will have reliable data
 | 2022-04-19 | Felyx attended our 'Introduction in MDS' meeting
 | 2022-03-29 | Felyx emails: Enschede and Zwolle data is now shared with the CROW Dashboard. We confirm this is the case. Issue of March 8th is solved.
