@@ -2,27 +2,29 @@
 
 ## Data quality status
 
-Last checked at 2022-09-05.
+Last checked at 2022-10-18.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | -
-| Updated <= 30s?             | -
-| Correct PROW?               | -
-| All NL data?                | -
-| Includes vehicle type?      | -
+| Uses data standard?         | ✅ MDS
+| Updated <= 30s?             | ✅
+| Correct PROW?               | ✅
+| All NL data?                | ✅
+| Includes vehicle type?      | ✅
 
-Status: 🔴 Unusable
+Status: 🟢 Perfect
 
 ## Improvements to make
 
-Offer data feed
+Offer all vehicle data in 1 MDS data feed instead of multiple feeds (for every city)
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
-| 2022-07-19 | Bolt emails: Bolt will launch e-bikes in Groningen in early September.
+| 2022-10-18 | We activate the Nijmegen feed (12 vehicles at the moment)
+| 2022-10-17 | Bolt shares feed credentials for Nijmegen
+| 2022-07-19 | Bolt emails: Bolt will launch e-bikes in Groningen in early September
 | 2022-07-15 | 🎉 Bolt launches in Enschede
 | 2022-07-08 | Bolt shares feed credentials for Enschede
 | 2022-07-04 | We tested the MDS feed and it works
