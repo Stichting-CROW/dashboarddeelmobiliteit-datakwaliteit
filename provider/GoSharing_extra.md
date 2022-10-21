@@ -10,7 +10,12 @@ Deze scooter (ID: P7B7 oftewel 12128) staat in Rotterdam in de buurt van de Hofp
 
 Het batterijpercentage is 0. Het voertuig is niet zichtbaar in de GO Sharing app. De status in de MDS feed is: available.
 
-Dit zijn 2 fouten in de feed.
+Dit zijn 2 fouten in de feed:
+
+- De status zou moeten zijn: disabled
+- De GPS-locatie zou goed moeten zijn
+
+Dit is de betreffende voertuiginformatie die we ontvangen middels de MDS feed.
 
 ```json
 {

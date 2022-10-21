@@ -32,7 +32,7 @@ Sometimes it takes 15 seconds to get a response. Pleae make sure that it's alway
 
 | Date       | Update 
 | ----       | ---
-| 2022-10-14 | We analyse the both data sets and conclude that the same issue that we reported at 2022-07-26 is causing the difference in vehicles. This issue has to be fixed for an longer amount of time. We (again) send info on how to fix this and ask GO Sharing if the issue in the MDS feed can be fixed. Also we inform the municipalities that noticed the incorrect data.
+| 2022-10-14 | We analysed the both data sets and conclude that the same issue that we reported at 2022-07-26 is causing the difference in vehicles. This issue has to be fixed for an longer amount of time. We (again) send info on how to fix this and ask GO Sharing if the issue in the MDS feed can be fixed. Also we inform the municipalities that noticed the incorrect data.
 | 2022-10-14 | GO Sharing sends us a spreadsheet with overview of vehicles in Tilburg, to compare with data in the Dashboard. We start comparing.
 | 2022-10-10 | We share an overview of vehicles in Tilburg (data by the Dashboard Deelmobiliteit). We ask for a spreadsheet with data from GO Sharing, for the same date/time as our snapshot.
 | 2022-09-19 | GO Sharing emails and mentions that the GO Sharing data team sees that the amount of vehicles in the Dashboard Deelmobiliteit and the amount in their own dashboard do not match. We mention that it might have to do with the issue we reported in 2022-07-26: Vehicles that are not in public space anymore are still given to us in the MDS feed, with the wrong vehicle status. Next to that we promise to share data for Tilburg, to compare both dashboards.
