@@ -8,7 +8,7 @@ Last checked at 2022-09-05.
 | --                          | --          |
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ✅
-| Correct PROW?               | ✅
+| Correct PROW?               | ❌
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
 
@@ -44,6 +44,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2023-01-23 | Groningen noticed the CHECK data is missing since January 17th 2AM. We see that we receive incomplete data from CHECK: Only 5 vehicles are sent to us. We ask CHECK to resolve this.
 | 2022-10-07 | We investigated the issue. We were using an http end point and not a https end point. Since last week the CHECK http end point stopped working. Therefor the feed didn't work since X. This has been fixed now
 | 2022-09-30 | Since today no CHECK rentals are registered anymore
 | 2022-01-24 | We checked if PROW is correct at this moment. It is :)  so far we can see. Issues [[1]](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/9), [[2]](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/10) and [[3]](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/11) were fixed. We update the quality status of PROW from ❌ to ✅
