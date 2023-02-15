@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2022-09-05.
+Last checked at 2023-02-15.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -15,6 +15,14 @@ Last checked at 2022-09-05.
 Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
+
+### Offer a MDS feed
+
+Best is to offer a MDS feed, like in the [data spec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#general). At the moment the GBFS feed is used (deprecated).
+
+### Offer 1 GBFS feed for NL instead of 1 feed per city/area
+
+It is prefered that one feed is offered for all vehicles in The Netherlands. This prevents mistakes.
 
 ### Add vehicle type
 
@@ -46,14 +54,12 @@ For Donkey Republic this means:
 
 To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit#).
 
-### Offer 1 GBFS feed for NL instead of 1 feed per city/area
-
-It is prefered that one feed is offered for all vehicles in The Netherlands. This prevents mistakes.
-
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2023-02-15 | We email Donkey Republic and ask to include all unrented vehicles in public space, in their GBFS feed
+| 2023-02-13 | Gemeente Rotterdam emails: 40 New Donkey Republic bikes that are in public space are not in the GBFS-feed
 | 2022-06-14 | We confirmed: The GBFS feeds are working well again.
 | 2022-06-13 | Donkey Republic emails: "If I'm right the feed data should now be available again"
 | 2022-06-07 | We email and ask for an update.
