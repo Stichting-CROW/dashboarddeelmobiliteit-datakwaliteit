@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2023-02-15.
+Last checked at 2023-03-14.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -58,7 +58,11 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
-| 2023-02-15 | We email Donkey Republic and ask to include all unrented vehicles in public space, in their GBFS feed
+| 2023-03-13 | We hebben de GBFS-feed van Donkey/Gorinchem toegevoegd; er is vanaf vandaag data van Gorinchem in het Dashboard Deelmobilitit
+| 2023-03-13 | Donkey deelt het `city ID` van Gorinchem (515)
+| 2023-03-08 | We vragen Donkey Republic om het `city ID` van Gorinchem te delen
+| 2023-03-07 | Donkey deelt de reden dat Gorinchem mist in de data: Drechtsteden en Rotterdam zijn gesplitst in het systeem van Donkey (voorheen vielen ze onder 1 account en dus 1 GBFS-feed)
+| 2023-02-13 | Provincie Zuid-Holland meldt dat Gorinchem mist in het Dashboard. Fietsen rijden al - officiële opening is 9 maart
 | 2023-02-13 | Gemeente Rotterdam emails: 40 New Donkey Republic bikes that are in public space are not in the GBFS-feed
 | 2022-06-14 | We confirmed: The GBFS feeds are working well again.
 | 2022-06-13 | Donkey Republic emails: "If I'm right the feed data should now be available again"
