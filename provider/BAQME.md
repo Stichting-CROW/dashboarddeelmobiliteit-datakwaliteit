@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last check: 2022-09-05.
+Last check: 2023-05-08.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -46,6 +46,8 @@ Thank you!
 
 | Updated    | Description
 | ----       | ---
+| 2023-03-07 | ✅ The data outage is fixed at 17:32 today. There're new, seperate GBFS feeds instead of 1 combined feed: https://baqmefleet.com/generate_full_feed.php?fleet=rtm and https://baqmefleet.com/generate_full_feed.php?fleet=dh. We prefer 1 combined feed. BAQME sais it will offer the data in 1 combined feed again.
+| 2023-03-03 | 🐛 There's a data outage. We didn't receive data from the GBFS end point anymore since yesterday 8am and today. Reason was an app migration at/to Joyride.
 | 2022-08-15 | BAQME emails us: 'At the moment Joyride doesn't give priority to updating the feed so it follows the GBFS standard (`is_reserved` property). We/BAQME updated our "old" custom made BAQME feed. It should give accurate data now.'
 | 2022-08-15 | We didn't get any response from Joyride.
 | 2022-07-19 | The Joyride GBFS feed has no rotated ID's, but it doesn't remove vehicles from the feed if these are in active rental ([though they should](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_statusjson)). We emailed Joyride and ask if they can fix the GBFS feed so it doesn't include vehicles that have an active rental.
