@@ -2,19 +2,23 @@
 
 ## Data quality status
 
-Last checked at 2023-03-14.
+Last checked at 2023-06-15.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ✅
-| Correct PROW?               | ✅
+| Correct PROW?               | ❌
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
 
 Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
+
+### Share bicycles that are parked outside hubs
+
+We do not get all unrented vehicles that are parked in public space. We get the parked vehicles inside hubs, but we don't get parked vehicles outside hubs. Please offer all vehicles that are parked in public space, in your data feed.
 
 ### Offer a MDS feed
 
@@ -58,6 +62,8 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2023-06-16 | We vragen Donkey Republic per mail om het datafeed-probleem op te lossen (geef alle geparkeerde voertuigen terug, ook voertuigen buiten hubs)
+| 2023-05-23 | Gemeente Amsterdam merkt op dat 'misplaced' voertuigen (voertuigen geparkeerd buiten Donkey-hubs) niet in het Dashboard staan. We hadden hier in februari al contact over opgenomen met Donkey Republic, maar hier is nog niets mee gedaan
 | 2023-03-13 | We hebben de GBFS-feed van Donkey/Gorinchem toegevoegd; er is vanaf vandaag data van Gorinchem in het Dashboard Deelmobilitit
 | 2023-03-13 | Donkey deelt het `city ID` van Gorinchem (515)
 | 2023-03-08 | We vragen Donkey Republic om het `city ID` van Gorinchem te delen
