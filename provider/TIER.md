@@ -2,26 +2,29 @@
 
 ## Data quality status
 
-Last updated: 2022-06-07.
+Last updated: 2023-06-16.
 
 | **Quality check**           | **Quality**
 | --                          | --      |
-| Uses data standard?         | ✅ GBFS
-| Updated <= 30s?             | ✅
+| Uses data standard?         | ✅ MDS
+| Updated <= 30s?             | ❔
 | Correct PROW?               | ❔
-| All NL data?                | ✅
-| Includes vehicle type?      | ✅
+| All NL data?                | ❔
+| Includes vehicle type?      | ❔
 
-Status: 🟢 Perfect
+Status: 🔴
 
 ## Improvements to make
 
-None. All seems to work well now.
+New MDS feed need to be implemented by Team Dashboard Deelmobiliteit.
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2023-06-16 | The MDS credentials work, but getting the vehicles doesn't. We ask TIER to investigate why we get an error ('cannot get length of undefined')
+| 2023-06-13 | Feed is still down. Today we got the MDS credentials.
+| 2023-06-05 | GBFS-feed is down since May 31th. Reason: "CROW DD used version 1.2. We (TIER) were accepting any version in the URL, and if the version was not not valid we simply fell back to version 2.1. From now we are only accepting major version 2 (and 3 later on)". We asked for an alternative feed, in example MDS. There is MDS ([docs](https://api-documentation.tier-services.io/docs/data-sharing/MDS/TIER%20MDS%20API%20v1.2.html)) and we'll get the credentials
 | 2022-06-07 | We disabled the old feeds for the 4 NL cities, and activated the new feed. The new feed seems to work fine.
 | 2022-05-30 | TIER has created a new GBFS 2.1 feed URL that we can use to get all NL data: https://platform-services.tier-services.io/data-sharing/tier_shard_south_west_europe_middle_east/gbfs/1.2/free-bike-status. In the past we had to add a new GBFS 2.2 feed for every new city that TIER started to be active in. Good news.
 | 2022-04-28 | TIER has given us access to TIER data of Almere - Almere is active now
