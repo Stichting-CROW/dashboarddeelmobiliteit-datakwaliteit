@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last check: 2023-05-08.
+Last check: 2023-06-22.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -46,6 +46,8 @@ Thank you!
 
 | Updated    | Description
 | ----       | ---
+| 2023-06-22 | 🐛 BAQME geeft aan dat er al een MDS-feed is voor Rotterdam. BAQME kan een samengestelde MDS-feed aanleveren met data van alle fleets. Wordt vervolgd.
+| 2023-06-13 | 🐛 Gemeente Den Haag merkt op dat er geen verhuringen van BAQME te zien zijn, terwijl die er wel verhuringen moeten zijn. Wij zien dat de GBFS-feed van BAQME sinds enige tijd roterende ID's heeft, hetgeen niet werkt in combinatie met het Dashboard Deelmobiliteit. Wij noemen dat MDS of GBFS 1.0 ondersteund worden.
 | 2023-03-07 | ✅ The data outage is fixed at 17:32 today. There're new, seperate GBFS feeds instead of 1 combined feed: https://baqmefleet.com/generate_full_feed.php?fleet=rtm and https://baqmefleet.com/generate_full_feed.php?fleet=dh. We prefer 1 combined feed. BAQME sais it will offer the data in 1 combined feed again.
 | 2023-03-03 | 🐛 There's a data outage. We didn't receive data from the GBFS end point anymore since yesterday 8am and today. Reason was an app migration at/to Joyride.
 | 2022-08-15 | BAQME emails us: 'At the moment Joyride doesn't give priority to updating the feed so it follows the GBFS standard (`is_reserved` property). We/BAQME updated our "old" custom made BAQME feed. It should give accurate data now.'
