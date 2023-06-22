@@ -6,7 +6,7 @@ Last check: 2023-06-22.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ✅ GBFS
+| Uses data standard?         | ❌ GBFS 2.0 is used instead of MDS or GBFS 1.*
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ✅
 | All NL data?                | ✅
@@ -16,38 +16,16 @@ Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-### Add vehicle type to the GBFS data feed
+### Bied een MDS-feed aan
 
-🆕 The operator should communicate what kind of vehicle it's reporting. 
-
-Since GBFS 2.1 there's a field, `vehicle_type_id`, that defines what kind of vehicle is offered.
-
-Please start offering vehicle type in the feed, following the GBFS' standard.
-
-To do this, you can use these documentation pages: 
-
-1. Add [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
-2. In free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)
-
-As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) standard definition for electric cargo bikes:
-
-- form_factor: `cargo_bicycle`
-- propulsion_type: `electric_assist`
-- max_range_meters: `X1`
-- wheel_count: `2`
-- max_permitted_speed: `X3`
-- rated_power: `X4`
-
-To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit#).
-
-Thank you!
+Op het moment wordt een GBFS 2.0 datafeed aangeboden, met roterende voertuig-IDs. Het probleem hiermee is dat het Dashboard Deelmobiliteit hierdoor geen verhuringen kan registeren. Oplossing: bied een MDS-feed met alle voertuigen in Nederland.
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
 | 2023-06-22 | 🐛 BAQME geeft aan dat er al een MDS-feed is voor Rotterdam. BAQME kan een samengestelde MDS-feed aanleveren met data van alle fleets. Wordt vervolgd.
-| 2023-06-13 | 🐛 Gemeente Den Haag merkt op dat er geen verhuringen van BAQME te zien zijn, terwijl die er wel verhuringen moeten zijn. Wij zien dat de GBFS-feed van BAQME sinds enige tijd roterende ID's heeft, hetgeen niet werkt in combinatie met het Dashboard Deelmobiliteit. Wij noemen dat MDS of GBFS 1.0 ondersteund worden.
+| 2023-06-13 | 🐛 Gemeente Den Haag merkt op dat er geen verhuringen van BAQME te zien zijn, terwijl die er wel verhuringen moeten zijn. Wij zien dat de GBFS-feed van BAQME sinds enige tijd roterende ID's heeft, hetgeen niet werkt in combinatie met het Dashboard Deelmobiliteit. Wij noemen dat MDS of GBFS 1.0 ondersteund worden. Zo te zien geeft de GBFS feed met roterende ID's problemen sinds 3 april 2023.
 | 2023-03-07 | ✅ The data outage is fixed at 17:32 today. There're new, seperate GBFS feeds instead of 1 combined feed: https://baqmefleet.com/generate_full_feed.php?fleet=rtm and https://baqmefleet.com/generate_full_feed.php?fleet=dh. We prefer 1 combined feed. BAQME sais it will offer the data in 1 combined feed again.
 | 2023-03-03 | 🐛 There's a data outage. We didn't receive data from the GBFS end point anymore since yesterday 8am and today. Reason was an app migration at/to Joyride.
 | 2022-08-15 | BAQME emails us: 'At the moment Joyride doesn't give priority to updating the feed so it follows the GBFS standard (`is_reserved` property). We/BAQME updated our "old" custom made BAQME feed. It should give accurate data now.'
