@@ -2,28 +2,30 @@
 
 ## Data quality status
 
-Last check: 2023-06-22.
+Last check: 2023-07-07.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ❌ GBFS 2.0 is used instead of MDS or GBFS 1.*
+| Uses data standard?         | ✅ MDS
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ✅
 | All NL data?                | ✅
-| Includes vehicle type?      | ❌
+| Includes vehicle type?      | ❌ Ja, maar incorrect
 
 Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-### Bied een MDS-feed aan
+### Bied 1 MDS-feed aan voor heel Nederland
 
-Op het moment wordt een GBFS 2.0 datafeed aangeboden, met roterende voertuig-IDs. Het probleem hiermee is dat het Dashboard Deelmobiliteit hierdoor geen verhuringen kan registeren. Oplossing: bied een MDS-feed met alle voertuigen in Nederland.
+Momenteel worden 4 MDS-feeds aangeleverd, voor elke vloot 1. Liever ontvangen we 1 MDS-feed met alle NL voertuigen.
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2023-07-07 | ✅ De 4 nieuwe MDS-feeds zijn geactiveerd en de GBFS-feed is gedeactiveerd. De feeds zouden nu weer moeten resulteren in juiste verhuurdata
+| 2023-06-29 | 🐛 Wij ontvangen links naar de MDS-feeds van BAQME 👍
 | 2023-06-22 | 🐛 BAQME geeft aan dat er al een MDS-feed is voor Rotterdam. BAQME kan een samengestelde MDS-feed aanleveren met data van alle fleets. Wordt vervolgd.
 | 2023-06-13 | 🐛 Gemeente Den Haag merkt op dat er geen verhuringen van BAQME te zien zijn, terwijl die er wel verhuringen moeten zijn. Wij zien dat de GBFS-feed van BAQME sinds enige tijd roterende ID's heeft, hetgeen niet werkt in combinatie met het Dashboard Deelmobiliteit. Wij noemen dat MDS of GBFS 1.0 ondersteund worden. Zo te zien geeft de GBFS feed met roterende ID's problemen sinds 3 april 2023.
 | 2023-03-07 | ✅ The data outage is fixed at 17:32 today. There're new, seperate GBFS feeds instead of 1 combined feed: https://baqmefleet.com/generate_full_feed.php?fleet=rtm and https://baqmefleet.com/generate_full_feed.php?fleet=dh. We prefer 1 combined feed. BAQME sais it will offer the data in 1 combined feed again.
