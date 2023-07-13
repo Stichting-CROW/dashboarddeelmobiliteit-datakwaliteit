@@ -6,13 +6,13 @@ Last updated: 2023-06-22.
 
 | **Quality check**           | **Quality**
 | --                          | --      |
-| Uses data standard?         | 🔴 MDS
+| Uses data standard?         | 🟢 MDS
 | Updated <= 30s?             | ❔
 | Correct PROW?               | ❔
 | All NL data?                | ❔
 | Includes vehicle type?      | ❔
 
-Status: 🔴
+Status: 🟢
 
 ## Improvements to make
 
