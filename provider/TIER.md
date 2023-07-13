@@ -24,6 +24,7 @@ Per 31 mei stopte de TIER datafeed opeens met werken. TIER heeft nieuwe document
 
 | Updated    | Description
 | ----       | ---
+| 2023-07-13 | Authenticatie probleem verholpen, werkende MDS /vehicles feed.
 | 2023-06-19 | 🐛 TIER noemt: volgende week kan de developer hiernaar kijken (>= 26 juni)
 | 2023-06-16 | 🐛 The MDS credentials work, but getting the vehicles doesn't. We ask TIER to investigate why we get an error ('cannot get length of undefined')
 | 2023-06-13 | 🐛 Feed is still down. Today we got the MDS credentials.
