@@ -2,28 +2,32 @@
 
 ## Data quality status
 
-Last updated: 2023-06-22.
+Last updated: 2023-07-13.
 
 | **Quality check**           | **Quality**
 | --                          | --      |
-| Uses data standard?         | 🔴 MDS
-| Updated <= 30s?             | ❔
-| Correct PROW?               | ❔
-| All NL data?                | ❔
-| Includes vehicle type?      | ❔
+| Uses data standard?         | ✅ MDS
+| Updated <= 30s?             | ✅
+| Correct PROW?               | ✅
+| All NL data?                | ✅
+| Includes vehicle type?      | ✅
 
-Status: 🔴
+Status: 🟢
 
 ## Improvements to make
 
-### Bied een werkende MDS-feed aan
-
-Per 31 mei stopte de TIER datafeed opeens met werken. TIER heeft nieuwe documentatie aangeleverd voor verbinden met de TIER MDS-feed, maar de stappen werken niet. Vanaf 26 juni kan een ontwikkelaar bij TIER ons hierbij verder helpen. Doel is een werkende MDS-feed te hebben, want zonder feed is er geen data.
+None at the moment.
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2023-07-13 | ✅ De MDS feed van TIER is geactiveerd. De documentatie bleek onvolledig. De documentatie is vandaag tevens door TIER geupdate.
+| 2023-07-12 | 🐛 Er is een call ingepland om de feed te laten werken
+| 2023-07-08 | 🐛 We krijgen de MDS-feed niet werkend met de beschikbare documentatie
+| 2023-06-29 | 🐛 TIER noemt dat het euvel is opgelost
+| 2023-06-29 | 🐛 TIER noemt dat het euvel is opgelost
+| 2023-06-28 | 🐛 We vragen om een status-update
 | 2023-06-19 | 🐛 TIER noemt: volgende week kan de developer hiernaar kijken (>= 26 juni)
 | 2023-06-16 | 🐛 The MDS credentials work, but getting the vehicles doesn't. We ask TIER to investigate why we get an error ('cannot get length of undefined')
 | 2023-06-13 | 🐛 Feed is still down. Today we got the MDS credentials.
@@ -48,3 +52,7 @@ Per 31 mei stopte de TIER datafeed opeens met werken. TIER heeft nieuwe document
 | 2022-01-10 | TIER pro-actively asks if Eindhoven and Amersfoort can be added as well. We reply: If these cities are added to to the existing GBFS (NL) feed, these are included automatically
 | 2021-12-23 | 🎉 GBFS feed for TIER Utrecht is added!
 | 2021-10-13 | From a legal side we are fine and can start working on the technical implementation together with CROW
+
+### API-documentatie
+
+https://api-documentation.tier-services.io/docs/data-sharing/Data%20Sharing.html
