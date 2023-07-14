@@ -22,10 +22,9 @@ None at the moment.
 
 | Updated    | Description
 | ----       | ---
-| 2023-07-13 | ✅ De MDS feed van TIER is geactiveerd. De documentatie bleek onvolledig. De documentatie is vandaag tevens door TIER geupdate.
+| 2023-07-13 | ✅ Authenticatie probleem verholpen, nu een werkende MDS /vehicles feed. De documentatie bleek onvolledig en is vandaag ook geupdate door TIER
 | 2023-07-12 | 🐛 Er is een call ingepland om de feed te laten werken
 | 2023-07-08 | 🐛 We krijgen de MDS-feed niet werkend met de beschikbare documentatie
-| 2023-06-29 | 🐛 TIER noemt dat het euvel is opgelost
 | 2023-06-29 | 🐛 TIER noemt dat het euvel is opgelost
 | 2023-06-28 | 🐛 We vragen om een status-update
 | 2023-06-19 | 🐛 TIER noemt: volgende week kan de developer hiernaar kijken (>= 26 juni)
