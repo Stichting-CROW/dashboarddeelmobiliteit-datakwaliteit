@@ -24,7 +24,7 @@ Momenteel worden 4 MDS-feeds aangeleverd, voor elke vloot 1. Liever ontvangen we
 
 | Updated    | Description
 | ----       | ---
-| 2023-07-12 | ✅ BAQME heeft de waardes voor voertuittypes en aandrijving gewijzigd in 'elektrisch' en 'bakfiets' - dit staat nu goed.
+| 2023-07-12 | ✅ BAQME heeft de waardes voor voertuigtypes en aandrijving gewijzigd in 'elektrisch' en 'bakfiets' - dit staat nu goed.
 | 2023-07-07 | 🐛 De voertuigen die BAQME aanlevert staan vermeld als 'fiets' en 'mensaangedreven'. Het zijn echter elektrische bakfietsen. We vragen dit te updaten.
 | 2023-07-07 | ✅ De 4 nieuwe MDS-feeds zijn geactiveerd en de GBFS-feed is gedeactiveerd. De feeds zouden nu weer moeten resulteren in juiste verhuurdata
 | 2023-06-29 | 🐛 Wij ontvangen links naar de MDS-feeds van BAQME 👍
