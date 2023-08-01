@@ -24,6 +24,7 @@ Momenteel worden 4 MDS-feeds aangeleverd, voor elke vloot 1. Liever ontvangen we
 
 | Updated    | Description
 | ----       | ---
+| 2023-08-01 | 🐛 -> ✅ In het Ontwikkeling-scherm van het Dashboard Deelmobiliteit is het aantal beschikbare voertuigen te hoog in de periode 7 juli en 1 augustus 2023. De oorzaak was dat BAQME sinds de nieuwe MDS-feed gebruikt maakt van ander type voertuig-IDs, bijvoorbeeld `baqme:bq0251` ipv `baqme:7a007b55-1b50-4ec6-a1f0-85a8245242be`. We hebben alle parkeerperiode's van de voertuigen met oude voertuig-IDs handmatig beeindigd, met als ingesteld eindtijd: end_time = start_time. Uitgevoerde query: `UPDATE park_events SET end_time = start_time WHERE system_id = 'baqme' AND end_time IS NULL AND start_time <= '2023-07-08';` resulteerde in 265 updates.
 | 2023-07-12 | ✅ BAQME heeft de waardes voor voertuigtypes en aandrijving gewijzigd in 'elektrisch' en 'bakfiets' - dit staat nu goed.
 | 2023-07-07 | 🐛 De voertuigen die BAQME aanlevert staan vermeld als 'fiets' en 'mensaangedreven'. Het zijn echter elektrische bakfietsen. We vragen dit te updaten.
 | 2023-07-07 | ✅ De 4 nieuwe MDS-feeds zijn geactiveerd en de GBFS-feed is gedeactiveerd. De feeds zouden nu weer moeten resulteren in juiste verhuurdata
