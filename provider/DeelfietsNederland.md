@@ -23,6 +23,7 @@ Status: 🟡 Usable though needs improvement
 
 | Updated    | Description
 | ----       | ---
+| 2023-09-04 | 🐛->✅ Sinds +- 2022-11-07 heeft Deelfiets Nederland de oude GBFS-feed uitgefaseerd. Echter bleven in totaal 6 voertuigen uit die oude feed op de Dashboard Deelmobiliteit kaart staan. Vandaag hebben we deze niet-meer-bestaande voertuigen uit de database verwijderd. Het betreft deze voertuigen: `4082e09f-c140-4ee6-a5be-31849b487301`, `128e096e-29cb-429d-9fda-2f159356b4fd`, `0d64ac39-02b2-4f66-9c45-42320dfae40b`, `ed07079d-887b-408b-b11c-1655316e737b`, `26ebcdbc-93b4-4641-a3ff-4ca99fe2a309`.
 | 2022-09-05 | Since July 8th no feed outage has happened, which is good. We still have to fix [this issue](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/24) so we get support for two feeds that run simultaneously.
 | 2022-06-08 | Today and yesterday we got an feed timeout. This explains the many rentals in the database on these two days.
 | 2022-05-18 | We enabled both GBFS feeds again. If no timeouts happen, data will be stored well. If timeouts happen, a lot of rentals will be stored in the database.
