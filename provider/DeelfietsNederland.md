@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-09-05.
+Last updated: 2023-09-05.
 
 | **Quality check**           | **Quality**
 | --                          | -- |
@@ -10,14 +10,13 @@ Last updated: 2022-09-05.
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ✅
 | All NL data?                | ✅
-| Includes vehicle type?      | ❌ ✅ (feed 1: no, feed 2: yes)
+| Includes vehicle type?      | ✅
 
-Status: 🟡 Usable though needs improvement
+Status: 🟢 Perfect
 
 ## Improvements to make
 
-- Add all places in 1 feed
-- Add vehicle_type_id for every vehicle, in both feeds
+- Geen
 
 ## Logs
 
