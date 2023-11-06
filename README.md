@@ -32,7 +32,7 @@ Below we document the data quality of the feeds offered by the providers.
 | OV-fiets                                                                                                                      | 🔴           | ❌              | ➖                | ➖                 | ➖                         | ➖
 | [Promo-Bikey](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Promo-Bikey.md)      | ➖           | ➖              | ➖                | ➖                 | ➖                         | ➖
 | [SHARE NOW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/SHARENOW.md)           | 🔴           | ❌              | ➖                | ➖                 | ➖                         | ➖
-| [TIER](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/TIER.md)                    | 🟢           | :heavy_check_mark: MDS              | :heavy_check_mark: | ❔                         | :heavy_check_mark:                         | :heavy_check_mark:
+| [TIER](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/TIER.md)                    | 🟢           | :heavy_check_mark: MDS              | ❌ | :heavy_check_mark:                         | :heavy_check_mark:                         | :heavy_check_mark:
 | Urbee                                                                                                                         | ⏳           | ➖              | ➖                | ➖                 | ➖                         | ➖
 | [uwdeelfiets](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/uwdeelfiets.md)      | 🟡           | :heavy_check_mark: MDS | ❔         | ❔                 | ❌                         | ❌
 | Vaimoo/GoBike                                                                                                                 | 🔴           | ❌              | ➖                | ➖                 | ➖                         | ➖
@@ -143,3 +143,8 @@ The public data feed of CROW Dashboard Deelmobiliteit is currently used by the f
 <img alt="moveyou" src="https://moveyou.com/wp-content/themes/moveyou/assets/gfx/brand-large.svg" width="100" />
 
 Providers above were actively sharing data on 2022-09-14.
+
+## Tools for validating data feeds
+
+- [GBFS validator](https://gbfs-validator.netlify.app/validator?url=https%3A%2F%2Fgbfs.api.ridedott.com%2Fpublic%2Fv2%2Fbrussels%2Fgbfs.json
+)

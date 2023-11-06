@@ -7,21 +7,29 @@ Last updated: 2023-07-13.
 | **Quality check**           | **Quality**
 | --                          | --      |
 | Uses data standard?         | ✅ MDS
-| Updated <= 30s?             | ✅
+| Updated <= 30s?             | ❌
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ✅
 
-Status: 🟢
+Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-None at the moment.
+Update vehicles end point every 30 seconds, with each vehicle having a correct last_vehicle_state status.
+
+**At the moment TIER doesn't offer correct trip data**
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2023-11-04 | 🐛 TIER replies: Our developers can't give priority to this unfortunately
+| 2023-09-26 | 🐛 We ask TIER to fix this issue
+| 2023-09-26 | 🐛 TIER informs us that their data sheet doesn't give realtime data. `unfortunately the information we have for the endpoint /vehicles so far does not give a result of the trips that are being made in real time, we are working to have that information in a proper way in the near future.`"
+| 2023-09-11 | 🐛 We investigated why TIERs datafeed gives us too few rentals. The reason is that according the feed, only 1 vehicle is on a trip. That doesn't look right. We email TIER with this information and ask to debug. `The problem seems to be that there are few less vehicles with a state "last_vehicle_state":"on_trip" then there are in reality (what the operations people of the Netherlands do report). Right now  (22 September 14:43) there is only 1 vehicle on a trip in Eindhoven, 0 in Amersfoort and 0 in Utrecht right now. That doesn't seem to be right.`
+| 2023-08-03 | 🐛 TIER sends us the information and we compare it: Parked vehicles amount is +- the same, rentals amount is way higher for TIERs data compared to our data
+| 2023-08-02 | 🐛 We get information from Gemeente Amersfoort that the amount of rentals is incorrect. We ask TIER to give the amount for a specific datetime, so we can compare this with our data
 | 2023-07-13 | ✅ Authenticatie probleem verholpen, nu een werkende MDS /vehicles feed. De documentatie bleek onvolledig en is vandaag ook geupdate door TIER
 | 2023-07-12 | 🐛 Er is een call ingepland om de feed te laten werken
 | 2023-07-08 | 🐛 We krijgen de MDS-feed niet werkend met de beschikbare documentatie
