@@ -22,6 +22,7 @@ Offer all vehicle data in 1 MDS data feed instead of multiple feeds (for every c
 
 | Updated    | Description
 | ----       | ---
+| 2024-01-31 | We hebben MDS-credentials ontvangen voor Leeuwarden
 | 2022-10-18 | We activate the Nijmegen feed (12 vehicles at the moment)
 | 2022-10-17 | Bolt shares feed credentials for Nijmegen
 | 2022-07-19 | Bolt emails: Bolt will launch e-bikes in Groningen in early September
