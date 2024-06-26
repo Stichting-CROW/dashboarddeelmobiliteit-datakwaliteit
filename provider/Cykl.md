@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-01-24.
+Last updated: 2024-06-26.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,6 +11,7 @@ Last updated: 2022-01-24.
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
+| Offers service areas        | ❌
 
 Status: 🟡 Usable though needs improvement
 
@@ -20,7 +21,7 @@ Status: 🟡 Usable though needs improvement
 - The feed is updated frequently 👍
 - Cykl follows the data specification perfectly 👍
 - Cykl offers data of all vehicles in The Netherlands 👍
-- Cykl does not offer 'vehicle type' in their data feed yet
+- Cykl does not offer 'vehicle type' in their data feed yet ❌
 
 The current status is 'usable though needs improvement'. As soon as vehicle type is included in the datafeed, the status will be 🟢 Perfect.
 

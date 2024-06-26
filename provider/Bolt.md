@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2022-10-18.
+Last checked at 2024-06-26.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,6 +11,7 @@ Last checked at 2022-10-18.
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ✅
+| Shares service areas        | ❌
 
 Status: 🟢 Perfect
 
@@ -23,6 +24,7 @@ Offer all vehicle data in 1 MDS data feed instead of multiple feeds (for every c
 | Updated    | Description
 | ----       | ---
 | 2024-01-31 | We hebben MDS-credentials ontvangen voor Leeuwarden
+| 2024-01-16 | Advier heeft aanbodscijfers van september 2023 laten verfifieren bij Bolt. De data uit het Dashboard Deelmobiliteit aangaande Bolt was correct. De datakwaliteit lijkt hier dus goed op orde
 | 2022-10-18 | We activate the Nijmegen feed (12 vehicles at the moment)
 | 2022-10-17 | Bolt shares feed credentials for Nijmegen
 | 2022-07-19 | Bolt emails: Bolt will launch e-bikes in Groningen in early September

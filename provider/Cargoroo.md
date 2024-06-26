@@ -2,15 +2,16 @@
 
 ## Data quality status
 
-Last checked at 2022-09-05.
+Last checked at 2024-06-26.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ✅
-| Correct PROW?               | ❔
+| Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
+| Offers service areas        | ❌
 
 Status: 🟡 Usable though needs improvement
 
@@ -20,7 +21,7 @@ Status: 🟡 Usable though needs improvement
 - The feed is updated frequently 👍
 - We have to check if the data specification is followed perfectly
 - Cargoroo offers data of all vehicles 👍
-- Cargoroo does not offer 'vehicle type' in their data feed yet
+- Cargoroo does not offer 'vehicle type' in their data feed yet ❌
 
 The current status is 'usable though needs improvement'. As soon as vehicle type is included in the datafeed, the status will be 🟢 Perfect.
 
@@ -54,7 +55,14 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
-| 2022-04-09 | Emailed Cargoroo the MDS presentation we presented today
-| 2022-01-24 | Emailed Cargoroo mentioning that the feed will be even better if vehicle type is included.
-| 2022-01-11 | Backend developer at Cargoroo, responsible for the implementation of standards such as GBFS/CDS-M/TOMP, emails: 'At the moment we have a public GBFS end point. We will update this so we have 2 end points: one public end point with vehicles having the GPS location of the stations, and one private (that need authorisation) with the GPS locations of the vehicles (like we have now)'. We reply that we like to use the new private end point that needs an authorisation key. We also mention that vehicles that are rented out should not be in the feed.
-| 2021-09-09 | Asked Cargoroo to add vehicle type
+| 2024-01-25 | Otto heeft datakwaliteitscontrole gedaan door data van Cargoroo te vergelijken met die in het Dashboard Deelmobiliteit. Hieruit kwam dat de aantallen volgens het Dashboard iets tot behoorlijk lager zijn dan in de controledata die Cargoroo ons mailde. Dit waren de aantallen die Cargoroo mailde met in haakjes erbij wat in het Dashboard stond voor periode september 2023. Wij gaan onderzoeken waar de verschillen vandaan komen. |
+
+```
+Arnhem 19 (dd 3)
+Nijmegen 49 (dd 18)
+Eindhoven 50 (dd 36)
+Rotterdam 99 (dd 89)
+Amsterdam en Diemen 134 (dd 117)
+Utrecht 186 (dd 180)
+Den Haag en Rijswijk 222 (dd 192)
+```

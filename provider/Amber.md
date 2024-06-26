@@ -11,6 +11,7 @@ Last updated at 2022-04-25.
 | Correct PROW?               | ❌
 | All NL data?                | ❌
 | Includes vehicle type?      | ❌
+| Shares service areas        | ❌
 
 Status: 🔴 Unusable
 

@@ -10,8 +10,8 @@ Last updated at 2022-09-02.
 | Updated <= 30s?             | ❌
 | Correct PROW?               | ❌
 | All NL data?                | ❌
-| Includes vehicle type?      | ❌
-| % Accuracy number of trips  | ...
+| Includes vehicle type       | ❌
+| Shares service areas        | ❌
 
 Status: 🔴 Unusable
 Status: 🟡 Usable though needs improvement
