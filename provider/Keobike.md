@@ -4,7 +4,7 @@ KeoBike voertuigen zijn per 15 januari 2024 overgenomen door Deelfiets Nederland
 
 ## Data quality status
 
-Last updated at 2024-02-01.
+Last updated at 2024-06-26.
 
 ## Logs
 

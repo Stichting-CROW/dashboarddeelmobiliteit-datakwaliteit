@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2022-05-16.
+Last updated at 2024-07-02.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,6 +11,7 @@ Last updated at 2022-05-16.
 | Correct PROW?               | ❌
 | All NL data?                | ❌
 | Includes vehicle type?      | ❌
+| Offers service areas        | ❌
 
 Status: 🔴 Unusable
 

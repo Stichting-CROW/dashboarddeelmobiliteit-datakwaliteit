@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2022-09-05.
+Last checked at 2024-07-02.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,6 +11,7 @@ Last checked at 2022-09-05.
 | Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ❌
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
+| Offers service areas        | ❌
 
 Status: 🟡 Usable though needs improvement
 
@@ -50,6 +51,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2022-10-18 | Municipality of The Hague emails Felyx and asks: Can you update the feed so it shared data every 30 seconds instead of 5 minutes? The Hague needs this for the micro hubs functionality
 | 2022-09-12 | Felyx does share Tilburg data with Dashboard Deelmobiliteit again. We are missing Tilburg Felyx data from September 8th until 12th
 | 2022-09-08 | Felyx doesn't share Tilburg data anymore. We contacted Felyx
 | 2022-05-19 | Gemeente Enschede mentions that Felyx data isn't perfect: often rentals are missing. We respond and say that the cause is that Felyx only updates its data every 300 seconds instead of the 30 seconds that is in the specifications. We will contact Felyx again on this and ask for a solution, so that in the future the data feed is refreshed every 30 seconds and municipalities will have reliable data

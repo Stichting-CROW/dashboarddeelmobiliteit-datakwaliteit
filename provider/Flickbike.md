@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2021-09-23.
+Last updated: 2024-07-02.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,6 +11,7 @@ Last updated: 2021-09-23.
 | Correct PROW?               | ❌
 | All NL data?                | ❌
 | Includes vehicle type?      | ❌
+| Offers service areas        | ❌
 
 Status: 🔴 Unusable
 
@@ -20,7 +21,7 @@ Status: 🔴 Unusable
 
 At the moment Flickbike is not integrated using one of the supported protocols.
 
-Flickbike should offer the data using one of the standards: GBFS, MDS or TOMP.
+Flickbike should offer the data using one of the standards: MDS or GBFS.
 
 ### Add vehicle type
 
@@ -41,10 +42,8 @@ As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) stand
 - propulsion_type: `human`
 - wheel_count: `2`
 
-To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
-
 ## Logs
 
-|Updated    |Description
-|----       |---
-|2021-09-23 |Sven asked Flickbike to offer data using a data standard
+| Updated    | Description
+| ----       | ---
+| 2021-09-23 | Sven asked Flickbike to offer data using a data standard

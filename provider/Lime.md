@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked 2022-09-09.
+Last checked 2024-07-02.
 
 | **Quality check**           | **Quality**
 | --                          | --                  |
@@ -11,6 +11,7 @@ Last checked 2022-09-09.
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ✅
+| Offers service areas        | ❌
 
 Status: 🟢 Perfect
 
@@ -22,6 +23,7 @@ None at the moment.
 
 | Updated    | Description
 | ----       | ---
+| 2024-01-23 | We hebben de aantallen van Lime en het Dashboard Deelmobiliteit vergeleken. We keken eerst naar september 2023 in Rotterdam. Het Dashboard rapporteerde 251 Limes, Lime rapporteerde 400 voertuigen. We kijken vervolgens naar 22 januari 2024. Het Dashboard rapporteerde 439, Lime rapporteerde 500. Dit zijn verschillen die we gaan uitzoeken.
 | 2022-09-09 | Lime shared the MDS feed and credentials with us. From today we re-activated Lime in the Dashboard.
 | 2022-09-05 | We email Lime: Can me do a quick call to make the CROW Dashboard Deelmobiliteit integration happen? 
 | 2022-08-17 | We answer: "The Lime GBFS feed is disabled as it's using rotating IDs and this is not following the [data feed requirements](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/). We ask to offer a MDS `/vehicles` feed or a GBFS 1.0 `/free_bike_status.json` feed. Please offer one of these, or let us know if you have any questions."

@@ -2,31 +2,22 @@
 
 ## Data quality status
 
-Last checked at 2022-09-05.
+Last checked at 2024-07-02.
 
 | **Quality check**           | **Quality**
 | --                          | --
-| Uses data standard?         | :heavy_check_mark: MDS
-| Updated <= 30s?             | :heavy_check_mark:
-| Correct PROW?               | ❌
-| All NL data?                | :heavy_check_mark:
-| Includes vehicle type?      | :heavy_check_mark:
+| Uses data standard?         | ✅ MDS
+| Updated <= 30s?             | ✅
+| Correct PROW?               | ✅
+| All NL data?                | ✅
+| Includes vehicle type?      | ✅
+| Offers service areas        | ❌
 
-Status: 🟡 Usable though needs improvement
+Status: 🟢 Perfect
 
 ## Improvements to make
 
-### Remove vehicles that are in depots
-
-Regarding the CROW Dashboard Deelmobiliteit [data feed specifications](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#general), vehicles that are not in de public space should _not_ be in the feed.
-
-Following the MDS specifications vehicles in depots may be included in the feed for _at most_ [90 minutes](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles). This is optional: you can also remove the vehicles from the feed instantly from the moment that these are outside of public space. The vehicles should only be included in the feed again, if the vehicles are in put into public space (this is called '[PROW](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/general-information.md#vehicle-states=)' in the MDS documentation).
-
-> For the states elsewhere and removed which include vehicles not in the PROW but provide some operational clarity for agencies, these must only persist in the feed for 90 minutes before being removed.
-
-### Improve the feed response time
-
-Sometimes it takes 15 seconds to get a response. Pleae make sure that it's always < 10 seconds loading time.
+None that we know of at the moment. GO Sharing could offer a [GBFS feed with the service areas](https://docs.dashboarddeelmobiliteit.nl/data_feeds/service_areas/) they offer.
 
 ## Logs
 

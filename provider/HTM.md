@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2022-04-11.
+Last updated: 2023-04-21.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -20,7 +20,7 @@ Status: 🔴 Unusable
 
 At the moment HTM offers a GBFS feed having incorrect data.
 
-HTM should offer the data using one of the standards: MDS, GBFS or TOMP. Preferably MDS.
+HTM should offer the data using one of the standards: MDS or GBFS. Preferably MDS.
 
 ### Add vehicle type
 
@@ -43,11 +43,12 @@ As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) stand
 
 To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
 
-
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2023-04-21 | We ask Joyride to check the GBFS feed and fix it, so we again have data of HTM Bike in Zoetermeer. We inform HTM
+| 2023-04-05 | The GBFS feed is down since today
 | 2022-04-05 | Joyride replies to the mail of 2022-04-04: "We understand your point of view. We are determining the requirements for updating the MDS to version 1.2, which will happen in the upcoming months. Any further updates will be shared with you as soon as they are available." "We will also give an update when our planning is becoming more detailed."
 | 2022-04-04 | We reply HTM: "GBFS should work, _if_ the ID's do not rotate. But because the IDs in Joyride GBFS-feed do rotate, this doesn't give us a solution that works (we have been in contact with Joyride about this many times). MDS /vehicles is a standard that focusses specifically on monitoring, and therefor in this standard it sais that the IDs should not rotate. This is the reason that we ask for the MDS /vehicles implementation now, as GBFS has not be implemented to the specification we require for more than half a year already."
 | 2022-04-04 | HTM replies: "How does Dashboard Deelmobiliteit differ from other apps? In the HTM app we use the GBFS feed of Joyride and in this app we see exactly where our HTM bikes are. Would this GBFS feed be an option that works for you as well?"

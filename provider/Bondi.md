@@ -11,6 +11,7 @@ Last updated at 2024-06-26.
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
+| Shares service areas        | ❌
 
 Status: 🟡 Usable though needs improvement
 

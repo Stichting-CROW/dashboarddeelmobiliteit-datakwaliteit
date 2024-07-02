@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated at 2022-02-17.
+Last updated at 2024-07-02.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,6 +11,7 @@ Last updated at 2022-02-17.
 | Correct PROW?               | ❌
 | All NL data?                | ❌
 | Includes vehicle type?      | ❌
+| Offers service areas        | ❌
 
 Status: 🔴 Unusable
 
@@ -18,7 +19,7 @@ Status: 🔴 Unusable
 
 ### Offer a data feed
 
-Offer any of the supported data standards, preferably MDS.
+Offer any of the supported data standards, preferably [MDS](https://docs.dashboarddeelmobiliteit.nl/data_feeds/for_monitoring/).
 
 ## Logs
 
