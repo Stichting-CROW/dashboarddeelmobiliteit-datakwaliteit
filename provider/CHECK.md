@@ -2,11 +2,11 @@
 
 ## Data quality status
 
-Last checked at 2024-06-26.
+Last checked at 2024-08-22.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ✅ GBFS 3.0
+| Uses data standard?         | ✅ MDS 2.0
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ✅
 | All NL data?                | ✅
@@ -25,4 +25,5 @@ CHECK is busy with offering a MDS 2.0 feed as well.
 
 | Updated    | Description
 | ----       | ---
+| 2024-08-21 | Per vandaag wordt de MDS-feed gebruikt in plaats van de oude GBFS-feed
 | 2024-04-17 | CHECK geeft aan te willen overstappen op MDS voor voertuigmonitoring

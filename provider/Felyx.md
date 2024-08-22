@@ -2,11 +2,11 @@
 
 ## Data quality status
 
-Last checked at 2024-07-02.
+Last checked at 2024-08-22.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ✅ GBFS
+| Uses data standard?         | ✅ MDS 1.2
 | Updated <= 30s?             | ❌ 300s
 | Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ❌
 | All NL data?                | ✅
@@ -19,7 +19,7 @@ Status: 🟡 Usable though needs improvement
 
 ### Update datafeed at most every 30 seconds
 
-At the moment the data feed is updated every 300 seconds. Please make the datafeed update more frequently, at least every 30s.
+? At the moment the data feed is updated every 300 seconds. Please make the datafeed update more frequently, at least every 30s.
 
 ### Add vehicle type
 
@@ -51,6 +51,9 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2024-08-21 | Per vandaag wordt de MDS-feed gebruikt in plaats van de oude GBFS-feed
+| 2024-07-04 | Felyx is gestart met aanbieden van voertuigen in Hilversum
+| 2024-07-04 | We hebben de voertuigdata van Felyx vergeleken met die van het Dashboard Deelmobiliteit, voor 29 juni t/m 1 juli. Elke dag kwam het aantal voertuigen in het Dashboard Deelmobiliteit en in het Felyx dashboard precies overeen, specifiek voor gemeente Zwolle. De datakwaliteit is hier dus perfect op orde.
 | 2022-10-18 | Municipality of The Hague emails Felyx and asks: Can you update the feed so it shared data every 30 seconds instead of 5 minutes? The Hague needs this for the micro hubs functionality
 | 2022-09-12 | Felyx does share Tilburg data with Dashboard Deelmobiliteit again. We are missing Tilburg Felyx data from September 8th until 12th
 | 2022-09-08 | Felyx doesn't share Tilburg data anymore. We contacted Felyx
