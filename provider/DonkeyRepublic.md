@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2024-06-26.
+Last checked at 2024-07-04.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -62,6 +62,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2024-07-04 | Donkey Republic biedt nu ook data in Leiden, Katwijk en Oegstgeest
 | 2023-06-16 | We vragen Donkey Republic per mail om het datafeed-probleem op te lossen (geef alle geparkeerde voertuigen terug, ook voertuigen buiten hubs)
 | 2023-05-23 | Gemeente Amsterdam merkt op dat 'misplaced' voertuigen (voertuigen geparkeerd buiten Donkey-hubs) niet in het Dashboard staan. We hadden hier in februari al contact over opgenomen met Donkey Republic, maar hier is nog niets mee gedaan
 | 2023-03-13 | We hebben de GBFS-feed van Donkey/Gorinchem toegevoegd; er is vanaf vandaag data van Gorinchem in het Dashboard Deelmobilitit
