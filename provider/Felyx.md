@@ -51,6 +51,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2024-09-09 | Gemeente Den Haag meldt dat het aantal verhuringen sinds 21 augustus ineens een stuk lager is dan eerder. Felyx geeft aan dat er sinds de overgang inderdaad iets mis is in hun nieuwe datafeed, waardoor het aantal trips niet klopt. Felyx werkt aan een oplossing.
 | 2024-08-21 | Per vandaag wordt de MDS-feed gebruikt in plaats van de oude GBFS-feed
 | 2024-07-04 | Felyx is gestart met aanbieden van voertuigen in Hilversum
 | 2024-07-04 | We hebben de voertuigdata van Felyx vergeleken met die van het Dashboard Deelmobiliteit, voor 29 juni t/m 1 juli. Elke dag kwam het aantal voertuigen in het Dashboard Deelmobiliteit en in het Felyx dashboard precies overeen, specifiek voor gemeente Zwolle. De datakwaliteit is hier dus perfect op orde.
