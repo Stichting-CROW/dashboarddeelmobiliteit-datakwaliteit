@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2023-07-13.
+Last updated: 2024-09-26.
 
 | **Quality check**           | **Quality**
 | --                          | --      |
@@ -16,14 +16,13 @@ Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-Update vehicles end point every 30 seconds, with each vehicle having a correct last_vehicle_state status.
-
-**At the moment TIER doesn't offer correct trip data**
+None
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2024-09-26 | TIER is nu Dott. De TIER-feed zal geen data meer geven in het Dashboard Deelmobiliteit
 | 2023-11-04 | 🐛 TIER replies: Our developers can't give priority to this unfortunately
 | 2023-09-26 | 🐛 We ask TIER to fix this issue
 | 2023-09-26 | 🐛 TIER informs us that their data sheet doesn't give realtime data. `unfortunately the information we have for the endpoint /vehicles so far does not give a result of the trips that are being made in real time, we are working to have that information in a proper way in the near future.`"
