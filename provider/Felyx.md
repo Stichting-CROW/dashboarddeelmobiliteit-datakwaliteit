@@ -51,6 +51,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2024-10-09 | Er zijn meerdere problemen met de last_vehicle_state, o.a. non_operational state i.p.v. on_trip state gedurende een rit en removed state voor voertuigen die niet beschikbaar zijn maar nog wel in de openbare ruimte staan terwijl non_operational de juiste staat is. Over deze problemen is contact en Felyx is actief bezig deze op te lossen.
 | 2024-09-09 | Gemeente Den Haag meldt dat het aantal verhuringen sinds 21 augustus ineens een stuk lager is dan eerder. Felyx geeft aan dat er sinds de overgang inderdaad iets mis is in hun nieuwe datafeed, waardoor het aantal trips niet klopt. Felyx werkt aan een oplossing.
 | 2024-08-21 | Per vandaag wordt de MDS-feed gebruikt in plaats van de oude GBFS-feed
 | 2024-07-04 | Felyx is gestart met aanbieden van voertuigen in Hilversum
