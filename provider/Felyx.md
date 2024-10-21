@@ -2,13 +2,13 @@
 
 ## Data quality status
 
-Last checked at 2024-08-22.
+Last checked at 2024-09-21.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ MDS 1.2
-| Updated <= 30s?             | ❌ 300s
-| Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ❌
+| Updated <= 30s?             | ✅
+| Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ❌
 | Offers service areas        | ❌
@@ -17,40 +17,13 @@ Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-### Update datafeed at most every 30 seconds
-
-? At the moment the data feed is updated every 300 seconds. Please make the datafeed update more frequently, at least every 30s.
-
-### Add vehicle type
-
-🆕 The operator should communicate what kind of vehicle it's reporting. 
-
-Since GBFS 2.1 there's a field, `vehicle_type_id`, that defines what kind of vehicle is offered.
-
-Please start offering vehicle type in the feed, following the GBFS standard.
-
-To to this, you can use these documentation pages: 
-
-1. Offer [vehicle_types.json](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21)
-2. In free_bike_status.json, add property [vehicle_type_id](https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson)
-
-As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) standard definition for mopeds:
-
-- form_factor: `moped`
-- propulsion_type: `electric`
-- max_range_meters: `X1`
-- wheel_count: `2`
-- max_permitted_speed *: `X3`
-- rated_power: `X4`
-
-With the `max_permitted_speed` included we can make the distinction between mopeds that are max. 45 km/h and moped with a max. speed of 25 km/h.
-
-To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
+-
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2024-09-21 | De datafeed van Felyx wordt nu aangeboden door software van Cooltra. Sinds vandaag deelt Felyx een nieuwe MDS-feed met de voertuigen. We hebben de oude GBFS-feed gedeactiveerd en de nieuwe MDS-feed rond 14:00 uur geactiveerd.
 | 2024-09-09 | Gemeente Den Haag meldt dat het aantal verhuringen sinds 21 augustus ineens een stuk lager is dan eerder. Felyx geeft aan dat er sinds de overgang inderdaad iets mis is in hun nieuwe datafeed, waardoor het aantal trips niet klopt. Felyx werkt aan een oplossing.
 | 2024-08-21 | Per vandaag wordt de MDS-feed gebruikt in plaats van de oude GBFS-feed
 | 2024-07-04 | Felyx is gestart met aanbieden van voertuigen in Hilversum
