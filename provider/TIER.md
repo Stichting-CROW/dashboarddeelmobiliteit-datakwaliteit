@@ -22,7 +22,7 @@ None
 
 | Updated    | Description
 | ----       | ---
-| 2024-09-26 | TIER is nu Dott. De TIER-feed zal geen data meer geven in het Dashboard Deelmobiliteit
+| 2024-09-26 | TIER is nu [Dott](./Dott.md). De TIER-feed zal geen data meer geven in het Dashboard Deelmobiliteit
 | 2023-11-04 | 🐛 TIER replies: Our developers can't give priority to this unfortunately
 | 2023-09-26 | 🐛 We ask TIER to fix this issue
 | 2023-09-26 | 🐛 TIER informs us that their data sheet doesn't give realtime data. `unfortunately the information we have for the endpoint /vehicles so far does not give a result of the trips that are being made in real time, we are working to have that information in a proper way in the near future.`"
