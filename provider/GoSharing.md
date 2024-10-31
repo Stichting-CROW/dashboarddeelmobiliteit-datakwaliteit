@@ -25,7 +25,7 @@ None that we know of at the moment. GO Sharing could offer a [GBFS feed with the
 | ----       | ---
 | 2024-10-30 | We tested the new binbinapp MDS feed, though it's not compliant with MDS yet. We've sent feedback on how to fix the feed so it is compliant.
 | 2024-10-08 | We sent an email to Gosharing to get credentials of a new feed for the new system
-| 2024-10-01 | 🐛 GEEN DATA VAN GO SHARING - De datafeed van GO Sharing wordt niet meer geactualiseerd ("Dit klopt inderdaad. Op 1 oktober is er gestart met een interne systeemintegratie. Data wordt niet meer geactualiseerd - uiteraard niet de bedoeling")
+| 2024-10-01 | 🐛 **GEEN DATA VAN GO SHARING** - De datafeed van GO Sharing wordt niet meer geactualiseerd ("Dit klopt inderdaad. Op 1 oktober is er gestart met een interne systeemintegratie. Data wordt niet meer geactualiseerd - uiteraard niet de bedoeling")
 | 2024-10-01 | GoSharing migrated to a new internal system without notifiying the dashboarddeelmobiliteit about that
 | 2022-10-14 | We analysed the both data sets and conclude that the same issue that we reported at 2022-07-26 is causing the difference in vehicles. This issue has to be fixed for an longer amount of time. We (again) send info on how to fix this and ask GO Sharing if the issue in the MDS feed can be fixed. Also we inform the municipalities that noticed the incorrect data.
 | 2022-10-14 | GO Sharing sends us a spreadsheet with overview of vehicles in Tilburg, to compare with data in the Dashboard. We start comparing.

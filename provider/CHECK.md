@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2024-10-21.
+Last checked at 2024-10-31.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -18,8 +18,6 @@ Status: 🟢 Perfect
 ## Improvements to make
 
 None, it's perfect.
-
-CHECK is busy with offering a MDS 2.0 feed as well.
 
 ## Logs
 
