@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2024-10-21.
+Last checked at 2024-10-31.
 
 | **Quality check**           | **Quality**
 | --                          | --
@@ -23,6 +23,7 @@ None that we know of at the moment. GO Sharing could offer a [GBFS feed with the
 
 | Date       | Update 
 | ----       | ---
+| 2024-10-30 | We tested the new binbinapp MDS feed, though it's not compliant with MDS yet. We've sent feedback on how to fix the feed so it is compliant.
 | 2024-10-08 | We sent an email to Gosharing to get credentials of a new feed for the new system
 | 2024-10-01 | 🐛 GEEN DATA VAN GO SHARING - De datafeed van GO Sharing wordt niet meer geactualiseerd ("Dit klopt inderdaad. Op 1 oktober is er gestart met een interne systeemintegratie. Data wordt niet meer geactualiseerd - uiteraard niet de bedoeling")
 | 2024-10-01 | GoSharing migrated to a new internal system without notifiying the dashboarddeelmobiliteit about that
