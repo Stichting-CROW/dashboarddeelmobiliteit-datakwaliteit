@@ -2,21 +2,21 @@
 
 ## Data quality status
 
-Last updated: 2024-09-26.
+Last updated: 2024-10-31.
 
 | **Quality check**           | **Quality**
 | --                          | --      |
 | Uses data standard?         | ✅ MDS
 | Updated <= 30s?             | ❌
-| Correct PROW?               | ✅
-| All NL data?                | ✅
+| Correct PROW?               | ❔
+| All NL data?                | ❌
 | Includes vehicle type?      | ✅
 
 Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-None
+None, TIER is not active in The Netherlands at the momen.
 
 ## Logs
 
