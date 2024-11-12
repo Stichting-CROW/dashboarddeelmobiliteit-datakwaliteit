@@ -10,10 +10,10 @@ Last checked at 2024-10-31.
 | Updated <= 30s?             | ✅
 | Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ✅
 | All NL data?                | ✅
-| Includes vehicle type?      | ❌
+| Includes vehicle type?      | ✅
 | Offers service areas        | ❌
 
-Status: 🟡 Usable though needs improvement
+Status: 🟢 Usable though needs improvement
 
 ## Improvements to make
 
@@ -23,6 +23,7 @@ Status: 🟡 Usable though needs improvement
 
 | Updated    | Description
 | ----       | ---
+| 2024-11-05 | De datakwaliteit voor Felyx is op orde: er is maximaal 1% verschil in verhuringencijfers. Felyx heeft verhuringendata gestuurd voor 29 en 30 oktober (Rotterdam en heel NL). Die we hebben vergeleken.<br />- October 29th - Rotterdam: Dashboard vs Felyx data +1%<br />- October 30th - Rotterdam: Dashboard vs Felyx data +1% <br />- October 29th - Nederland: Dashboard vs Felyx data -1% <br />- October 30th - Nederland: Dashboard vs Felyx data +1%
 | 2024-10-31 | We hebben Felyx cijfers van het Dashboard gestuurd (aanbod/verhuringen), met de vraag deze vergelijken met de cijfers bekend bij Felyx. Zo weten we straks of de data in het Dashboard Deelmobiliteit gelijk is aan de cijfers bij Felyx.
 | 2024-10-12 | 🎉 **VERHURINGEN KLOPPEN WEER BEHOORLIJK** - De verhuringen-cijfers kloppen sinds de update van gisteren veel beter, met 7-14% afwijking in aantal verhuringen. Er moet nog een datafeed-foutoplossing gedaan worden door Cooltra: "There is an incorrect 'removed' state when a vehicle is marked for recollection. We are talking with Operations about this topic"
 We are still talking with Operations about this topic. I will keep you posted.
