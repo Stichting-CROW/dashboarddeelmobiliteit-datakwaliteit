@@ -5,17 +5,17 @@ Below we document the data quality of the feeds offered by the providers.
 ## Data quality status
 | **Provider**                                                                                                                  | **Status** ¹ | Uses standard ² | Updated <= 30s ³ | Correct PROW <sup>4</sup> | Vehicle type <sup>6</sup> | Service areas <sup>7</sup> |
 | :-----------                                                                                                                  | :--------:   | :------------   | :------------:   | :----------:              | :----------:              | :----------:
-| [BAQME](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/BAQME.md)                  | 🟢           | ✅ MDS         | ✅            | ✅                 | ✅ | ❌ |
-| [Bolt](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Bolt.md)                    | 🟢           | ✅ MDS           | ✅                | ✅                 | ✅ | ❌ |
-| [Bondi](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Bondi.md)                  | 🟡           | ✅ GBFS           | ✅                | ✅                 | ❌ | ❌ |
-| [Cargoroo](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cargoroo.md)            | 🟡           | ✅ GBFS | ✅ | ✅                 | ❌ | ❌ |
-| [CHECK](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/CHECK.md)                  | 🟢           | ✅ MDS | ✅ | ✅ | ✅ | ✅ |
-| [Cykl](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cykl.md)                    | 🟡           | ✅ GBFS | ✅ | ✅                 | ❌ | ❌ |
-| [Deelfiets Nederland (GAON)](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/DeelfietsNederland.md) | 🟢 | ✅ GBFS | ✅ | ✅                 | ✅ | ❌ |
-| [Donkey Republic](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/DonkeyRepublic.md) | 🟡         | ✅ GBFS | ✅ | ❌                 | ❌ | ❌ |
-| [Dott](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Dott.md)                    | 🟢           | ✅ MDS | ✅ | ✅                                               | ✅ | ❌ |
-| [Felyx](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Felyx.md)                  | 🟢           | ✅ MDS          | ✅              | ✅                         | ✅ | ❌ |
-| [GO Sharing](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/GoSharing.md)         | 🔴           | ✅ MDS       | ❌                 | ❌           | ❌  | ❌
+| [BAQME](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/BAQME.md)                  | 🟢           | ✅ MDS          | ✅            | ✅                 | ✅ | ❌ |
+| [Bolt](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Bolt.md)                    | 🟢           | ✅ MDS          | ✅                | ✅                 | ✅ | ❌ |
+| [Bondi](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Bondi.md)                  | 🟡           | ✅ GBFS         | ✅                | ✅                 | ❌ | ❌ |
+| [Cargoroo](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cargoroo.md)            | 🟡           | ✅ GBFS         | ✅ | ✅                 | ❌ | ❌ |
+| [CHECK](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/CHECK.md)                  | 🟢           | ✅ MDS          | ✅ | ✅ | ✅ | ✅ |
+| [Cykl](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cykl.md)                    | 🟡           | ✅ GBFS         | ✅ | ✅                 | ❌ | ❌ |
+| [Deelfiets Nederland (GAON)](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/DeelfietsNederland.md) | 🟢 | ✅ GBFS  | ✅ | ✅                 | ✅ | ❌ |
+| [Donkey Republic](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/DonkeyRepublic.md) | 🟡         | ✅ GBFS         | ✅ | ❌                 | ❌ | ❌ |
+| [Dott](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Dott.md)                    | 🟢           | ✅ MDS          | ✅ | ✅                                               | ✅ | ❌ |
+| [Felyx](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Felyx.md)                  | 🟢           | ✅ MDS          | ✅                | ✅                         | ✅ | ❌ |
+| [GO Sharing](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/GoSharing.md)         | 🟡           | ✅ MDS          | ❌                | ✅                       | ✅                        | ❌
 | [HTM](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/HTM.md)                      | 🔴           | ❌ MDS         | ➖                | ➖                 | ➖ | ❌ |
 | [Keobike](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Keobike.md)              | 🟡           | ✅ GBFS         | ✅                | ❔                 | ❌ |
 | [Lime](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Lime.md)                    | 🟢           | MDS | ✅ | ✅   | ✅ | ❌ |
@@ -61,7 +61,7 @@ MDS is the prefered data standard to use.
 
 ### ℹ️ Updated <= 30s <sup>3</sup>
 
-As [documented](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#general) in the dataspec, the data feed must be updated at least every 30 seconds.
+As [documented](https://docs.dashboarddeelmobiliteit.nl/data_feeds/for_monitoring/#data-specifications) in the dataspec, the data feed must be updated at least every 30 seconds.
 
 ### ℹ️ Correct PROW <sup>4</sup>
 
@@ -86,7 +86,7 @@ The operator should provide data of all their vehicles in The Netherlands.
 
 The operator should communicate what kind of vehicle it's reporting. 
 
-To decide on what vehicle type should be reported, use the [table in our dataspec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#vehicle-types).
+To decide on what vehicle type should be reported, use the [table in our dataspec](https://docs.dashboarddeelmobiliteit.nl/data_feeds/for_monitoring/#how-to-offer-vehicle-type-in-mds).
 
 For every data standard, there's documentation on how to include the vehicle type ([GBFS](https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21), [MDS](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/general-information.md#vehicle-types)).
 
@@ -106,17 +106,15 @@ The public data feed of CROW Dashboard Deelmobiliteit is currently used by the f
 
 <img alt="Donkey Republic" src="https://cdn.donkey.bike/wp-content/uploads/2016/04/16121255/New-logo-small.png" width="100" />
 
-<img alt="HTM" src="https://www.htm.nl/typo3conf/ext/htm_template/Resources/Public/img/logo.svg" width="100" />
+<img alt="HTM" src="https://www.htm.nl/media/ukygkkaq/htm-logo_def.svg" width="100" />
 
-<img alt="GO Sharing" src="https://nl.go-sharing.com/app/uploads/2020/11/logo@2x.png" width="100" />
+<img alt="GO Sharing" src="https://nl.go-sharing.com/app/uploads/2021/01/logo@2x.png" width="100" />
 
-<img alt="CHECK" src="https://cdn.homerun.co/53887/check-wordmark-black4x-31571056630logo.png" width="100" />
+<img alt="CHECK" src="https://images.prismic.io/ridecheck/2e5103fa-6f51-4e52-844c-f35b14ae63ae_Check_Wordmark_Black.png?auto=compress,format" width="100" />
 
-<img alt="Felyx" src="https://cdn.felyx.com/uploads/2021/03/010720-Felyx-logo.png" width="100" />
+<img alt="Felyx" src="https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_2/iignk4msnfnxzombin4g" width="100" />
 
 <img alt="Deelfiets Nederland" src="https://www.deelfietsnederland.nl/wp-content/uploads/2019/11/HL2mPwHA-300x236.png" width="100" />
-
-<img alt="KeoBike" src="https://www.keobike.nl/App_Themes/Syntus/img/logo-keobike.png" width="100" />
 
 <img alt="Lime" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Lime_Logos-wiki-01.svg/2560px-Lime_Logos-wiki-01.svg.png" width="100" />
 
@@ -126,21 +124,10 @@ The public data feed of CROW Dashboard Deelmobiliteit is currently used by the f
 
 <img alt="Uw Deelfiets" src="https://www.uwdeelfiets.nl/wp-content/uploads/2021/06/uw-deelfiets-2021-logo-2.svg" width="100" />
 
-<img alt="hely" src="https://hely.com/static/images/hely-logo.svg" width="100" />
-
-<img alt="TIER" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/TIER_Mobility_Logo_%28blau%2C_2021%29.svg/512px-TIER_Mobility_Logo_%28blau%2C_2021%29.svg.png" width="100" />
-
 <img alt="Bird" src="https://mms.businesswire.com/media/20220125005267/en/1308263/5/Bird_Logo_Lockup_ko.jpg" width="100" />
 
 <img alt="Bolt" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Bolt_logo.png/1200px-Bolt_logo.png?20190831113556" width="100" />
 
-<img alt="Bondi" src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Bondi.city_logo.png" width="100" />
-
-<img alt="moveyou" src="https://moveyou.com/wp-content/themes/moveyou/assets/gfx/brand-large.svg" width="100" />
+<img alt="Bondi" src="https://bondi.city/assets/img/bondi_logo_blue.jpeg" width="100" />
 
 Providers above were actively sharing data on 2022-09-14.
-
-## Tools for validating data feeds
-
-- [GBFS validator](https://gbfs-validator.netlify.app/validator?url=https%3A%2F%2Fgbfs.api.ridedott.com%2Fpublic%2Fv2%2Fbrussels%2Fgbfs.json
-)
