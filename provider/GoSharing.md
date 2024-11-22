@@ -9,7 +9,7 @@ Last checked at 2024-11-20.
 | Uses data standard?         | ✅ MDS 2.0
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ✅
-| All NL data?                | ❌
+| All NL data?                | ✅
 | Includes vehicle type?      | ✅
 | Offers service areas        | ⏳ Testing GBSF feed...
 
@@ -23,7 +23,7 @@ Status: 🟡 Usable though needs improvement
 
 | Date       | Update 
 | ----       | ---
-| 2024-11-20 | 🎉 **WEER DATA VAN GO SHARING** - Per vandaag is de MDS 2.0 datafeed conform de datastandaard. We hebben deze geactiveerd. Per vandaag is er weer voertuigdata van GO Sharing zichtbaar in het Dashboard Deelmobiliteit. We controleren nog of het aantal verhuringen ook klopt.
+| 2024-11-21 | 🎉 **WEER DATA VAN GO SHARING** - Per vandaag (in de avond) is de MDS 2.0 datafeed conform de datastandaard. We hebben deze geactiveerd. Per vandaag is er weer voertuigdata van GO Sharing zichtbaar in het Dashboard Deelmobiliteit. We controleren nog of het aantal verhuringen ook klopt.
 | 2024-10-30 | We tested the new binbinapp MDS feed, though it's not compliant with MDS yet. We've sent feedback on how to fix the feed so it is compliant.
 | 2024-10-08 | We sent an email to Gosharing to get credentials of a new feed for the new system
 | 2024-10-01 | 🐛 **GEEN DATA VAN GO SHARING** - De datafeed van GO Sharing wordt niet meer geactualiseerd ("Dit klopt inderdaad. Op 1 oktober is er gestart met een interne systeemintegratie. Data wordt niet meer geactualiseerd - uiteraard niet de bedoeling")
