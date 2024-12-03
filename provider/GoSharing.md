@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2024-11-20.
+Last checked at 2024-11-29.
 
 | **Quality check**           | **Quality**
 | --                          | --
@@ -23,6 +23,8 @@ Status: 🟡 Usable though needs improvement
 
 | Date       | Update 
 | ----       | ---
+| 2024-11-29 | 🎉 **GEEN DATA VAN GO SHARING** - GO Sharing ontwikkelteam heeft de feed opnieuw online gezet
+| 2024-11-27 | 🐛 **GEEN DATA VAN GO SHARING** - GO Sharing ontwikkelteam heeft de feed offline gezet, want er was onderhoud nodig
 | 2024-11-21 | 🎉 **WEER DATA VAN GO SHARING** - Per vandaag (in de avond) is de MDS 2.0 datafeed conform de datastandaard. We hebben deze geactiveerd. Per vandaag is er weer voertuigdata van GO Sharing zichtbaar in het Dashboard Deelmobiliteit. We controleren nog of het aantal verhuringen ook klopt.
 | 2024-10-30 | We tested the new binbinapp MDS feed, though it's not compliant with MDS yet. We've sent feedback on how to fix the feed so it is compliant.
 | 2024-10-08 | We sent an email to Gosharing to get credentials of a new feed for the new system
