@@ -2,11 +2,11 @@
 
 ## Data quality status
 
-Last updated at 2022-07-18.
+Last updated at 2025-02-12.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ❌ MDS
+| Uses data standard?         | ❌ MDS - based on public Greenwheels website - pilot
 | Updated <= 30s?             | ❌
 | Correct PROW?               | ❌
 | All NL data?                | ❌

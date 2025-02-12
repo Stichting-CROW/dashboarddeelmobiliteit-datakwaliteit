@@ -2,7 +2,9 @@
 
 ## Data quality status
 
-Last checked at 2024-06-26.
+This data feed is currently not actively used for Data Deelmobiliteit.
+
+Last checked at 2025-02-12.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -13,7 +15,7 @@ Last checked at 2024-06-26.
 | Includes vehicle type?      | ❌
 | Offers service areas        | ❌
 
-Status: 🟡 Usable though needs improvement
+Status: ⚪ Unused
 
 ### Explanation
 
@@ -55,6 +57,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2025-01-15 | We hebben de datafeed uitgezet, omdat Cargoroo niet meer actief is in Nederland |
 | 2024-01-25 | Otto heeft datakwaliteitscontrole gedaan door data van Cargoroo te vergelijken met die in het Dashboard Deelmobiliteit. Hieruit kwam dat de aantallen volgens het Dashboard iets tot behoorlijk lager zijn dan in de controledata die Cargoroo ons mailde. Dit waren de aantallen die Cargoroo mailde met in haakjes erbij wat in het Dashboard stond voor periode september 2023. Wij gaan onderzoeken waar de verschillen vandaan komen. |
 
 ```

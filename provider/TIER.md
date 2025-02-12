@@ -2,17 +2,19 @@
 
 ## Data quality status
 
-Last updated: 2024-10-31.
+This data feed is currently not actively used for Data Deelmobiliteit.
+
+Last updated: 2025-02-12.
 
 | **Quality check**           | **Quality**
 | --                          | --      |
 | Uses data standard?         | ✅ MDS
 | Updated <= 30s?             | ❌
-| Correct PROW?               | ❔
+| Correct PROW?               | ✅
 | All NL data?                | ❌
 | Includes vehicle type?      | ✅
 
-Status: 🟡 Usable though needs improvement
+Status: ⚪ Unused
 
 ## Improvements to make
 

@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2024-11-04.
+Last checked at 2025-02-12.
 
 | **Quality check**           | **Quality**
 | --                          | --          |

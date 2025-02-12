@@ -5,31 +5,22 @@ Below we document the data quality of the feeds offered by the providers.
 ## Data quality status
 | **Provider**                                                                                                                  | **Status** ¹ | Uses standard ² | Updated <= 30s ³ | Correct PROW <sup>4</sup> | Vehicle type <sup>6</sup> | Service areas <sup>7</sup> |
 | :-----------                                                                                                                  | :--------:   | :------------   | :------------:   | :----------:              | :----------:              | :----------:
-| [BAQME](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/BAQME.md)                  | 🟢           | ✅ MDS          | ✅            | ✅                 | ✅ | ❌ |
-| [Bolt](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Bolt.md)                    | 🟢           | ✅ MDS          | ✅                | ✅                 | ✅ | ❌ |
-| [Bondi](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Bondi.md)                  | 🟡           | ✅ GBFS         | ✅                | ✅                 | ❌ | ❌ |
-| [Cargoroo](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cargoroo.md)            | 🟡           | ✅ GBFS         | ✅ | ✅                 | ❌ | ❌ |
+| [BAQME](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/BAQME.md)                  | 🟢           | ✅ MDS          | ✅               | ✅                        | ✅                        | ❌ |
 | [CHECK](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/CHECK.md)                  | 🟢           | ✅ MDS          | ✅ | ✅ | ✅ | ✅ |
 | [Cykl](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Cykl.md)                    | 🟡           | ✅ GBFS         | ✅ | ✅                 | ❌ | ❌ |
-| [Deelfiets Nederland (GAON)](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/DeelfietsNederland.md) | 🟢 | ✅ GBFS  | ✅ | ✅                 | ✅ | ❌ |
+| [Deelfiets Nederland](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/DeelfietsNederland.md) | 🟢 | ✅ GBFS         | ✅                | ✅                       | ✅                        | ❌ |
 | [Donkey Republic](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/DonkeyRepublic.md) | 🟡         | ✅ GBFS         | ✅ | ❌                 | ❌ | ❌ |
 | [Dott](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Dott.md)                    | 🟢           | ✅ MDS          | ✅ | ✅                                               | ✅ | ❌ |
-| [Felyx](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Felyx.md)                  | 🟢           | ✅ MDS          | ✅                | ✅                         | ✅ | ❌ |
+| [Fexlyx](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Felyx.md)                  | 🟢           | ✅ MDS          | ✅                | ✅                         | ✅ | ❌ |
 | [GO Sharing](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/GoSharing.md)         | 🟡           | ✅ MDS          | ❌                | ✅                       | ✅                        | ❌
-| [HTM](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/HTM.md)                      | 🔴           | ❌ MDS         | ➖                | ➖                 | ➖ | ❌ |
-| [Lime](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Lime.md)                    | 🟢           | MDS | ✅ | ✅   | ✅ | ❌ |
-| [MoveYou](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/MoveYou.md)<br /><sub><sup>- GoAbout<br />- Deelfietsen Zeeland</sub></sup> | 🟡 | ✅ | ✅ | ✅    | ❌ |
-| nextbike                                                                                                                      | 🔴           | ❌              | ➖                | ➖                 | ➖ |
-| OV-fiets                                                                                                                      | 🔴           | ❌              | ➖                | ➖                 | ➖ |
-| [Promo-Bikey](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Promo-Bikey.md)      | ➖           | ➖              | ➖                | ➖                 | ➖ |
-| [SHARE NOW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/SHARENOW.md)           | 🔴           | ❌              | ➖                | ➖                 | ➖ |
-| [TIER](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/TIER.md)                    | ➖           | ✅ MDS              | ❌ | ❔                         | ❌ |
-| Urbee                                                                                                                         | ⏳           | ➖              | ➖                | ➖                 | ➖ |
-| [uwdeelfiets](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/uwdeelfiets.md)      | 🟡           | ✅ MDS | ❔         | ❔                 | ❌ |
-| Vaimoo/GoBike                                                                                                                 | 🔴           | ❌              | ➖                | ➖                 | ➖ |
-| Velocity Limburg                                                                                                              | ➖           | ➖              | ➖                | ➖                 | ➖ |
-| Deelbuggy's / Wilmar                                                                                                          | ➖           | ➖              | ➖                | ➖                 | ➖ |
-| X-bike                                                                                                                        | ⏳           | ➖              | ➖                | ➖                 | ➖ |
+| [Greenwheels](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Greenwheels.md)            | 🔴           | ❌ MDS          | ❌                | ❌                 | ❌ |
+| [HTM](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/HTM.md)                      | 🔴           | ❌ MDS          | ➖                | ➖                       | ➖ | ❌ |
+| [Lime](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Lime.md)                    | 🟢           | ✅ MDS          | ✅                | ✅                       | ✅ | ❌ |
+| [MoveYou](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/MoveYou.md)<br /><sub><sup>- GoAbout<br />- Deelfietsen Zeeland</sub></sup> | 🟡 | ✅ | ✅ | ✅    | ❌ | ❌ |
+| [MyWheels](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/MyWheels.md)            | 🔴           | ❌ MDS          | ❌                | ❌                 | ❌ | ❌ |
+| OV-fiets                                                                                                                      | 🔴           | ❌              | ➖                | ➖                 | ➖ | ❌ |
+| [TIER](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/TIER.md)                    | ⚪           | ✅ MDS          | ❌ | ❔                         | ❌ | ❌ |
+| Deelbuggy's / Wilmar                                                                                                          | ➖           | ➖              | ➖                | ➖                 | ➖ | ❌ |
 
 🟢 = Perfect
 🟡 = Usable though needs improvement

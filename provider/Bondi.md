@@ -2,7 +2,9 @@
 
 ## Data quality status
 
-Last updated at 2024-06-26.
+This data feed is currently not actively used for Data Deelmobiliteit.
+
+Last updated at 2025-02-12.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -25,6 +27,7 @@ Start using MDS `/vehicles` end point wich gives better data quality and makes i
 
 | Updated    | Description
 | ----       | ---
+| 2024-12-17 | We hebben de Bondi data feed gedeactiveerd
 | 2022-07-09 | 🎉 We added Bondi to the Dashboard with GBFS 1.0. For the longer term we still need to try to add MDS `/vehicles` instead of GBFS, because vehicle types are supported in that standard. For now we setted up a default vehicle type as Bondi has only electric bicycles at the moment.
 | 2022-07-05 | wunder mobility suggests to use GBFS 1.0 for now.
 | 2022-06-30 | wunder mobility answers: 'I've opened a change request to our product team to evaluate a change on that and let you know about our decision.'

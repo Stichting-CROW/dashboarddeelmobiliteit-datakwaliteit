@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2024-10-31.
+Last checked at 2025-02-12.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -17,7 +17,7 @@ Status: 🟢 Perfect
 
 ## Improvements to make
 
-None, it's perfect.
+None
 
 ## Logs
 

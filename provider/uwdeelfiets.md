@@ -2,7 +2,9 @@
 
 ## Data quality status
 
-Last updated: 2021-09-02.
+This data feed is currently not actively used for Data Deelmobiliteit.
+
+Last updated: 2025-02-12.
 
 | **Quality check**           | **Quality**
 | --                          | -- |
@@ -12,7 +14,7 @@ Last updated: 2021-09-02.
 | All NL data?                | ❌
 | Includes vehicle type?      | ❌
 
-Status: 🟡 Usable though needs improvement
+Status: ⚪ Usable though needs improvement
 
 ## Improvements to make
 
@@ -40,3 +42,9 @@ As values you can use the [latest](https://github.com/NABSA/gbfs/pull/370) stand
 - wheel_count: `2`
 
 To see an example, see page 2 of [this document](https://docs.google.com/document/d/1P_oDBnFvr9qzo0_5YbnrCDYptFQV9ZUOJGfi8ACD1GE/edit?usp=sharing).
+
+## Logs
+
+| Updated    | Description
+| ----       | ---
+| 2024-12-17 | We hebben uwdeelfiets' datafeed gedeactiveerd

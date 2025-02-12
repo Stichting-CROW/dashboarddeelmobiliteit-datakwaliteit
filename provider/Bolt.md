@@ -2,7 +2,9 @@
 
 ## Data quality status
 
-Last checked at 2024-06-26.
+This data feed is currently not actively used for Data Deelmobiliteit.
+
+Last checked at 2025-02-12.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -13,7 +15,7 @@ Last checked at 2024-06-26.
 | Includes vehicle type?      | ✅
 | Shares service areas        | ❌
 
-Status: 🟢 Perfect
+Status: ⚪ Unused
 
 ## Improvements to make
 

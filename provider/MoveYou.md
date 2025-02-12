@@ -8,7 +8,7 @@ Offers vehicles for labels:
 
 ## Data quality status
 
-Last updated at 2022-07-19.
+Last updated at 2025-02-12.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
