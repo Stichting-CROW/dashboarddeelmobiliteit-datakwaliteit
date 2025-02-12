@@ -13,14 +13,14 @@ Below we document the data quality of the feeds offered by the providers.
 | [Dott](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Dott.md)                    | 🟢           | ✅ MDS          | ✅ | ✅                                               | ✅ | ❌ |
 | [Fexlyx](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Felyx.md)                  | 🟢           | ✅ MDS          | ✅                | ✅                         | ✅ | ❌ |
 | [GO Sharing](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/GoSharing.md)         | 🟡           | ✅ MDS          | ❌                | ✅                       | ✅                        | ❌
-| [Greenwheels](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Greenwheels.md)            | 🔴           | ❌ MDS          | ❌                | ❌                 | ❌ |
+| [Greenwheels](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Greenwheels.md)            | 🔴           | ❌ MDS          | ➖                | ➖                 | ➖ |
 | [HTM](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/HTM.md)                      | 🔴           | ❌ MDS          | ➖                | ➖                       | ➖ | ❌ |
 | [Lime](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/Lime.md)                    | 🟢           | ✅ MDS          | ✅                | ✅                       | ✅ | ❌ |
 | [MoveYou](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/MoveYou.md)<br /><sub><sup>- GoAbout<br />- Deelfietsen Zeeland</sub></sup> | 🟡 | ✅ | ✅ | ✅    | ❌ | ❌ |
-| [MyWheels](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/MyWheels.md)            | 🔴           | ❌ MDS          | ❌                | ❌                 | ❌ | ❌ |
-| OV-fiets                                                                                                                      | 🔴           | ❌              | ➖                | ➖                 | ➖ | ❌ |
+| [MyWheels](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/MyWheels.md)            | 🔴           | ❌ MDS          | ➖                | ➖                 | ➖ | ➖ |
+| OV-fiets                                                                                                                      | 🔴           | ❌              | ➖                | ➖                 | ➖ | ➖ |
 | [TIER](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/blob/main/provider/TIER.md)                    | ⚪           | ✅ MDS          | ❌ | ❔                         | ❌ | ❌ |
-| Deelbuggy's / Wilmar                                                                                                          | ➖           | ➖              | ➖                | ➖                 | ➖ | ❌ |
+| Deelbuggy's / Wilmar                                                                                                          | ➖           | ➖              | ➖                | ➖                 | ➖ | ➖ |
 
 🟢 = Perfect
 🟡 = Usable though needs improvement
@@ -37,17 +37,15 @@ There are four statuses:
 
 ### ℹ️ Uses standard <sup>2</sup>
 
-As documented in the [dataspec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/), data has to be shared using one of the following data standards:
+As documented in the [dataspec](https://docs.dashboarddeelmobiliteit.nl), data has to be shared using one of the following data standards:
 
 - MDS
 - GBFS
 - TOMP
 
-There is one additional requirement:
+MDS is the prefered data standard to use for offering vehicle and rental data, as well as exchanging zone policies.
 
-- All vehicles must have a static ID
-
-MDS is the prefered data standard to use.
+GBFS is used for sharing service areas and geofencing zones.
 
 ### ℹ️ Updated <= 30s <sup>3</sup>
 
@@ -88,7 +86,8 @@ The operator could share its service areas using a GBFS feed as [explained here]
 
 The public data feed of CROW Dashboard Deelmobiliteit is currently used by the following tools:
 
-- [Zwolle arcgis data portal](https://www.arcgis.com/home/item.html?id=ec6f32f71d1f413ebbcbc3bc6a0e1151)
+- Rotterdam PowerBI Mobiliteit Dashboard (2024-2025)
+- [Zwolle arcgis data portal](https://www.arcgis.com/home/item.html?id=ec6f32f71d1f413ebbcbc3bc6a0e1151) (2023-2025)
 
 ## Logos of providers connected to Dashboard Deelmobiliteit
 
