@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2025-02-12.
+Last updated: 2025-04-29.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -11,7 +11,7 @@ Last checked at 2025-02-12.
 | Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ✅
-| Offers service areas        | ❌
+| Offers service areas        | ❌ Rotterdam, Den Haag
 
 Status: 🟢 Usable though needs improvement
 

@@ -1,17 +1,19 @@
 # Data quality: GO Sharing
 
+GO Sharing isn't active in The Netherlands at the moment.
+
 ## Data quality status
 
-Last checked at 2025-02-12.
+Last checked at 2025-04-29.
 
 | **Quality check**           | **Quality**
 | --                          | --
-| Uses data standard?         | ✅ MDS 2.0
-| Updated <= 30s?             | ✅
-| Correct PROW?               | ✅
-| All NL data?                | ✅
-| Includes vehicle type?      | ✅
-| Offers service areas        | ⏳ Testing GBSF feed...
+| Uses data standard?         | ❌ MDS 2.0
+| Updated <= 30s?             | ❌
+| Correct PROW?               | ❌
+| All NL data?                | ❌
+| Includes vehicle type?      | ❌
+| Offers service areas        | ⏳
 
 Status: ⚪ Inactive
 
