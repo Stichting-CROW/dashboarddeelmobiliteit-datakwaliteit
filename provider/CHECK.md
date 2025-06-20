@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2025-04-29.
+Last checked at 2025-04-20.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -23,6 +23,8 @@ None
 
 | Updated    | Description
 | ----       | ---
+| 2025-06-19 | 🎉 Data feed is binnen 10 minuten na constatering van de uitval weer actief gezet door CHECK
+| 2025-06-17 | 🐛 Data feed is uitgevallen op dinsdag 17 juni 2025
 | 2024-08-21 | 🎉 **VERHURINGEN KLOPPEN PER VANDAAG WEER** - Per vandaag wordt de MDS-feed gebruikt in plaats van de oude GBFS-feed
 | 2024-08-16 | Per vandaag testen we CHECK's nieuwe MDS-feed onder de naam 'check_mdsv2'
 | 2024-04-17 | CHECK geeft aan te willen overstappen op MDS voor voertuigmonitoring
