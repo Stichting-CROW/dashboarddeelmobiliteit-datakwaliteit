@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2025-04-29.
+Last updated: 2025-10-19.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -62,6 +62,7 @@ To see an example, see page 2 of [this document](https://docs.google.com/documen
 
 | Updated    | Description
 | ----       | ---
+| 2025-10-19 | We constateerden dat er 74 spookvoertuigen waren sinds 20 augustus 2024. Deze hebben we handmatig [verwijderd](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit/issues/49#issuecomment-3419407070) van de kaart. Als je nu de data analyseert zit de foutieve data er niet meer in (74 heel lang geparkeerde voertuigen). Als je echter tussen 20 augustus 2024 en 19 oktober 2025 analyses hebt gedaan op stilstandsduur, dan wordt deze mogelijk beinvloed door de onjuiste parkeerduur van 74 voertuigen. Bij vragen hierover: contact info@dashboarddeelmobiliteit.nl
 | 2024-10-07 | Donkey Republic biedt nu ook data in Zwijndrecht, Papendrecht en Sliedrecht
 | 2024-07-04 | Donkey Republic biedt nu ook data in Leiden, Katwijk en Oegstgeest
 | 2023-06-16 | We vragen Donkey Republic per mail om het datafeed-probleem op te lossen (geef alle geparkeerde voertuigen terug, ook voertuigen buiten hubs)
