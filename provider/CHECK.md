@@ -2,22 +2,23 @@
 
 ## Data quality status
 
-Last checked at 2025-04-20.
+Last checked at 2025-10-19.
 
 | **Quality check**      | **Quality** |
 | ---------------------- | ----------- |
 | Uses data standard?    | ✅ MDS 2.0  |
 | Updated <= 30s?        | ✅          |
-| Correct PROW?          | ✅          |
-| All NL data?           | ✅          |
+| Correct PROW?          | ❌          |
+| All NL data?           | ❌          |
 | Includes vehicle type? | ✅          |
 | Offers service areas   | ✅          |
 
-Status: 🟢 Perfect
+Status: 🟡 Needs improvements
 
 ## Improvements to make
 
-None
+- Share data of e-bikes as well (for Amersfoort)
+- Make sure there are no duplicate vehicle-ids in the feed
 
 ## Logs
 
