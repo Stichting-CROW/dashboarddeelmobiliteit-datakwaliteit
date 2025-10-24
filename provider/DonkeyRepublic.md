@@ -2,27 +2,23 @@
 
 ## Data quality status
 
-Last updated: 2025-10-19.
+Last updated: 2025-10-24.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ GBFS
 | Updated <= 30s?             | ✅
-| Correct PROW?               | ❌
-| All NL data?                | ✅
+| Correct PROW?               | ✅
+| All NL data?                | ❌
 | Includes vehicle type?      | ❌
 
 Status: 🟡 Usable though needs improvement
 
 ## Improvements to make
 
-### Share bicycles that are parked outside hubs
-
-We do not get all unrented vehicles that are parked in public space. We get the parked vehicles inside hubs, but we don't get parked vehicles outside hubs. Please offer all vehicles that are parked in public space, in your data feed.
-
 ### Offer a MDS feed
 
-Best is to offer a MDS feed, like in the [data spec](https://docs.crow.nl/deelfietsdashboard/hr-dataspec/#general). At the moment the GBFS feed is used (deprecated).
+Best is to offer a MDS feed, like in the [data spec](https://docs.dashboarddeelmobiliteit.nl/data_feeds/for_monitoring/). At the moment the GBFS feed is used (deprecated).
 
 ### Offer 1 GBFS feed for NL instead of 1 feed per city/area
 
