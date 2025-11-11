@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked 2025-04-29.
+Last checked 2025-11-11.
 
 | **Quality check**           | **Quality**
 | --                          | --                  |
@@ -23,6 +23,7 @@ None at the moment.
 
 | Updated    | Description
 | ----       | ---
+| 2025-11-11 | 🎉 Voertuigdata van Tilburg toegevoegd aan het Dashboard Deelmobiliteit
 | 2024-07-04 | We hebben de voertuigaantallen van Lime intern vergeleken met die in het Dashboard Deelmobiliteit, voor de periode 30 juni t/m 1 juli 2024. Conclusie is dat er bij Lime intern +4% tot +7% meer voertuigen gerapporteerd worden dan in het Dashboard Deelmobiliteit. De data in de MDS-feed lijkt wel dezelfde aantallen te geven als die in het Dashboard Deelmobiliteit staan. Het zijn relatief kleine verschillen, we proberen nog achter de oorzaak van het verschil te komen.
 | 2024-01-23 | We hebben de aantallen van Lime en het Dashboard Deelmobiliteit vergeleken. We keken eerst naar september 2023 in Rotterdam. Het Dashboard rapporteerde 251 Limes, Lime rapporteerde 400 voertuigen. We kijken vervolgens naar 22 januari 2024. Het Dashboard rapporteerde 439, Lime rapporteerde 500. Dit zijn verschillen die we gaan uitzoeken.
 | 2022-09-09 | Lime shared the MDS feed and credentials with us. From today we re-activated Lime in the Dashboard.
