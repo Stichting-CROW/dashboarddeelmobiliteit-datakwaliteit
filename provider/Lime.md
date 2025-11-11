@@ -17,7 +17,8 @@ Status: 🟢 Perfect
 
 ## Improvements to make
 
-None at the moment.
+- Offer a MDS feed index that contains all municipalities in The Netherlands, instead of offering 1 data feed per municipality
+- Offer a GBFS 3.0 datafeed with the service areas (geofencing_zones.json)
 
 ## Logs
 
