@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked 2026-01-14.
+Last checked 2026-01-26.
 
 | **Quality check**           | **Quality**
 | --                          | --                  |
@@ -24,6 +24,7 @@ Status: 🟢 Perfect
 
 | Updated    | Description
 | ----       | ---
+| 2026-01-14 | 🐛 We vragen Lime de authenticatietoken voor het ophalen van Lime-voertuigen in Utrecht. Momenteel ontvangen we nog _geen_ data van Lime Utrecht, terwijl Lime er wel actief is sinds het begin van januari 2026
 | 2026-01-14 | 🎉 Het aantal verhuringen van Lime in Tilburg kloptte niet sinds 11 november, door een fout in het Dashboard Deelmobiliteit. Vanaf 13 januari 2026 in de avond worden de verhuringen van Lime weer juist bijgehouden. We kunnen de verhuringen niet met terugwerkende kracht opslaan en zullen de verhuringendata van Lime in Tilburg tussen 11 november 2025 en 14 januari 2026 daarom mogelijk helemaal verwijderen
 | 2025-11-11 | 🐛 Sinds 11 november klopt het aanbod van Tilburg wel, maar het aantal verhuringen is vele malen hoger dan wat reeel zou zijn (12 november 2025: 240000 verhuringen op 200 voertuigen. 12 januari 2026: 70000 verhuringen op 200 voertuigen)
 | 2025-11-11 | 🎉 Voertuigdata van Tilburg toegevoegd aan het Dashboard Deelmobiliteit
