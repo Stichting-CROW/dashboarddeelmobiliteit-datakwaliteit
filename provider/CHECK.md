@@ -2,18 +2,18 @@
 
 ## Data quality status
 
-Last checked at 2025-10-30.
+Last checked at 2026-04-16.
 
 | **Quality check**      | **Quality** |
 | ---------------------- | ----------- |
 | Uses data standard?    | ✅ MDS 2.0  |
-| Updated <= 30s?        | ✅          |
+| Updated <= 30s?        | ❌          |
 | Correct PROW?          | ✅          |
 | All NL data?           | ❌          |
 | Includes vehicle type? | ✅          |
 | Offers service areas   | ✅          |
 
-Status: 🟡 Needs improvements
+Status: 🔴 Onbruikbaar
 
 ## Improvements to make
 
@@ -23,6 +23,7 @@ Status: 🟡 Needs improvements
 
 | Updated    | Description                                                                                                                                                                                                                                                                                                                                                                                               |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-04-16 | 🐛 De datafeed van CHECK laadt zo traag, dat deze niet meer verwerkt kan worden. We hebben de datafeed van CHECK uitgezet en CHECK ingelicht. Hierdoor is de aanbod- en verhuringendata van CHECK vanaf nu onbetrouwbaar (ongeupdate) tot het moment dat                                                                                     de datafeed weer werkt en wordt aangezet.                                                                                                                                                                                                            |
 | 2025-12-24 | 🎉 De problemen van 18 december zijn verholpen, ook zijn de deelfietsen van Check nu ook beschikbaar                                                                                                                                                                                                                                                                                                      |
 | 2025-12-18 | 🐛 Problemen met feed doordat erin /vehicles/status voertuigen voorkomen die niet in /vehicles voorkomen (dat moet altijd een subset van /vehicles zijn)                                                                                                                                                                                                                                                  |
 | 2025-10-27 | 🎉 De problemen van 20 juni zijn verholpen: voertuig-ID's zitten niet meer dubbel in de feed                                                                                                                                                                                                                                                                                                              |
