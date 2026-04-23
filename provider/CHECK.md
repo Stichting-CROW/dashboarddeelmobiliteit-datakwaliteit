@@ -2,28 +2,29 @@
 
 ## Data quality status
 
-Last checked at 2026-04-16.
+Last checked at 2026-04-23.
 
 | **Quality check**      | **Quality** |
 | ---------------------- | ----------- |
 | Uses data standard?    | ✅ MDS 2.0  |
-| Updated <= 30s?        | ❌          |
+| Updated <= 30s?        | ✅          |
 | Correct PROW?          | ✅          |
-| All NL data?           | ❌          |
+| All NL data?           | ✅          |
 | Includes vehicle type? | ✅          |
 | Offers service areas   | ✅          |
 
-Status: 🔴 Onbruikbaar
+Status: 🟢 Perfect
 
 ## Improvements to make
 
-- Share data of e-bikes as well (for Amersfoort)
+- Make loading the data feed faster (now it takes 14 seconds to load - 2026-04-23)
 
 ## Logs
 
 | Updated    | Description                                                                                                                                                                                                                                                                                                                                                                                               |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-04-16 | 🐛 De datafeed van CHECK laadt zo traag, dat deze niet meer verwerkt kan worden. We hebben de datafeed van CHECK uitgezet en CHECK ingelicht. Hierdoor is de aanbod- en verhuringendata van CHECK vanaf nu onbetrouwbaar (ongeupdate) tot het moment dat                                                                                     de datafeed weer werkt en wordt aangezet.                                                                                                                                                                                                            |
+| 2026-04-23 | 🎉 De datafeed van CHECK is weer geactiveerd op 22-04-2026 om 23:00. Het nieuwe 3.0 API end point `https://api.ridecheck.app/3.0` werkt. Kleine aanmerking is dat de datafeed relatief traag laadt (14 seconden), maar het werkt momenteel voldoende voor betrouwbare aanbods- en verhuringen
+| 2026-04-16 | 🐛 De datafeed van CHECK laadt zo traag, dat deze niet meer verwerkt kan worden. We hebben de datafeed van CHECK uitgezet en CHECK ingelicht. Hierdoor is de aanbod- en verhuringendata van CHECK vanaf nu onbetrouwbaar (ongeupdate) tot het moment dat de datafeed weer werkt en wordt aangezet.                                                                                                                                                                                                            |
 | 2025-12-24 | 🎉 De problemen van 18 december zijn verholpen, ook zijn de deelfietsen van Check nu ook beschikbaar                                                                                                                                                                                                                                                                                                      |
 | 2025-12-18 | 🐛 Problemen met feed doordat erin /vehicles/status voertuigen voorkomen die niet in /vehicles voorkomen (dat moet altijd een subset van /vehicles zijn)                                                                                                                                                                                                                                                  |
 | 2025-10-27 | 🎉 De problemen van 20 juni zijn verholpen: voertuig-ID's zitten niet meer dubbel in de feed                                                                                                                                                                                                                                                                                                              |
