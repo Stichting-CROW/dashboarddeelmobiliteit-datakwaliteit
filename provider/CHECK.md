@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2026-04-23.
+Last checked at 2026-05-04.
 
 | **Quality check**      | **Quality** |
 | ---------------------- | ----------- |
@@ -23,6 +23,7 @@ Status: 🟢 Perfect
 
 | Updated    | Description                                                                                                                                                                                                                                                                                                                                                                                               |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-05-04 | De 3.0 datafeed van CHECK is geupdate, zodat verhuurde voertuigen ('elsewhere') niet meer in de datafeed staan. Hierdoor is de brondata nu correct en hoeft het Dashboard Deelmobiliteit geen uitzonderingen maken voor de 'elsewhere' voertuigstatus
 | 2026-05-03 | 🎉 De verhuringen van CHECK worden weer goed geregistreerd, doordat de DD software een [aanpassing](https://github.com/Stichting-CROW/dd-importer-v2/commit/766792fdb1114acb13d4cda7ea71092bef018e9b) heeft gekregen. Actiepunt is nog steeds: controleren of de verhuurde voertuigen wel de status 'elsewhere' zouden moeten hebben
 | 2026-04-15 | 🐛 Er zijn heel weinig verhuringen geregistreerd van 15 april t/m 3 mei. Dit komt doordat de nieuwe 3.0 MDS-feed andere data heeft dan de oude. Veel voertuigen krijgen voertuigstatus 'elsewhere'. We zoeken uit of dit gewenst is (en of CHECK die status zou moeten geven)
 | 2026-04-23 | 🎉 De datafeed van CHECK is weer geactiveerd op 22-04-2026 om 23:00. Het nieuwe 3.0 API end point `https://api.ridecheck.app/3.0` werkt. Kleine aanmerking is dat de datafeed relatief traag laadt (14 seconden), maar het werkt momenteel voldoende voor betrouwbare aanbods- en verhuringen
