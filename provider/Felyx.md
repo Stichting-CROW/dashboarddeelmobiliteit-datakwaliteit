@@ -2,18 +2,18 @@
 
 ## Data quality status
 
-Last updated: 2025-04-29.
+Last updated: 2025-05-20
 
 | **Quality check**           | **Quality**
 | --                          | --          |
 | Uses data standard?         | ✅ MDS 1.2, GBFS 3.0
 | Updated <= 30s?             | ✅
-| Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ✅
+| Correct [PROW](https://github.com/Stichting-CROW/dashboarddeelmobiliteit-datakwaliteit#%E2%84%B9%EF%B8%8F-correct-prow-4)?               | ❌
 | All NL data?                | ✅
 | Includes vehicle type?      | ✅
 | Offers service areas        | ✅ maar alleen van scooters/brommers, niet van e-fietsen
 
-Status: 🟢 Usable though needs improvement
+Status: 🔴 Unusable
 
 ## Improvements to make
 
@@ -23,6 +23,9 @@ Status: 🟢 Usable though needs improvement
 
 | Updated    | Description
 | ----       | ---
+| 2026-05-19 | 🐛 Felyx en DD dev team hebben een online meeting. DD heeft een export gestuurd van alle ritten die nog openstaan, verzocht dat Felyx snel een paar checks doet en dan Cooltra verzoekt bugs op te lossen in de datafeed als dingen niet kloppen
+| 2026-05-18 | 🐛 Ook Nijmegen meldt dat in het DD voertuigen staan die niet in de Felyx-app staan
+| 2026-04-22 | 🐛 Gemeente Rotterdam ziet verschillen in data van Felyx in DD en data gekregen van Felyx. Dashboard Deelmobiliteit heeft het onderzocht en ziet geen grote fouten in de verwerking van data; het lijkt aan datakwaliteit van de datafeed te liggen. Het probleem lijkt dat voertuigen naar het depot worden gebracht, maar niet worden afgemeld in de de data die het Dashboard Deelmobiliteit ontvangt (de voertuigen blijven in de datafeed aangeleverd worden)
 | 2025-11-28 | 🐛 Gemeente Nijmegen constateert dat servicegebieden van e-bikes niet worden aangeleverd in de servicegebieden-feed. We vragen na of de servicegebieden van e-bikes ook in een GBFS-feed aangeleverd kunnen worden
 | 2025-07-08 | 🎉 Felyx levert nu ook **servicegebieden van alle NL steden** via hun GBFS-feed
 | 2024-11-05 | De datakwaliteit voor Felyx is op orde: er is maximaal 1% verschil in verhuringencijfers. Felyx heeft verhuringendata gestuurd voor 29 en 30 oktober (Rotterdam en heel NL). Die we hebben vergeleken.<br />- October 29th - Rotterdam: Dashboard vs Felyx data +1%<br />- October 30th - Rotterdam: Dashboard vs Felyx data +1% <br />- October 29th - Nederland: Dashboard vs Felyx data -1% <br />- October 30th - Nederland: Dashboard vs Felyx data +1%
