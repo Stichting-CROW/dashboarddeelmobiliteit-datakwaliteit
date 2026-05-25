@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked at 2026-05-04.
+Last checked at 2026-05-21.
 
 | **Quality check**      | **Quality** |
 | ---------------------- | ----------- |
@@ -13,16 +13,13 @@ Last checked at 2026-05-04.
 | Includes vehicle type? | ✅          |
 | Offers service areas   | ✅          |
 
-Status: 🔴 Onbruikbaar
-
-## Improvements to make
-
-- Make loading the data feed faster (now it takes 14 seconds to load - 2026-04-23)
+Status: 🟢 = Perfect
 
 ## Logs
 
 | Updated    | Description                                                                                                                                                                                                                                                                                                                                                                                               |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-05-21 | 🎉 CHECK heeft het probleem gelijk verholpen: op 21 mei om 11:48 is de MDS-feed van CHECK weer geactiveerd. 'Parkeerperiodes en verhuurperiodes gestart voor 20 mei 20:20 (die toen nog niet beeindigd waren) kunnen niet vertrouwd worden
 | 2026-05-20 | 🐛 De datafeed van CHECK is uitgeschakeld om 20:20. Reden: het MDS end point is erg traag: het duurt 7s om 250 voertuigen op te halen, normaal duurt dit 200ms. DD heeft gelijk een mail gestuurd aan CHECK met de vraag wat er mis gaat
 | 2026-05-04 | De 3.0 datafeed van CHECK is geupdate, zodat verhuurde voertuigen ('elsewhere') niet meer in de datafeed staan. Hierdoor is de brondata nu correct en hoeft het Dashboard Deelmobiliteit geen uitzonderingen maken voor de 'elsewhere' voertuigstatus
 | 2026-05-03 | 🎉 De verhuringen van CHECK worden weer goed geregistreerd, doordat de DD software een [aanpassing](https://github.com/Stichting-CROW/dd-importer-v2/commit/766792fdb1114acb13d4cda7ea71092bef018e9b) heeft gekregen. Actiepunt is nog steeds: controleren of de verhuurde voertuigen wel de status 'elsewhere' zouden moeten hebben
