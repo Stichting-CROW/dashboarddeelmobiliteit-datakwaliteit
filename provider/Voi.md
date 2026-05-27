@@ -1,22 +1,22 @@
-# Data quality: Voi
+# Datakwaliteit: Voi
 
-## Data quality status
+## Datakwaliteit-status
 
-Last updated: 2026-05-27.
+Laatst geupdate: 2026-05-27.
 
-| **Quality check**           | **Quality**
-| --                          | --      |
-| Uses data standard?         | ✅ MDS
-| Updated <= 30s?             | ✅
-| Correct PROW?               | ✅
-| All NL data?                | ❌
-| Includes vehicle type?      | ✅
-| Offers service areas        | ❌
+| **Eigenschap**                 | **Voldoet**
+| --                             | --      |
+| Gebruikt datastandaard?        | ✅ MDS
+| Geupdated <= 30s?              | ✅
+| Correcte PROW?                 | ✅
+| Alle NL data?                  | ❌
+| Biedt voertuigtype-informatie? | ✅
+| Biedt serviceareas-datafeed?   | ❌
 
 Status: 🟡 Usable, though preferable we have 1 MDS feed for all vehicles in The Netherlands, or an index file
 
 ## Logs
 
-| Updated    | Description
+| Datum      | Omschrijving
 | ----       | ---
-| 2026-05-26 | **Voi data voor Amersfoort en Groningen geactiveerd** - Om 13:10 is de datafeed actief gewoerden.
+| 2026-05-26 | **Voi data voor Amersfoort en Groningen geactiveerd** - Om 13:10 is de datafeed actief geworden.
