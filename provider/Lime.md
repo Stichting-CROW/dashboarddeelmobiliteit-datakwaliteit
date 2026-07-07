@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked 2026-03-17.
+Last checked 2026-07-07.
 
 | **Quality check**           | **Quality**
 | --                          | --                  |
@@ -11,19 +11,20 @@ Last checked 2026-03-17.
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ✅
-| Offers service areas        | ❌
+| Offers service areas        | ✅
 
 Status: 🟢 Perfect
 
 ## Improvements to make
 
 - Offer a MDS feed index that contains all municipalities in The Netherlands, instead of offering 1 data feed per municipality
-- Offer a GBFS 3.0 datafeed with the service areas (geofencing_zones.json)
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2026-07-01 | 🎉 De Lime-voertuigdata van Den Haag is vanaf vandaag zichtbaar in het Dashboard
+| 2026-06-01 | 🎉 De Lime-servicegebieden van Den Haag staan vanaf vandaag in het Dashboard Deelmobiliteit
 | 2026-03-09 | 🎉 De Lime-voertuigdata van Zwolle is vanaf vandaag zichtbaar in het Dashboard
 | 2026-01-28 | 🎉 De Lime-voertuigdata van Utrecht is vanaf vandaag zichtbaar in het Dashboard
 | 2026-01-14 | 🐛 We vragen Lime de authenticatietoken voor het ophalen van Lime-voertuigen in Utrecht. Momenteel ontvangen we nog _geen_ data van Lime Utrecht, terwijl Lime er wel actief is sinds het begin van januari 2026
