@@ -34,6 +34,7 @@ Momenteel wordt niet de standaard MDS URL-structuur gebruikt, maar dient er met 
 
 | Updated    | Description
 | ----       | ---
+| 2026-06-17 | Er is weer Cargoroo-data: sinds 12 juni in Den Haag en sinds 17 juni in Groningen. De nieuwe MDS-feed is actief (maar moet per gemeente toegevoegd/onderhouden worden)
 | 2026-04-21 | 🐛 De datafeed van Cargoroo is offline sinds 21 april 2026 om 09:45 uur. Software-aanbieder Joyride heeft de datafeed-versie plotseling geupdate. In plaats van een MDS 1.2.0 feed is er nu opeens [een MDS 2.0 feed](https://swagger.joyride.tech/mds/) die qua URL-structuur niet de standaard MDS-structuur volgt. Hierdoor kan de feed niet ingeladen worden in het Dashboard Deelmobiliteit zonder dat software-aanpassingen nodig zijn. 
 | 2026-01-26 | Cargoroo (by MOBY) voertuigen vanaf nu zichtbaar voor Den Haag. We ontvangen nog geen Utrecht data en nog geen servicegebieden
 | 2025-01-15 | We hebben de datafeed uitgezet, omdat Cargoroo niet meer actief is in Nederland |
