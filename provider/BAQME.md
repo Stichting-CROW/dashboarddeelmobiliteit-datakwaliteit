@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last check: 2026-05-21.
+Last check: 2026-08-11.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -25,6 +25,9 @@ Momenteel worden 6 MDS-feeds aangeleverd, voor elke vloot 1. Liever ontvangen we
 
 | Updated    | Description
 | ----       | ---
+| 2026-08-11 | 🎉 We hebben de nieuwe MDS datafeed geactiveerd voor Rotterdam, Amsterdam, Amersfoort, Veenendaal en station based Rotterdam vrachtfietsen. Hierdoor klopt de data weer voor deze gemeenten
+| 2026-08-11 | 🐛 Van 19 mei t/m 11 augustus 12:00 is verhuringendata van BAQME niet-betrouwbaar geweest. Van 4 juli t/m 11 augustus 12:00 is het aantal beschikbare voertuigen onjuist
+| 2026-05-19 | BAQME heeft diens datafeed geupdate, waardoor de verhuringen weer correct worden geregistreerd. De Joyride-feed is nog niet naar de Nederlandse data-standaarden, maar door deze maatoplossing door BAQME hebben we voor BAQME weer voertuigdata
 | 2026-05-19 | 🎉 BAQME heeft diens datafeed geupdate, waardoor de verhuringen weer correct worden geregistreerd. De Joyride-feed is nog niet naar de Nederlandse data-standaarden, maar door deze maatoplossing door BAQME hebben we voor BAQME weer data 🙌
 | 2026-05-19 | ⏳ Dashboard Deelmobiliteit team heeft een [verzoek](https://github.com/openmobilityfoundation/mobility-data-specification/issues/981) voor de MDS-standaard ingediend, voor betere richtlijnen over het niet gebruiken van paginering. We hopen dat deze suggestie op termijn in de MDS-standaard komt
 | 2026-05-04 | BAQME mailt ons pro-actief dat de verhuringenaantallen in het Dashboard Deelmobiliteit niet meer kloppen sinds +- 24 april
