@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last check: 2026-08-19.
+Last check: 2026-08-25.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -25,6 +25,7 @@ Momenteel worden 6 MDS-feeds aangeleverd, voor elke vloot 1. Liever ontvangen we
 
 | Updated    | Description
 | ----       | ---
+| 2026-08-19 | 🐛 De datafeed geeft alle voertuigen het voertuigtype "fiets" ipv "bakfiets". Dit hebben we gerapporteerd
 | 2026-08-19 | 🎉 We hebben de nieuwe MDS datafeed geactiveerd voor Ede
 | 2026-08-11 | 🎉 We hebben de nieuwe MDS datafeed geactiveerd voor Rotterdam, Amsterdam, Amersfoort, Veenendaal en station based Rotterdam vrachtfietsen. Hierdoor klopt de data weer voor deze gemeenten
 | 2026-08-11 | 🐛 Van 19 mei t/m 11 augustus 12:00 is verhuringendata van BAQME niet-betrouwbaar geweest. Van 4 juli t/m 11 augustus 12:00 is het aantal beschikbare voertuigen onjuist
