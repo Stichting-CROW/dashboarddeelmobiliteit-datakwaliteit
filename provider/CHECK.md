@@ -2,23 +2,28 @@
 
 ## Data quality status
 
-Last checked at 2026-05-21.
+Last checked at 2026-09-07.
 
 | **Quality check**      | **Quality** |
 | ---------------------- | ----------- |
 | Uses data standard?    | ✅ MDS 2.0  |
 | Updated <= 30s?        | ✅          |
-| Correct PROW?          | ✅          |
+| Correct PROW?          | 🔴          |
 | All NL data?           | ✅          |
 | Includes vehicle type? | ✅          |
 | Offers service areas   | ✅          |
 
-Status: 🟢 = Perfect
+Status: 🟡 = Bruikbaar, maar moet verbeterd worden
+
+## Te verbeteren
+
+Deel geen voertuigen in depots, of geef de voertuigen in depots de status: `removed`, zoals de MDS-standaard [voorschrijft](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/modes/vehicle_states.md#mobility-data-specification-vehicle-states).
 
 ## Logs
 
 | Updated    | Description                                                                                                                                                                                                                                                                                                                                                                                               |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-09-07 | 🐛 Voertuigen die in depots staan worden gedeeld in de MDS-feed: dit zou niet moeten, of de voertuigen zouden status '[removed](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/modes/vehicle_states.md#mobility-data-specification-vehicle-states)' moeten hebben. We hebben dit doorgegeven aan CHECK. Het betreft in Rotterdam +- 57 CHECK-voertuigen rond [51.910, 4.425] en in Groningen +- 59 CHECK-voertuigen rond [53.214, 6.606].
 | 2026-05-21 | 🎉 CHECK heeft het probleem gelijk verholpen: op 21 mei om 11:48 is de MDS-feed van CHECK weer geactiveerd. 'Parkeerperiodes en verhuurperiodes gestart voor 20 mei 20:20 (die toen nog niet beeindigd waren) kunnen niet vertrouwd worden
 | 2026-05-20 | 🐛 De datafeed van CHECK is uitgeschakeld om 20:20. Reden: het MDS end point is erg traag: het duurt 7s om 250 voertuigen op te halen, normaal duurt dit 200ms. DD heeft gelijk een mail gestuurd aan CHECK met de vraag wat er mis gaat
 | 2026-05-04 | De 3.0 datafeed van CHECK is geupdate, zodat verhuurde voertuigen ('elsewhere') niet meer in de datafeed staan. Hierdoor is de brondata nu correct en hoeft het Dashboard Deelmobiliteit geen uitzonderingen maken voor de 'elsewhere' voertuigstatus
