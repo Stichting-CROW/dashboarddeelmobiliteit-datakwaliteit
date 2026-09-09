@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2025-05-20
+Last updated: 2025-09-09
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -13,16 +13,20 @@ Last updated: 2025-05-20
 | Includes vehicle type?      | ✅
 | Offers service areas        | ✅ maar alleen van scooters/brommers, niet van e-fietsen
 
-Status: 🔴 Unusable
+Status: 🟡 Bruikbaar, maar aantallen kloppen niet altijd
 
 ## Improvements to make
 
 - Offer service areas of e-bikes using a GBFS geofencing_zones feed
+- Controleer data aangeleverd in MDS-feed, want MDS-feed schijnt niet altijd de juiste aantallen te leveren
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2026-09-09 | We hebben Felyx gevraagd aantal geparkeerde voertuigen en aantal verhuringen van Gemeente Rotterdam toe te sturen op 1 specifiek moment, zodat we kunnen verifieren dat de aantallen zoals bekend bij Felyx overeenkomen met de getallen zoals die in het Dashboard Deelmobiliteit worden gepresenteert
+| 2026-09-07 | 🎉 De 7 spookvoertuigen in Tilburg zijn verwijderd uit de MDS-feed (zie 2026-08-26)
+| 2026-08-26 | 🐛 De MDS-feed bevat 7 voertuigen in Tilburg die niet bestaan. Dit is in mei aangekaard, maar nog niet opgelost.
 | 2026-05-19 | 🐛 Felyx en DD dev team hebben een online meeting. DD heeft een export gestuurd van alle ritten die nog openstaan, verzocht dat Felyx snel een paar checks doet en dan Cooltra verzoekt bugs op te lossen in de datafeed als dingen niet kloppen
 | 2026-05-18 | 🐛 Ook Nijmegen meldt dat in het DD voertuigen staan die niet in de Felyx-app staan
 | 2026-04-22 | 🐛 Gemeente Rotterdam ziet verschillen in data van Felyx in DD en data gekregen van Felyx. Dashboard Deelmobiliteit heeft het onderzocht en ziet geen grote fouten in de verwerking van data; het lijkt aan datakwaliteit van de datafeed te liggen. Het probleem lijkt dat voertuigen naar het depot worden gebracht, maar niet worden afgemeld in de de data die het Dashboard Deelmobiliteit ontvangt (de voertuigen blijven in de datafeed aangeleverd worden)
