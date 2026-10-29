@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked 2026-07-07.
+Last checked 2026-10-29.
 
 | **Quality check**           | **Quality**
 | --                          | --                  |
@@ -23,6 +23,7 @@ Status: 🟢 Perfect
 
 | Updated    | Description
 | ----       | ---
+| 2026-10-28 | De LIME servicegebieden datafeed was de laatste tijd incorrect, waardoor er geen servicegebied van Lime werd weergegeven. Per vandaag is er weer een redelijk accuraat servicegebied zichtbaar, maar Lime moet nog steeds in hun servicegebieden-datafeed oplossen: 1) Includeer blauwe parkeerzoneds, 2) Verwijder servicegebied Den Haag en Rotterdam uit de datafeed van Utrecht, 3) Zorg dat verbodsgebieden rondom servicegebieden volledig aaneengesloten zijn
 | 2026-07-01 | 🎉 De Lime-voertuigdata van Den Haag is vanaf vandaag zichtbaar in het Dashboard
 | 2026-06-01 | 🎉 De Lime-servicegebieden van Den Haag staan vanaf vandaag in het Dashboard Deelmobiliteit
 | 2026-03-09 | 🎉 De Lime-voertuigdata van Zwolle is vanaf vandaag zichtbaar in het Dashboard
