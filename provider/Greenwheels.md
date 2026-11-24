@@ -2,27 +2,29 @@
 
 ## Data quality status
 
-Last updated at 2025-11-19.
+Last updated at 2026-11-24.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
-| Uses data standard?         | ❌ MDS - based on public Greenwheels website - pilot
-| Updated <= 30s?             | ❌
-| Correct PROW?               | ❌
-| All NL data?                | ❌
-| Includes vehicle type?      | ❌
+| Uses data standard?         | ✅ via CHECK MDS-feed (sinds 2026-11-18)
+| Updated <= 30s?             | ✅ via CHECK
+| Correct PROW?               | ❔
+| All NL data?                | ❔ zone-based voertuigen te controleren
+| Includes vehicle type?      | ✅
 | Offers service areas        | ❌
 
-Status: 🔴 Unusable
+Status: 🟡 Bruikbaar via CHECK-feed; aparte Greenwheels-feed bestaat niet meer
 
 ## Improvements to make
 
-Offer a data feed.
+- Controleren of zone-based Greenwheels-auto's ook in de CHECK-feed / op de kaart staan
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2026-11-18 | 🎉 Greenwheels en CHECK zijn één bedrijf geworden. Vanaf 18 november staan de Greenwheels-deelauto's in de CHECK MDS-feed
+| 2026-11-10 | ⏳ Melding: niet alle Greenwheels-auto's lijken op de site te staan; mogelijk ontbreken zone-based voertuigen. Te controleren
 | 2025-11-18 | 🎉 Data is weer aanwezig sinds 18 november 12:56. Onafgesloten parkeerperiode's van voor 1 november zijn handmatig beeindigd op datum/tijd 2025-10-24 13:14.
 | 2025-10-24 | 🐛 Data is afwezig sinds 24 oktober 13:13
 | 2022-05-03 | Greenwheels answers: we are reading into the topic and are in exploratory phase for the solution design. We can't be more precise or give a testing date. As soon as we can, we will let you know.

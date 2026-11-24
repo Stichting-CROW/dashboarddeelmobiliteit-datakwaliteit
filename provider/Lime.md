@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last checked 2026-10-29.
+Last checked 2026-11-24.
 
 | **Quality check**           | **Quality**
 | --                          | --                  |
@@ -11,18 +11,20 @@ Last checked 2026-10-29.
 | Correct PROW?               | ✅
 | All NL data?                | ✅
 | Includes vehicle type?      | ✅
-| Offers service areas        | ✅
+| Offers service areas        | ✅ met openstaande issues
 
-Status: 🟢 Perfect
+Status: 🟢 Perfect (voertuigen); servicegebieden nog niet volledig correct
 
 ## Improvements to make
 
 - Offer a MDS feed index that contains all municipalities in The Netherlands, instead of offering 1 data feed per municipality
+- Servicegebieden-feed: openstaande problemen bij Lime oplossen (zie logs 2026-10-28 / 2026-11-11)
 
 ## Logs
 
 | Updated    | Description
 | ----       | ---
+| 2026-11-11 | De servicegebieden-feed is verbeterd. Er liggen nog wel problemen bij de servicegebieden-feed van Lime (doorgegeven aan Lime). De Lime-servicegebieden tonen nu wel weer op het Dashboard Deelmobiliteit
 | 2026-10-28 | De LIME servicegebieden datafeed was de laatste tijd incorrect, waardoor er geen servicegebied van Lime werd weergegeven. Per vandaag is er weer een redelijk accuraat servicegebied zichtbaar, maar Lime moet nog steeds in hun servicegebieden-datafeed oplossen: 1) Includeer blauwe parkeerzoneds, 2) Verwijder servicegebied Den Haag en Rotterdam uit de datafeed van Utrecht, 3) Zorg dat verbodsgebieden rondom servicegebieden volledig aaneengesloten zijn
 | 2026-07-01 | 🎉 De Lime-voertuigdata van Den Haag is vanaf vandaag zichtbaar in het Dashboard
 | 2026-06-01 | 🎉 De Lime-servicegebieden van Den Haag staan vanaf vandaag in het Dashboard Deelmobiliteit

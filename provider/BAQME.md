@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last check: 2026-08-25.
+Last check: 2026-11-24.
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -10,12 +10,16 @@ Last check: 2026-08-25.
 | Updated <= 30s?             | ✅
 | Correct PROW?               | ✅
 | All NL data?                | ✅
-| Includes vehicle type?      | ✅
+| Includes vehicle type?      | ❌ verkeerd type (`fiets` i.p.v. `bakfiets`)
 | Shares service areas        | ❌
 
-Status: 🟢 Perfect
+Status: 🟡 Bruikbaar, maar voertuigtype klopt niet
 
 ## Improvements to make
+
+### Corrigeer voertuigtype naar bakfiets
+
+De MDS-feed geeft voertuigtype `fiets` in plaats van `bakfiets`. BAQME geeft aan dit niet gemakkelijk te kunnen aanpassen. Als gemeenten willen dat dit opgelost wordt, kunnen zij BAQME hierover contacten.
 
 ### Bied 1 MDS-feed aan voor heel Nederland
 
@@ -25,6 +29,9 @@ Momenteel worden 6 MDS-feeds aangeleverd, voor elke vloot 1. Liever ontvangen we
 
 | Updated    | Description
 | ----       | ---
+| 2026-10-00 | Genoemd in de gebruikersbijeenkomst: als gemeenten willen dat het voertuigtype opgelost wordt, kunnen zij BAQME contacten
+| 2026-09-09 | Principieel vinden we dat het voertuigtype goed moet staan in de MDS-datafeed (besproken bij stuurgroep- en kernteambijeenkomst)
+| 2026-09-08 | BAQME zegt niet gemakkelijk iets te kunnen doen aan het verkeerde voertuigtype
 | 2026-08-19 | 🐛 De datafeed geeft alle voertuigen het voertuigtype "fiets" ipv "bakfiets". Dit hebben we gerapporteerd
 | 2026-08-19 | 🎉 We hebben de nieuwe MDS datafeed geactiveerd voor Ede
 | 2026-08-11 | 🎉 We hebben de nieuwe MDS datafeed geactiveerd voor Rotterdam, Amsterdam, Amersfoort, Veenendaal en station based Rotterdam vrachtfietsen. Hierdoor klopt de data weer voor deze gemeenten

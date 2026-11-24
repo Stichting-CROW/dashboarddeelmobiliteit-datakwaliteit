@@ -2,7 +2,7 @@
 
 ## Data quality status
 
-Last updated: 2025-09-09
+Last updated: 2026-11-24
 
 | **Quality check**           | **Quality**
 | --                          | --          |
@@ -24,6 +24,7 @@ Status: 🟡 Bruikbaar, maar aantallen kloppen niet altijd
 
 | Updated    | Description
 | ----       | ---
+| 2026-10-22 | 🐛 Wij zien in onze data een verschil van +28% voor wat betreft geparkeerde voertuigen, en -7.4% voor verhuringen, ten op zichte van door Felyx aangeleverde cijfers per mail (steekproef in Gemeente Rotterdam, 20 oktober). Felyx gaat uitzoeken hoe dit kan
 | 2026-09-09 | We hebben Felyx gevraagd aantal geparkeerde voertuigen en aantal verhuringen van Gemeente Rotterdam toe te sturen op 1 specifiek moment, zodat we kunnen verifieren dat de aantallen zoals bekend bij Felyx overeenkomen met de getallen zoals die in het Dashboard Deelmobiliteit worden gepresenteert
 | 2026-09-07 | 🎉 De 7 spookvoertuigen in Tilburg zijn verwijderd uit de MDS-feed (zie 2026-08-26)
 | 2026-08-26 | 🐛 De MDS-feed bevat 7 voertuigen in Tilburg die niet bestaan. Dit is in mei aangekaard, maar nog niet opgelost.
