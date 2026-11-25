@@ -22,6 +22,7 @@ Offer a data feed.
 
 | Updated    | Description
 | ----       | ---
+| 2026-11-17 | 🐛 De niet-officiele MyWheels datafeed werkt niet sinds 2026-11-17T22:09:51Z
 | 2026-03-18 | 👌 De niet-officiele MyWheels datafeed is weer online sinds 23:00 uur
 | 2026-03-07 | 🐛 De niet-officiele MyWheels datafeed is offline
 | 2025-05-28 | 👌 De MDS-feed is weer stabiel
